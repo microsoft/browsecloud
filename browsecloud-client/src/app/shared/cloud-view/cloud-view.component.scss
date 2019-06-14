@@ -1,0 +1,29 @@
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT License.
+
+.container {
+    position: relative;
+    height: 100%;
+
+    canvas {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+    
+    .zoom-slider {
+        background: rgba(255, 255, 255, 0.5);
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 200px;
+        padding: 0 10px;
+
+        border-radius: 5px;
+
+        mat-slider {
+            width: 100%;
+        }
+    }
+}

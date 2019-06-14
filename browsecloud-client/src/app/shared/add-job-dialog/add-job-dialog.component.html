@@ -1,0 +1,45 @@
+<!-- Copyright (c) Microsoft Corporation. All rights reserved.
+    Licensed under the MIT License. -->
+
+<h2 mat-dialog-title>
+    New Job
+</h2>
+
+<mat-dialog-content>
+    <div *ngIf="loading === false" class="form-view" fxLayout="column">
+        <mat-form-field>
+            <mat-label>Type of Job</mat-label>
+            <mat-select [(ngModel)]="newBatchJob.jobType" (ngModelChange)="onJobTypeChosen()" required>
+                <mat-option *ngFor="let type of jobTypeChoices" [value]="type.key" [disabled]="type.disabled">
+                    {{type.value}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <div *ngIf="newBatchJob.jobType === jobType.CountingGridGeneration" fxLayout="row" fxLayoutAlign=" none">
+            <mat-form-field fxFlex="50">
+                <input matInput placeholder="Window Size" type="number" min="0" [(ngModel)]="newBatchJob.windowSize">
+            </mat-form-field>
+            <mat-form-field fxFlex="50">
+                <input matInput placeholder="Extent Size" type="number" min="0" [(ngModel)]="newBatchJob.extentSize">
+            </mat-form-field>
+        </div>
+        <div *ngIf="newBatchJob.jobType === jobType.MetadataColoring" fxLayout="column" fxLayoutAlign=" none">
+            <p>Note: Colors will be exaggerated to ensure differences across the visualization are readily visible.</p>
+            <mat-form-field>
+                <mat-label>Column to color on</mat-label>
+                <mat-select [(ngModel)]="newBatchJob.targetColumnName" required>
+                    <mat-option *ngFor="let column of metadataColumnChoices" [value]="column.key" [disabled]="column.disabled">
+                        {{column.value}}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+    </div>
+    <div *ngIf="loading === true" class="loading-view" fxLayout="row" fxLayoutAlign="center center">
+        <app-bapi-loader size="large"></app-bapi-loader>
+    </div>
+</mat-dialog-content>
+<mat-dialog-actions>
+    <button mat-button class="shadow-button" [disabled]="loading === true" (click)="onCancelClicked()">Cancel</button>
+    <button mat-button class="shadow-button" [disabled]="newBatchJob.jobType === 2 && newBatchJob.targetColumnName == null"(click)="onAddJob()">Start Job</button>
+</mat-dialog-actions>

@@ -1,0 +1,33 @@
+<!-- Copyright (c) Microsoft Corporation. All rights reserved.
+    Licensed under the MIT License. -->
+
+<div class="app">
+    <header>
+        <div class="header">
+            <mat-toolbar fxLayout="row" fxLayoutAlign="space-between center">
+                <div fxLayout="row" fxLayoutAlign=" center" fxLayoutGap="10px">
+                    <a class="browsecloud-link" routerLink="/">BrowseCloud</a>
+                    <a mat-stroked-button *ngIf="currentUrl !== '/home'" [disabled]="currentUrl === '/'" routerLink="/"><i class="ms-Icon ms-Icon--Home"></i> My Dashboard</a>
+                    <a mat-stroked-button *ngIf="currentUrl !== '/home'" [disabled]="currentUrl === '/gallery'" routerLink="/gallery"><i class="ms-Icon ms-Icon--GridViewMedium"></i> Visit the Gallery</a>
+                </div>
+
+                <div>
+                    <mat-menu #moreMenu="matMenu">
+                        <button mat-menu-item class="icon-ms-menu-item" (click)="onLogout()">
+                            <i class="ms-Icon ms-Icon--SignOut"></i>Logout</button>
+                    </mat-menu>
+
+                    <a mat-icon-button title="Give feedback" href="mailto:browsecloud-team@microsoft.com">
+                        <i class="ms-Icon ms-Icon--Feedback"></i>
+                    </a>
+                    <button mat-button title="User Options" *ngIf="name != null" [matMenuTriggerFor]="moreMenu">
+                        {{name}}
+                    </button>
+                </div>
+            </mat-toolbar>
+        </div>
+    </header>
+    <main>
+        <router-outlet></router-outlet>
+    </main>
+</div>

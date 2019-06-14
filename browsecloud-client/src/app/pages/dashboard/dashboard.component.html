@@ -1,0 +1,150 @@
+<!-- Copyright (c) Microsoft Corporation. All rights reserved.
+    Licensed under the MIT License. -->
+
+<app-loading-greyout [show]="tableLoading === true" global="true" size="large"></app-loading-greyout>
+<div fxLayout="row" fxLayoutAlign="none" fxLayoutGap="10px" class="container">
+    <div class="side-panel-group">
+        <div class="side-panel">
+            <button mat-raised-button class="add-doc-button" (click)="openNewDocumentDialog()">
+                <i class="ms-Icon ms-Icon--Add"></i>New Visualization
+            </button>
+        </div>
+        <div class="side-panel">
+            <mat-expansion-panel [expanded]="tableLoading === false"
+                [disabled]="noTableElementsToShow === true && tableLoading === true">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Filter
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <div class="filter-content">
+                    <mat-form-field>
+                        <mat-label>Search by Name</mat-label>
+                        <input matInput [(ngModel)]="filterOptions.filterText" (ngModelChange)="updateTableDataSource()">
+                    </mat-form-field>
+
+                    <div class="filter-title">Input Type</div>
+                    <section>
+                        <mat-checkbox class="filter-checkbox" [(ngModel)]="filterOptions.simpleInput"
+                            (ngModelChange)="updateTableDataSource()">Simple</mat-checkbox>
+                        <mat-checkbox class="filter-checkbox" [(ngModel)]="filterOptions.metadataInput"
+                            (ngModelChange)="updateTableDataSource()">Metadata</mat-checkbox>
+                    </section>
+
+                    <div class="filter-title">Ownership</div>
+                    <section>
+                        <mat-checkbox class="filter-checkbox" [(ngModel)]="filterOptions.selfOwner"
+                            (ngModelChange)="updateTableDataSource()">Owner</mat-checkbox>
+                        <mat-checkbox class="filter-checkbox" [(ngModel)]="filterOptions.otherOwner"
+                            (ngModelChange)="updateTableDataSource()">Shared
+                            with me</mat-checkbox>
+                    </section>
+                </div>
+            </mat-expansion-panel>
+        </div>
+        <div class="side-panel">
+            <mat-expansion-panel [expanded]="true">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Documentation
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <a class="documentation-link" mat-stroked-button target="_blank"
+                    href="https://github.com/microsoft/browsecloud/wiki"> Full Documentation </a>
+                <a class="documentation-link" mat-stroked-button routerLink="visualization/demo"> View Demo Visualization </a>
+
+                <p>BrowseCloud is a lightweight app that summarizes feedback data for users via smart word clouds,
+                    called counting grids.
+                    On a word cloud, the size of the text simply scales with the frequency of the word. Text is
+                    scattered randomly on word clouds.
+                    In BrowseCloud, we have a word cloud where the position of the word matters.
+                    As the user scans along the visualization, themes smoothly transition between each other. </p>
+
+                <p>Add a new visualization to begin training the model.</p>
+                <p>Once the training is done, open the visualization.</p>
+                <p>Try exploring the data visualization by panning and zooming. </p>
+                <p>Find relevant verbatims in a region by clicking!</p>
+            </mat-expansion-panel>
+        </div>
+    </div>
+    <div class="main-section">
+        <div class="nothing-shown-view" *ngIf="noTableElementsToShow === true && tableLoading === false">
+            <div *ngIf="documentsWithJobs?.length > 0">
+                Nothing to show here.
+            </div>
+            <div class="tutorial" *ngIf="documentsWithJobs?.length === 0">
+                <div class="get-started-text">Let's get started!</div>
+                <button mat-stroked-button routerLink="visualization/demo">
+                    View demo visualization
+                </button>
+                <div>or</div>
+                <button mat-stroked-button (click)="openNewDocumentDialog()">
+                    Add a visualization of your own
+                </button>
+            </div>
+        </div>
+        <div *ngIf="noTableElementsToShow === false">
+            <table mat-table [dataSource]="tableDataSource" matSort matSortDisableClear
+                (matSortChange)="currentSort = $event" [matSortActive]="currentSort.active"
+                [matSortDirection]="currentSort.direction">
+
+                <ng-container matColumnDef="name">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Visualization Name </th>
+                    <td mat-cell *matCellDef="let document" class="name-td" (click)="onViewDocument(document)">
+                        <a class="document-page-link">{{document.document.displayName}}</a>
+                        <button mat-icon-button title="Open document" (click)="onViewDocument(document)">
+                            <i class="ms-Icon ms-Icon--RightArrowKeyTime0"></i>
+                        </button>
+                    </td>
+                </ng-container>
+
+                <ng-container matColumnDef="type">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Type </th>
+                    <td mat-cell *matCellDef="let document"> {{inputTypeToString(document.document.inputType)}}
+                    </td>
+                </ng-container>
+
+                <ng-container matColumnDef="jobDate">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Latest Job Submit Date </th>
+                    <td mat-cell *matCellDef="let document"> {{document.jobs[0]?.submitDateTime | date}} </td>
+                </ng-container>
+
+                <ng-container matColumnDef="status">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Latest Job Status </th>
+                    <td mat-cell *matCellDef="let document">
+                        <div fxLayout="row" fxLayoutAlign="start center">
+                            {{jobStatusToString(document.jobs[0]?.jobStatus)}}
+                            <i class="status-info ms-Icon ms-Icon--Info" [matTooltip]="jobStatusToStringDescription(document.jobs[0]?.jobStatus)" matTooltipPosition="after"></i>
+                            <!-- JobStatus.Preprocessing = 1, JobStatus.Training = 2 -->
+                            <mat-progress-bar
+                                *ngIf="document.jobs[0]?.jobStatus === 1 || document.jobs[0]?.jobStatus === 2"
+                                class="document-progress-bar" mode="determinate" [value]="document.jobs[0]?.progress">
+                            </mat-progress-bar>
+                        </div>
+                    </td>
+                </ng-container>
+
+                <ng-container matColumnDef="options" stickyEnd>
+                    <th mat-header-cell *matHeaderCellDef></th>
+                    <td mat-cell class="options-td" *matCellDef="let document">
+                        <button mat-icon-button title="More options" [matMenuTriggerFor]="moreMenu">
+                            <i class="ms-Icon ms-Icon--More"></i>
+                        </button>
+
+                        <mat-menu #moreMenu="matMenu">
+                            <button mat-menu-item class="icon-ms-menu-item" (click)="onEditDocument(document)">
+                                <i class="ms-Icon ms-Icon--Edit"></i>Edit</button>
+                            <button mat-menu-item class="icon-ms-menu-item" (click)="onDeleteDocument(document)">
+                                <i class="ms-Icon ms-Icon--Delete"></i>Delete</button>
+                            <button mat-menu-item class="icon-ms-menu-item" (click)="onViewDocument(document)">
+                                <i class="ms-Icon ms-Icon--View"></i>Open</button>
+                        </mat-menu>
+                    </td>
+                </ng-container>
+
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+        </div>
+    </div>
+</div>

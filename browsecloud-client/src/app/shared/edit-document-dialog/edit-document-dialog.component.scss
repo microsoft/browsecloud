@@ -1,0 +1,16 @@
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT License.
+
+.loading-view {
+    height: 150px;
+}
+
+mat-dialog-content {
+    width: 400px;
+
+    .form-view {
+        > * {
+            margin-bottom: 10px;
+        }
+    }
+}

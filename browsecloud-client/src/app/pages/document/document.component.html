@@ -1,0 +1,117 @@
+<!-- Copyright (c) Microsoft Corporation. All rights reserved.
+    Licensed under the MIT License. -->
+
+<app-loading-greyout [show]="documentLoading === true" global="true" size="large"></app-loading-greyout>
+<div class="container" fxLayout="row" fxLayoutAlign="space-between none" fxLayoutGap="10px">
+    <div class="main-section" *ngIf="documentLoading === false && documentWithJobs != null">
+        <!-- JobStatus.Success = 3 -->
+        <div class="training-view" *ngIf="documentWithJobs?.jobs[0]?.jobStatus !== 3" fxLayout="column"
+            fxLayoutAlign="center center" fxLayoutGap="10px">
+            <div class="big-text">Hang Tight!</div>
+            <div>{{jobStatusToString(documentWithJobs?.jobs[0]?.jobStatus)}}</div>
+            <mat-progress-bar class="document-progress-bar" mode="determinate"
+                [value]="documentWithJobs.jobs[0]?.progress"></mat-progress-bar>
+            <div class="status-description" [innerHtml]="jobStatusToStringDescription(documentWithJobs?.jobs[0]?.jobStatus)"></div>
+        </div>
+        <div class="done-view" *ngIf="documentWithJobs?.jobs[0]?.jobStatus === 3" fxLayout="column" fxLayoutAlign="start none">
+            <mat-form-field class="search-form-field" fxFlex="0 1 auto">
+                <mat-chip-list #searchWordList>
+                    <span matPrefix><i class="ms-Icon ms-Icon--Search"></i></span>
+                    <mat-chip *ngFor="let searchWord of searchWords" selectable="true" removable="true" [color]="searchWord.wordId == null ? 'warn' : 'normal'" (removed)="onRemoveSearchWord(searchWord.word)" selected>
+                        {{searchWord.word}}
+                        <i matChipRemove class="ms-Icon ms-Icon--Cancel"></i>
+                    </mat-chip>
+                    <input id="searchWords" [matChipInputFor]="searchWordList"
+                        [matChipInputSeparatorKeyCodes]="wordSearchSeparatorKeyCodes" [matChipInputAddOnBlur]="addOnBlur"
+                        (matChipInputTokenEnd)="onAddSearchWord($event)">
+                </mat-chip-list>
+            </mat-form-field>
+            <div class="cloud-view-container" *ngIf="countingGridModel != null" fxFlex="1 1 auto">
+                <app-cloud-view [model]="countingGridModel"
+                    [highlightPosition]="highlightPosition"
+                    [fontPolynomial]="documentWithJobs?.jobs[0]?.settings?.fontSettings"
+                    (pinPlaced)="onPinPlaced($event)"
+                    [searchWordIds]="searchWordIds">
+                </app-cloud-view>
+            </div>
+            <div *ngIf="countingGridModel == null" fxFlex="1 1 auto" class="cloud-view-placeholder" fxLayout="row"
+                fxLayoutAlign="center center">
+
+                <app-bapi-loader *ngIf="modelLoading === true" size="large"></app-bapi-loader>
+                <div class="big-text white-text" *ngIf="modelLoading === false">Something went wrong</div>
+            </div>
+        </div>
+    </div>
+    <div class="main-section" *ngIf="documentLoading === true">
+        <!-- Empty - just reserving the space -->
+    </div>
+    <div class="main-section" *ngIf="documentLoading === false && documentWithJobs == null" fxLayout="column"
+        fxLayoutAlign="center center">
+        <div class="big-text">{{documentLoadingFatalErrorText}}</div>
+    </div>
+    <div class="side-panel-group" *ngIf="documentLoadingFatalErrorText == null" fxLayout="column"
+        fxLayoutAlign="start none">
+        <div class="side-panel" *ngIf="documentWithJobs != null" fxFlex="0 1 auto">
+            <div fxLayout="row" fxLayoutAlign="center center">
+                <div class="document-title">{{documentWithJobs?.document?.displayName}}</div>
+                <button mat-icon-button title="Edit document" [disabled]="isDemo === true || userCanModify === false"
+                    (click)="onEditDocument()"><i class="ms-Icon ms-Icon--SingleColumnEdit"></i></button>
+                <div class="divider"></div>
+                <button mat-icon-button title="Reset visualization" [disabled]="isDemo === true"
+                    (click)="onResetVisualization()"><i class="ms-Icon ms-Icon--Refresh"></i></button>
+            </div>
+        </div>
+        <div class="side-panel description-text"
+            *ngIf="documentWithJobs?.document?.description != null && documentWithJobs?.document?.description !== ''"
+            fxFlex="0 1 auto">
+            {{documentWithJobs?.document?.description}}
+        </div>
+        <div class="side-panel" *ngIf="countingGridModel?.legend?.hasLegend === true" fxFlex="0 1 auto">
+            <app-legend [legend]="countingGridModel.legend"></app-legend>
+        </div>
+        <div class="side-panel" fxFlex="0 1 auto">
+            <mat-expansion-panel [expanded]="countingGridModel != null" [disabled]="countingGridModel == null">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        {{userCanModify === false ? 'Session ' : ''}}Settings
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <div fxLayout="row" fxLayoutAlign="space-around none" fxLayoutGap="5px">
+                    <mat-form-field fxFlex="50">
+                        <input matInput type="number" min="0" placeholder="Minimum Font Size"
+                            [(ngModel)]="documentWithJobs?.jobs[0]?.settings?.fontSettings.minimum"
+                            (ngModelChange)="onFontSizeChanged()">
+                    </mat-form-field>
+                    <mat-form-field fxFlex="50">
+                        <input matInput type="number" min="0" placeholder="Maximum Font Size"
+                            [(ngModel)]="documentWithJobs?.jobs[0]?.settings?.fontSettings.quadraticWeight"
+                            (ngModelChange)="onFontSizeChanged()">
+                    </mat-form-field>
+                </div>
+                <div *ngIf="userCanModify === true && isDemo === false">
+                        <button class="settings-button" matTooltipPosition="above" matTooltip="Click here to smoothen the visualization by retraining with different window and extent values" mat-stroked-button (click)="onRetrain()"> Retrain </button>
+                    <button class="settings-button" matTooltipPosition="above" matTooltip="Click here for sentiment analysis coloring and more" mat-stroked-button (click)="onAddColor()"> Add Color </button>
+                </div>
+            </mat-expansion-panel>
+        </div>
+        <div class="side-panel results-view" fxFlex="1 1 auto" fxLayout="column" fxLayoutAlign="start none">
+            <div fxFlex="none" class="results-header" fxLayout="row" fxLayoutAlign="space-between center">
+                <div>Relevant Entries</div>
+                <button mat-icon-button [disabled]="documentList == null || documentList.length === 0" title="Download CSV of Relevant Entries" [disabled]="isDemo === true"
+                    (click)="onDownloadResults()"><i class="ms-Icon ms-Icon--DownloadDocument"></i></button>
+            </div>
+            <div #resultsView *ngIf="documentList != null && documentList.length > 0" class="document-entries-view">
+                <ng-container *ngFor="let docEntry of documentList">
+                    <app-document-entry-card [docEntry]="docEntry" [legend]="countingGridModel?.legend" [wordsToHighlight]="wordsToHighlight" (mouseenter)="onMouseEnterEntryCard(docEntry.id)"
+                        (mouseleave)="onMouseLeaveEntryCard()"></app-document-entry-card>
+                </ng-container>
+            </div>
+            <div class="wait-text" *ngIf="documentList != null && documentList.length === 0">
+                No Results. Place the pin on a collection of words by clicking on the visualization to get started!
+            </div>
+            <div class="wait-text" *ngIf="documentList == null">
+                Nothing to show here.
+            </div>
+        </div>
+    </div>
+</div>

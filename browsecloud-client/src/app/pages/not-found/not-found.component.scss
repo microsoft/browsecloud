@@ -1,0 +1,23 @@
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT License.
+
+.container {
+    width: 100%;
+
+    .page-not-found-text {
+        font-weight: 100;
+        font-size: 15vw;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .dashboard-link {
+        font-weight: 100;
+        font-size: 30px;
+        text-align: center;
+        color: #999999;
+        cursor: pointer;
+        width: 100%;
+    }
+}

@@ -1,0 +1,17 @@
+<!-- Copyright (c) Microsoft Corporation. All rights reserved.
+    Licensed under the MIT License. -->
+
+<div class="container" [style.background]="backgroundColor">
+    <div class="title" fxLayout="row" fxLayoutAlign="space-between start" fxLayoutGap="5px">
+        <div [innerHtml]="docEntryTitle"></div>
+        <a *ngIf="linkValid" title="Open link in a new tab" href="{{docEntry.link}}" target="_blank"><i class="ms-Icon ms-Icon--OpenInNewWindow"></i></a>
+    </div>
+    <div *ngIf="abstractValid" class="abstract" [innerHtml]="docEntryAbstract"></div>
+    <button mat-button *ngIf="moreInfoPresent === true" class="more-info-button" (click)="moreInfoOpen = !moreInfoOpen">{{moreInfoOpen === true ? 'Less Information' : 'More Information'}}</button>
+    <table *ngIf="moreInfoOpen === true">
+        <tr *ngFor="let key of otherFieldKeys">
+            <td>{{key}}</td>
+            <td>{{docEntry.otherFields[key]}}</td>
+        </tr>
+    </table>
+</div>

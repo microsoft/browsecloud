@@ -1,0 +1,36 @@
+<!-- Copyright (c) Microsoft Corporation. All rights reserved.
+    Licensed under the MIT License. -->
+
+<mat-form-field *ngIf="chipInput === false">
+    <mat-label>{{placeholder}}</mat-label>
+    <input matInput [formControl]="singleUserFormControl" [matAutocomplete]="auto" (blur)="checkSingleUserInputErrorsAndOutput()" (keyup)="onInputKeyUp($event.target.value)"
+        required>
+    <mat-error *ngIf="singleUserFormControl.hasError('required')">You must enter a value</mat-error>
+    <mat-error *ngIf="singleUserFormControl.hasError('invalid')">The owner must be chosen from the dropdown</mat-error>
+    <mat-autocomplete #auto="matAutocomplete" (optionSelected)="singleUserOptionSelected($event.option.value)">
+        <mat-option *ngFor="let option of options" [value]="option">
+            {{option.displayName}} <span class="principal-name">- {{option.principalName}}</span>
+        </mat-option>
+    </mat-autocomplete>
+    <app-bapi-loader size="small" *ngIf="loading" matSuffix></app-bapi-loader>
+    <mat-hint>Search for user or group by alias or name</mat-hint>
+</mat-form-field>
+
+<mat-form-field *ngIf="chipInput === true">
+    <mat-label>{{placeholder}}</mat-label>
+    <mat-chip-list #chipList>
+        <mat-chip *ngFor="let u of users" selectable="true" removable="true" (removed)="onRemoveUser(u)">
+            {{u.displayName}}
+            <i matChipRemove class="ms-Icon ms-Icon--Cancel"></i>
+        </mat-chip>
+        <input #chipInput [matAutocomplete]="auto" [matChipInputFor]="chipList"
+            matChipInputAddOnBlur="false" (keyup)="onInputKeyUp($event.target.value)">
+    </mat-chip-list>
+    <mat-autocomplete #auto="matAutocomplete" (optionSelected)="onAutocompleteOptionSelected($event.option.value)">
+        <mat-option *ngFor="let option of options" [value]="option">
+            {{option.displayName}} <span class="principal-name">- {{option.principalName}}</span>
+        </mat-option>
+    </mat-autocomplete>
+    <app-bapi-loader size="small" *ngIf="loading" matSuffix></app-bapi-loader>
+    <mat-hint>Search for user or group by alias or name</mat-hint>
+</mat-form-field>

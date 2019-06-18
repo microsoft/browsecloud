@@ -1,0 +1,48 @@
+{
+    "extends": [
+        "./tslint-core.json"
+    ],
+    "rulesDirectory": [
+        "codelyzer"
+    ],
+    "rules": {
+        "component-class-suffix": [
+            true,
+            "Component"
+        ],
+        "component-selector": [
+            true,
+            "element",
+            "",
+            "kebab-case"
+        ],
+        "directive-class-suffix": [
+            true,
+            "Directive"
+        ],
+        "directive-selector": [
+            true,
+            "attribute",
+            "",
+            "camelCase"
+        ],
+        "use-component-selector": true,
+        "component-max-inline-declarations": true,
+        "no-attribute-decorator": true,
+        "no-conflicting-lifecycle": true,
+        "no-forward-ref": true,
+        "no-life-cycle-call": true,
+        "no-input-rename": true,
+        "no-output-native": true,
+        "no-output-on-prefix": true,
+        "no-output-rename": true,
+        "no-queries-metadata-property": true,
+        "prefer-inline-decorator": true,
+        "prefer-output-readonly": true,
+        "no-host-metadata-property": true,
+        "no-inputs-metadata-property": true,
+        "use-life-cycle-interface": true,
+        "no-outputs-metadata-property": true,
+        "use-pipe-transform-interface": true
+    }
+}

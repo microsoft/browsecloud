@@ -1,0 +1,23 @@
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT License.
+
+.file-name-text {
+    text-align: center;
+    font-size: 12px;
+
+    &.error {
+        color: red;
+    }
+}
+
+.form-view > * {
+    margin-bottom: 10px;
+}
+
+.loading-view {
+    height: 150px;
+}
+
+mat-dialog-content {
+    width: 400px;
+}

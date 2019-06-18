@@ -1,0 +1,12 @@
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT License.
+
+@import 'src/styles/material-theme';
+
+mat-form-field {
+    width: 100%;
+}
+
+.principal-name {
+    color: mat-color(map-get($theme, foreground), secondary-text);
+}

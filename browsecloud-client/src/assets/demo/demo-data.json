@@ -1,0 +1,31 @@
+{
+    "document": {
+        "id": "demo",
+        "displayName": "Demo Visualization",
+        "inputType": "SimpleInput",
+        "owner": "satyan@microsoft.com",
+        "acl": [],
+        "submitDateTime": "2019-01-30T22:18:03.679Z",
+        "updateDateTime": "2019-01-30T22:18:05.599Z"
+    },
+    "jobs": [
+        {
+            "id": "demo",
+            "documentId": "demo",
+            "progress": 100,
+            "jobStatus": "Success",
+            "windowSize": 24,
+            "extentSize": 5,
+            "submitDateTime": "2019-01-23T21:24:41.547Z",
+            "finishDateTime": "2019-01-23T22:20:13.594Z",
+            "updateDateTime": "2019-01-23T22:20:13.594Z",
+            "settings": {
+                "fontSettings" : {
+                    "linearWeight": 0,
+                    "minimum": 10,
+                    "quadraticWeight": 90
+                }
+            }
+        }
+    ]
+}

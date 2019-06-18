@@ -1,0 +1,54 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "baseUrl": "./",
+        "outDir": "./dist/out-tsc",
+        "sourceMap": true,
+        "declaration": false,
+        "module": "es2015",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "target": "es5",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "lib": [
+            "es2018",
+            "dom"
+        ],
+        "paths": {
+            "@browsecloud/services": [
+                "src/app/services"
+            ],
+            "@browsecloud/services/*": [
+                "src/app/services/*"
+            ],
+            "@browsecloud/shared": [
+                "src/app/shared"
+            ],
+            "@browsecloud/shared/*": [
+                "src/app/shared/*"
+            ],
+            "@browsecloud/environments": [
+                "src/environments"
+            ],
+            "@browsecloud/environments/*": [
+                "src/environments/*"
+            ],
+            "@browsecloud/utils": [
+                "src/utils"
+            ],
+            "@browsecloud/utils/*": [
+                "src/utils/*"
+            ],
+            "@browsecloud/models": [
+                "src/app/models"
+            ],
+            "@browsecloud/models/*": [
+                "src/app/models/*"
+            ],
+        }
+    }
+}

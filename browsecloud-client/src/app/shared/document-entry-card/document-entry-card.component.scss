@@ -1,0 +1,42 @@
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT License.
+
+@import 'src/styles/material-theme';
+
+.container {
+    border-bottom: 1px solid mat-color(map-get($theme, foreground), divider);
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 7px;
+    color: mat-color(map-get($theme, foreground), text);
+
+    .title {
+        font-size: 15px;
+        margin-bottom: 3px;
+
+        a {
+            color: mat-color(map-get($theme, foreground), text);
+        }
+    }
+
+    .abstract {
+        font-size: 12px;
+    }
+
+    .more-info-button {
+        display: block;
+        margin: 3px auto;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+
+        td {
+            border: 1px solid mat-color(map-get($theme, foreground), divider);
+            padding: 3px;
+            font-size: 12px;
+        }
+    }
+}

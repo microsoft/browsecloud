@@ -1,0 +1,84 @@
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT License.
+
+@import 'src/styles/material-theme';
+
+.container {
+    display: block;
+    color: mat-color(map-get($theme, foreground), text);
+
+    .header-text {
+        margin-top: 30px;
+        font-size: 30px;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    .header {
+        .header-button {
+            margin-top: 10px;
+            width: 500px;
+        }
+
+        .search-box {
+            font-weight: 100;
+            font-size: 25px;
+            text-align: center;
+            width: 450px;
+        }
+    }
+
+    .add-tile {
+        i {
+            font-size: 100px;
+            color: mat-color(map-get($theme, foreground), secondary-text);
+        }
+    }
+
+    .tiles {
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+
+        .tile {
+            margin: 10px;
+            cursor: pointer;
+            padding: 10px;
+            width: 400px;
+            height: 200px;
+            background-color: mat-color(map-get($theme, background), card);
+            border-radius: 5px;
+            @include mat-elevation(2);
+            transition: 0.5s;
+            box-sizing: border-box;
+
+            &:hover {
+                background-color: mat-color(map-get($theme, background), hover);
+                @include mat-elevation(5);
+            }
+
+            .top {
+                width: 100%;
+
+                .title {
+                    width: 100%;
+    
+                    .text {
+                        font-weight: 100;
+                        font-size: 22px;
+                    }
+                }
+    
+                .description {
+                    margin-top: 5px;
+                    font-size: 16px;
+                }
+            }
+
+            .bottom-bar {
+                width: 100%;
+                font-size: 13px;
+            }
+        }
+    }
+}

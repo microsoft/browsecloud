@@ -1,0 +1,9 @@
+<!-- Copyright (c) Microsoft Corporation. All rights reserved.
+    Licensed under the MIT License. -->
+
+<div class="container">
+    <canvas #cloudView (click)="onCanvasClicked($event)"></canvas>
+    <div class="zoom-slider">
+        <mat-slider [min]="zoomRange[0]" [max]="zoomRange[1]" step="0.01" [value]="currentTransform?.k" (input)="onZoomSlider($event)"></mat-slider>
+    </div>
+</div>

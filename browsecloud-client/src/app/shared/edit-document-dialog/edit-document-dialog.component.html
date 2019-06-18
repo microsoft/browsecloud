@@ -1,0 +1,31 @@
+<!-- Copyright (c) Microsoft Corporation. All rights reserved.
+    Licensed under the MIT License. -->
+
+<h2 mat-dialog-title>Edit Visualization</h2>
+
+<mat-dialog-content>
+    <div *ngIf="loading === false" class="form-view" fxLayout="column">
+        <mat-checkbox [checked]="document.isPublic" (change)="onPublishChanged($event)">Publish in the Gallery</mat-checkbox>
+        <mat-form-field>
+            <mat-label>Visualization Name</mat-label>
+            <input matInput [formControl]="documentNameFormControl" required>
+            <mat-error *ngIf="documentNameFormControl.hasError('required')">You must enter a name</mat-error>
+            <mat-error *ngIf="documentNameFormControl.hasError('maxlength')">Name must be under 50 characters</mat-error>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Description</mat-label>
+            <textarea matInput [formControl]="descriptionFormControl" [required]="document.isPublic"></textarea>
+            <mat-error *ngIf="descriptionFormControl.hasError('required')">You must enter a description when publishing</mat-error>
+            <mat-error *ngIf="descriptionFormControl.hasError('maxlength')">Description must be under 140 characters</mat-error>
+        </mat-form-field>
+        <app-user-input #ownerInput [chipInput]="false" [user]="document.owner" placeholder="Owner" (valueChange)="onOwnerChanged($event)"></app-user-input>
+        <app-user-input [chipInput]="true" [users]="document.acl" placeholder="Share with users or groups..." (valueChange)="onAclChanged($event)"></app-user-input>
+    </div>
+    <div *ngIf="loading === true" class="loading-view" fxLayout="row" fxLayoutAlign="center center">
+        <app-bapi-loader size="large"></app-bapi-loader>
+    </div>
+</mat-dialog-content>
+<mat-dialog-actions>
+    <button mat-button class="shadow-button" [disabled]="loading === true" (click)="onCancelClicked()">Cancel</button>
+    <button mat-button class="shadow-button" [disabled]="loading === true || this.documentNameFormControl.valid === false || (this.descriptionFormControl.valid === false && this.descriptionFormControl.enabled === true) || this.ownerInput?.singleUserFormControl?.valid === false" (click)="onEditDocumentClicked()">Save</button>
+</mat-dialog-actions>

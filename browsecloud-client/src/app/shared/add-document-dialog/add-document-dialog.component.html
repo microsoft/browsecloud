@@ -1,0 +1,39 @@
+<!-- Copyright (c) Microsoft Corporation. All rights reserved.
+    Licensed under the MIT License. -->
+
+<h2 mat-dialog-title fxLayout="row" fxLayoutAlign="space-between center">
+    New Visualization
+    <a mat-button target="_blank" href="https://github.com/microsoft/browsecloud/wiki/Input-Examples">File Format Documentation</a>
+</h2>
+
+<mat-dialog-content>
+    <div *ngIf="loading === false" class="form-view" fxLayout="column">
+        <mat-checkbox [checked]="isPublic" (change)="onPublishChanged($event)">Publish in the Gallery</mat-checkbox>
+        <mat-form-field>
+            <mat-label>Visualization Name</mat-label>
+            <input matInput [formControl]="documentNameFormControl" required>
+            <mat-error *ngIf="documentNameFormControl.hasError('required')">You must enter a name</mat-error>
+            <mat-error *ngIf="documentNameFormControl.hasError('maxlength')">Name must be under 50 characters</mat-error>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Description</mat-label>
+            <textarea matInput [formControl]="descriptionFormControl" [required]="isPublic"></textarea>
+            <mat-error *ngIf="descriptionFormControl.hasError('required')">You must enter a description when publishing</mat-error>
+            <mat-error *ngIf="descriptionFormControl.hasError('maxlength')">Description must be under 140 characters</mat-error>
+        </mat-form-field>
+        <button mat-stroked-button (click)="onSelectFileClicked()">Select File</button>
+
+        <input #filePicker style="display: none" type="file" (change)="onFilePickerChange()">
+        <div>
+            <div class="file-name-text">{{fileName}}</div>
+            <div class="file-name-text" [class.error]="isValidFile === false">{{validationText}}</div>
+        </div>
+    </div>
+    <div *ngIf="loading === true" class="loading-view" fxLayout="row" fxLayoutAlign="center center">
+        <app-bapi-loader size="large"></app-bapi-loader>
+    </div>
+</mat-dialog-content>
+<mat-dialog-actions>
+    <button mat-button class="shadow-button" [disabled]="loading === true" (click)="onCancelClicked()">Cancel</button>
+    <button mat-button class="shadow-button" [disabled]="loading === true || isValidFile === false || documentNameFormControl.valid === false || descriptionFormControl.valid === false" (click)="onAddDocumentClicked()">Create</button>
+</mat-dialog-actions>

@@ -1,0 +1,22 @@
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT License.
+
+@import '~@angular/material/theming';
+
+.legendContainer {
+    border-radius: 5px;
+    padding: 10px;
+    @include mat-elevation(2);
+
+    .legendText {
+        max-width: 50%;
+
+        &#first {
+            text-align: left;
+        }
+
+        &#second {
+            text-align: right;
+        }
+    }
+}

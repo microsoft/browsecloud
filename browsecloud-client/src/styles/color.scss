@@ -1,0 +1,28 @@
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT License.
+
+$black-87-opacity: rgba(black, 0.87);
+$white-87-opacity: rgba(white, 0.87);
+
+$ms-blue: (
+  100: #bbd0f6,
+  200: #8eb1f1,
+  300: #6191eb,
+  400: #3372e5,
+  500: #1a58cc,
+  600: #0e3171,
+  700: #0e3171,
+  800: #091d44,
+  900: #030a17,
+  contrast: (
+    100: $black-87-opacity,
+    200: $black-87-opacity,
+    300: $black-87-opacity,
+    400: $black-87-opacity,
+    500: $white-87-opacity,
+    600: $white-87-opacity,
+    700: $white-87-opacity,
+    800: $white-87-opacity,
+    900: $white-87-opacity,
+  )
+);

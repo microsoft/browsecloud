@@ -1,0 +1,10 @@
+<!-- Copyright (c) Microsoft Corporation. All rights reserved.
+    Licensed under the MIT License. -->
+
+<h2 mat-dialog-title>Error Details</h2>
+
+<mat-dialog-content>
+    <p>Below are the technical details of the error. These have been logged.</p>
+    <p>{{browseCloudError.message}}</p>
+    <p>{{browseCloudError.error?.statusText}}: {{browseCloudError.error?.error?.message}}</p>
+</mat-dialog-content>

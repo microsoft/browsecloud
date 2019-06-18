@@ -1,0 +1,41 @@
+<!-- Copyright (c) Microsoft Corporation. All rights reserved.
+    Licensed under the MIT License. -->
+
+<app-loading-greyout [show]="tableLoading === true" global="true" size="large"></app-loading-greyout>
+<div class="container">
+    <div class="header" fxLayout="column" fxLayoutAlign=" center">
+        <div class="header-text">Explore BrowseCloud Visualizations from everyone.</div>
+        <button class="header-button" mat-stroked-button (click)="onAddDocument()">Publish visualization in your own dashboard</button>
+        <mat-form-field floatLabel="never" class="search-box">
+            <input matInput placeholder="Search" [(ngModel)]="searchTerm" (ngModelChange)="onSearch($event)">
+        </mat-form-field>
+    </div>
+    <div *ngIf="displayDocs?.length === 0" class="header-text">
+        Nothing to show here.
+    </div>
+    <div class="tiles" *ngIf="displayDocs?.length !== 0" fxLayout="row wrap" fxLayoutAlign="center start">
+        <div tabindex="0" class="tile add-tile" fxLayout="column" fxLayoutAlign="center center" (click)="onAddDocument()">
+            <i class="ms-Icon ms-Icon--Add"></i>
+        </div>
+        <div class="tile" *ngFor="let document of displayDocs" fxLayout="column" fxLayoutAlign="space-between start" fxFlex="initial" routerLink='/document/{{document.id}}'>
+            <div class="top">
+                <div class="title" fxLayout="row" fxLayoutAlign="space-between center">
+                    <div class="text">{{document.displayName}}</div>
+                    <a mat-icon-button title="Open document" routerLink='/document/{{document.id}}'>
+                        <i class="ms-Icon ms-Icon--RightArrowKeyTime0"></i>
+                    </a>
+                </div>
+                <div class="description">{{document.description || 'No Description.'}}</div>
+            </div>
+            <div class="bottom-bar" fxLayout="row" fxLayoutAlign="space-between center">
+                <div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="5px">
+                    <i class="ms-Icon ms-Icon--UserFollowed"></i>
+                    <div>{{document.owner.displayName}}</div></div>
+                <div fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="5px">
+                    <i class="ms-Icon ms-Icon--CalendarWorkWeek"></i>
+                    <div>{{document.submitDateTime | date}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

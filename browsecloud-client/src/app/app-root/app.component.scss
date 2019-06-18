@@ -1,0 +1,33 @@
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT License.
+
+@import "src/styles/material-theme";
+@import "src/styles/z-index";
+
+.app {
+    // 64px is the height of the toolbar.
+    height: calc(100% - 64px);
+
+    .header {
+        position: fixed;
+        width: 100%;
+        z-index: map-get($z-index, nav-bar);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+        opacity: .95;
+    }
+
+    main {
+        padding-top: 64px;
+        height: 100%;
+    }
+}
+
+.ms-Icon {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.browsecloud-link {
+    color: mat-color(map-get($theme, foreground), text);
+    text-decoration: none;
+}

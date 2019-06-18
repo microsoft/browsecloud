@@ -1,0 +1,996 @@
+id:1	title:a	abstract:the first letter of the modern english alphabet .	link:https://en.wikipedia.org/wiki/a	image:	layer:2
+id:2	title:a	abstract:any of the speech sounds represented by the letter a .	link:https://en.wikipedia.org/wiki/a	image:	layer:2
+id:3	title:are	abstract:a metric unit of area equal to 100 square meters (119 .6 square yards) .	link:https://en.wikipedia.org/wiki/are	image:	layer:1
+id:4	title:i	abstract:the ninth letter of the modern english alphabet .	link:https://en.wikipedia.org/wiki/i	image:	layer:2
+id:5	title:i	abstract:any of the speech sounds represented by the letter i .	link:https://en.wikipedia.org/wiki/i	image:	layer:2
+id:6	title:article	abstract:an individual thing or element of a class ; a particular object or item .	link:https://en.wikipedia.org/wiki/article	image:	layer:2
+id:7	title:article	abstract:a particular section or item of a series in a written document , as in a contract , constitution , or treaty .	link:https://en.wikipedia.org/wiki/article	image:	layer:2
+id:8	title:school	abstract:an institution for the instruction of children or people under college age .	link:https://en.wikipedia.org/wiki/school	image:	layer:2
+id:9	title:school	abstract:an institution for instruction in a skill or business .	link:https://en.wikipedia.org/wiki/school	image:	layer:2
+id:10	title:first	abstract:the ordinal number matching the number one in a series .	link:https://en.wikipedia.org/wiki/first	image:	layer:2
+id:11	title:first	abstract:the one coming , occurring , or ranking before or above all others .	link:https://en.wikipedia.org/wiki/first	image:	layer:1
+id:12	title:university	abstract:an institution for higher learning with teaching and research facilities constituting a graduate school and professional schools that award master's degrees and doctorates and an undergraduate division that awards bachelor's degrees .	link:https://en.wikipedia.org/wiki/university	image:	layer:1
+id:13	title:university	abstract:the buildings and grounds of such an institution .	link:https://en.wikipedia.org/wiki/university	image:	layer:1
+id:14	title:city	abstract:a center of population , commerce , and culture ; a town of significant size and importance .	link:https://en.wikipedia.org/wiki/city	image:	layer:1
+id:15	title:city	abstract:an incorporated municipality in the united states with definite boundaries and legal powers set forth in a charter granted by the state .	link:https://en.wikipedia.org/wiki/city	image:	layer:2
+id:16	title:people	abstract:humans considered as a group or in indefinite numbers .	link:https://en.wikipedia.org/wiki/people	image:	layer:1
+id:17	title:people	abstract:a body of persons living in the same country under one national government ; a nationality .	link:https://en.wikipedia.org/wiki/people	image:	layer:1
+id:18	title:part	abstract:a portion , division , piece , or segment of a whole .	link:https://en.wikipedia.org/wiki/part	image:	layer:2
+id:19	title:part	abstract:any of several equal portions or fractions that can constitute a whole or into which a whole can be divided .	link:https://en.wikipedia.org/wiki/part	image:	layer:1
+id:20	title:team	abstract:sports & games : a group on the same side , as in a game .	link:https://en.wikipedia.org/wiki/team	image:	layer:2
+id:21	title:team	abstract:a group organized to work together .	link:https://en.wikipedia.org/wiki/team	image:	layer:1
+id:22	title:work	abstract:physical or mental effort or activity directed toward the production or accomplishment of something .	link:https://en.wikipedia.org/wiki/work	image:	layer:1
+id:23	title:number	abstract:mathematics : a member of the set of positive integers ; one of a series of symbols of unique meaning in a fixed order that can be derived by counting .	link:https://en.wikipedia.org/wiki/number	image:	layer:2
+id:24	title:number	abstract:mathematics : a member of any of the further sets of mathematical objects , such as negative integers and real numbers .	link:https://en.wikipedia.org/wiki/number	image:	layer:1
+id:25	title:series	abstract:a number of objects or events arranged or coming one after the other in succession .	link:https://en.wikipedia.org/wiki/series	image:	layer:2
+id:26	title:series	abstract:a set of stamps , coins , or currency issued in a particular period .	link:https://en.wikipedia.org/wiki/series	image:	layer:1
+id:27	title:year	abstract:the period of time during which earth completes a single revolution around the sun , consisting of 365 days , 5 hours , 49 minutes , and 12 seconds of mean solar time .	link:https://en.wikipedia.org/wiki/year	image:	layer:1
+id:28	title:year	abstract:a period approximately equal to a year in other calendars .	link:https://en.wikipedia.org/wiki/year	image:	layer:1
+id:29	title:area	abstract:a roughly bounded part of the space on a surface ; a region .	link:https://en.wikipedia.org/wiki/area	image:	layer:1
+id:30	title:area	abstract:a surface , especially an open , unoccupied piece of ground .	link:https://en.wikipedia.org/wiki/area	image:	layer:2
+id:31	title:well	abstract:a deep hole or shaft sunk into the earth to obtain water , oil , gas , or brine .	link:https://en.wikipedia.org/wiki/well	image:	layer:2
+id:32	title:well	abstract:a container or reservoir for a liquid , such as ink .	link:https://en.wikipedia.org/wiki/well	image:	layer:2
+id:33	title:name	abstract:a word or words by which an entity is designated and distinguished from others .	link:https://en.wikipedia.org/wiki/name	image:	layer:2
+id:34	title:name	abstract:a word or group of words used to describe or evaluate , often disparagingly .	link:https://en.wikipedia.org/wiki/name	image:	layer:2
+id:35	title:two	abstract:the cardinal number equal to the sum of 1 + 1 .	link:https://en.wikipedia.org/wiki/two	image:	layer:1
+id:36	title:two	abstract:the second in a set or sequence .	link:https://en.wikipedia.org/wiki/two	image:	layer:2
+id:37	title:company	abstract:a group of persons .	link:https://en.wikipedia.org/wiki/company	image:	layer:2
+id:38	title:company	abstract:one's companions or associates .	link:https://en.wikipedia.org/wiki/company	image:	layer:2
+id:39	title:group	abstract:an assemblage of persons or objects gathered or located together ; an aggregation .	link:https://en.wikipedia.org/wiki/group	image:	layer:2
+id:40	title:group	abstract:two or more figures that make up a unit or design , as in sculpture .	link:https://en.wikipedia.org/wiki/group	image:	layer:2
+id:41	title:war	abstract:a state of open , armed , often prolonged conflict carried on between nations , states , or parties .	link:https://en.wikipedia.org/wiki/war	image:	layer:2
+id:42	title:war	abstract:the period of such conflict .	link:https://en.wikipedia.org/wiki/war	image:	layer:1
+id:43	title:album	abstract:a book with blank pages for the insertion and preservation of collections , as of stamps or photographs .	link:https://en.wikipedia.org/wiki/album	image:	layer:1
+id:44	title:album	abstract:a phonograph record , especially a long-playing record stored in a slipcase .	link:https://en.wikipedia.org/wiki/album	image:	layer:2
+id:45	title:film	abstract:a thin skin or membrane .	link:https://en.wikipedia.org/wiki/film	image:	layer:1
+id:46	title:film	abstract:a thin , opaque , abnormal coating on the cornea of the eye .	link:https://en.wikipedia.org/wiki/film	image:	layer:2
+id:47	title:system	abstract:a group of interacting , interrelated , or interdependent elements forming a complex whole .	link:https://en.wikipedia.org/wiki/system	image:	layer:1
+id:48	title:system	abstract:a functionally related group of elements , especially:	link:https://en.wikipedia.org/wiki/system	image:	layer:2
+id:49	title:state	abstract:a condition or mode of being , as with regard to circumstances .	link:https://en.wikipedia.org/wiki/state	image:	layer:2
+id:50	title:state	abstract:a condition of being in a stage or form , as of structure , growth , or development .	link:https://en.wikipedia.org/wiki/state	image:	layer:1
+id:51	title:district	abstract:a division of an area , as for administrative purposes .	link:https://en.wikipedia.org/wiki/district	image:	layer:1
+id:52	title:district	abstract:a region or locality marked by a distinguishing feature .	link:https://en.wikipedia.org/wiki/district	image:	layer:1
+id:53	title:season	abstract:one of the four natural divisions of the year , spring , summer , fall , and winter , in the north and south temperate zones .	link:https://en.wikipedia.org/wiki/season	image:	layer:1
+id:54	title:season	abstract:the two divisions of the year , rainy and dry , in some tropical regions .	link:https://en.wikipedia.org/wiki/season	image:	layer:1
+id:55	title:being	abstract:the state or quality of having existence .	link:https://en.wikipedia.org/wiki/being	image:	layer:2
+id:56	title:being	abstract:something , such as an object , an idea , or a symbol , that exists , is thought to exist , or is represented as existing .	link:https://en.wikipedia.org/wiki/being	image:	layer:2
+id:57	title:county	abstract:the largest administrative division of most states in the united states .	link:https://en.wikipedia.org/wiki/county	image:	layer:2
+id:58	title:county	abstract:a territorial division exercising administrative , judicial , and political functions in great britain and ireland .	link:https://en.wikipedia.org/wiki/county	image:	layer:2
+id:59	title:page	abstract:a leaf or one side of a leaf , as of a book , letter , newspaper , or manuscript .	link:https://en.wikipedia.org/wiki/page	image:	layer:1
+id:60	title:page	abstract:the writing or printing on one side of a leaf .	link:https://en.wikipedia.org/wiki/page	image:	layer:2
+id:61	title:member	abstract:a distinct part of a whole , especially:	link:https://en.wikipedia.org/wiki/member	image:	layer:2
+id:62	title:member	abstract:linguistics : a syntactic unit of a sentence ; a clause .	link:https://en.wikipedia.org/wiki/member	image:	layer:1
+id:63	title:end	abstract:either extremity of something that has length .	link:https://en.wikipedia.org/wiki/end	image:	layer:2
+id:64	title:end	abstract:the outside or extreme edge or physical limit ; a boundary .	link:https://en.wikipedia.org/wiki/end	image:	layer:1
+id:65	title:house	abstract:a structure serving as a dwelling for one or more persons , especially for a family .	link:https://en.wikipedia.org/wiki/house	image:	layer:1
+id:66	title:house	abstract:a household or family .	link:https://en.wikipedia.org/wiki/house	image:	layer:1
+id:67	title:game	abstract:an activity providing entertainment or amusement ; a pastime .	link:https://en.wikipedia.org/wiki/game	image:	layer:1
+id:68	title:game	abstract:a competitive activity or sport in which players contend with each other according to a set of rules .	link:https://en.wikipedia.org/wiki/game	image:	layer:1
+id:69	title:church	abstract:a building for public , especially christian worship .	link:https://en.wikipedia.org/wiki/church	image:	layer:1
+id:70	title:church	abstract:the company of all christians regarded as a spiritual body .	link:https://en.wikipedia.org/wiki/church	image:	layer:1
+id:71	title:came	abstract:a slender grooved lead bar used to hold together the panes in stained glass or latticework windows .	link:https://en.wikipedia.org/wiki/came	image:	layer:1
+id:72	title:station	abstract:a place or position where a person or thing stands or is assigned to stand ; a post .	link:https://en.wikipedia.org/wiki/station	image:	layer:1
+id:73	title:station	abstract:an area where a person is assigned to work .	link:https://en.wikipedia.org/wiki/station	image:	layer:1
+id:74	title:party	abstract:a social gathering especially for pleasure or amusement .	link:https://en.wikipedia.org/wiki/party	image:	layer:1
+id:75	title:party	abstract:a group of people who have gathered to participate in an activity .	link:https://en.wikipedia.org/wiki/party	image:	layer:2
+id:76	title:family	abstract:a fundamental social group in society typically consisting of one or two parents and their children .	link:https://en.wikipedia.org/wiki/family	image:	layer:2
+id:77	title:family	abstract:two or more people who share goals and values , have long-term commitments to one another , and reside usually in the same dwelling place .	link:https://en.wikipedia.org/wiki/family	image:	layer:1
+id:78	title:town	abstract:a population center that is larger than a village and smaller than a city .	link:https://en.wikipedia.org/wiki/town	image:	layer:2
+id:79	title:town	abstract:a territorial and political unit governed by a town meeting , especially in new england .	link:https://en.wikipedia.org/wiki/town	image:	layer:2
+id:80	title:way	abstract:a road , path , or highway affording passage from one place to another .	link:https://en.wikipedia.org/wiki/way	image:	layer:2
+id:81	title:way	abstract:an opening affording passage .	link:https://en.wikipedia.org/wiki/way	image:	layer:2
+id:82	title:line	abstract:mathematics : a geometric figure formed by a point moving along a fixed direction and the reverse direction .	link:https://en.wikipedia.org/wiki/line	image:	layer:2
+id:83	title:line	abstract:a thin continuous mark , as that made by a pen , pencil , or brush applied to a surface .	link:https://en.wikipedia.org/wiki/line	image:	layer:1
+id:84	title:league	abstract:an association of states , organizations , or individuals for common action ; an alliance .	link:https://en.wikipedia.org/wiki/league	image:	layer:1
+id:85	title:league	abstract:sports : an association of teams or clubs that compete chiefly among themselves .	link:https://en.wikipedia.org/wiki/league	image:	layer:1
+id:86	title:college	abstract:an institution of higher learning that grants the bachelor's degree in liberal arts or science or both .	link:https://en.wikipedia.org/wiki/college	image:	layer:1
+id:87	title:college	abstract:an undergraduate division or school of a university offering courses and granting degrees in a particular field .	link:https://en.wikipedia.org/wiki/college	image:	layer:2
+id:88	title:club	abstract:a stout heavy stick , usually thicker at one end , suitable for use as a weapon ; a cudgel .	link:https://en.wikipedia.org/wiki/club	image:	layer:1
+id:89	title:club	abstract:sports : an implement used in some games to drive a ball , especially a stick with a protruding head used in golf .	link:https://en.wikipedia.org/wiki/club	image:	layer:2
+id:90	title:government	abstract:the act or process of governing , especially the control and administration of public policy in a political unit .	link:https://en.wikipedia.org/wiki/government	image:	layer:1
+id:91	title:government	abstract:the office , function , or authority of a governing individual or body .	link:https://en.wikipedia.org/wiki/government	image:	layer:1
+id:92	title:history	abstract:a usually chronological record of events , as of the life or development of a people or institution , often including an explanation of or commentary on those events .	link:https://en.wikipedia.org/wiki/history	image:	layer:2
+id:93	title:history	abstract:a formal written account of related natural phenomena .	link:https://en.wikipedia.org/wiki/history	image:	layer:2
+id:94	title:place	abstract:an area with definite or indefinite boundaries ; a portion of space .	link:https://en.wikipedia.org/wiki/place	image:	layer:1
+id:95	title:place	abstract:room or space , especially adequate space .	link:https://en.wikipedia.org/wiki/place	image:	layer:1
+id:96	title:century	abstract:a period of 100 years .	link:https://en.wikipedia.org/wiki/century	image:	layer:1
+id:97	title:century	abstract:each of the successive periods of 100 years before or since the advent of the christian era .	link:https://en.wikipedia.org/wiki/century	image:	layer:2
+id:98	title:day	abstract:the period of light between dawn and nightfall ; the interval from sunrise to sunset .	link:https://en.wikipedia.org/wiki/day	image:	layer:2
+id:99	title:day	abstract:the 24-hour period during which the earth completes one rotation on its axis .	link:https://en.wikipedia.org/wiki/day	image:	layer:2
+id:100	title:band	abstract:a thin strip of flexible material used to encircle and bind one object or to hold a number of objects together .	link:https://en.wikipedia.org/wiki/band	image:	layer:1
+id:101	title:band	abstract:a strip or stripe that contrasts with something else in color , texture , or material .	link:https://en.wikipedia.org/wiki/band	image:	layer:1
+id:102	title:form	abstract:the shape and structure of an object .	link:https://en.wikipedia.org/wiki/form	image:	layer:2
+id:103	title:form	abstract:the body or outward appearance of a person or an animal considered separately from the face or head ; figure .	link:https://en.wikipedia.org/wiki/form	image:	layer:2
+id:104	title:building	abstract:something that is built , as for human habitation ; a structure .	link:https://en.wikipedia.org/wiki/building	image:	layer:1
+id:105	title:building	abstract:the act , process , art , or occupation of constructing .	link:https://en.wikipedia.org/wiki/building	image:	layer:1
+id:106	title:need	abstract:a condition or situation in which something is required or wanted .	link:https://en.wikipedia.org/wiki/need	image:	layer:2
+id:107	title:need	abstract:something required or wanted ; a requisite .	link:https://en.wikipedia.org/wiki/need	image:	layer:2
+id:108	title:list	abstract:a series of names , words , or other items written , printed , or imagined one after the other .	link:https://en.wikipedia.org/wiki/list	image:	layer:1
+id:109	title:list	abstract:a considerable number ; a long series .	link:https://en.wikipedia.org/wiki/list	image:	layer:2
+id:110	title:center	abstract:a point or place that is equally distant from the sides or outer boundaries of something ; the middle .	link:https://en.wikipedia.org/wiki/center	image:	layer:2
+id:111	title:center	abstract:a point equidistant from the vertices of a regular polygon .	link:https://en.wikipedia.org/wiki/center	image:	layer:2
+id:112	title:point	abstract:a sharp or tapered end .	link:https://en.wikipedia.org/wiki/point	image:	layer:1
+id:113	title:point	abstract:an object having a sharp or tapered end .	link:https://en.wikipedia.org/wiki/point	image:	layer:1
+id:114	title:version	abstract:a description or account from one point of view , especially as opposed to another .	link:https://en.wikipedia.org/wiki/version	image:	layer:2
+id:115	title:version	abstract:a translation from another language .	link:https://en.wikipedia.org/wiki/version	image:	layer:2
+id:116	title:song	abstract:music : a brief composition written or adapted for singing .	link:https://en.wikipedia.org/wiki/song	image:	layer:1
+id:117	title:song	abstract:music : the act or art of singing .	link:https://en.wikipedia.org/wiki/song	image:	layer:1
+id:118	title:player	abstract:one that plays , especially:	link:https://en.wikipedia.org/wiki/player	image:	layer:2
+id:119	title:player	abstract:one who participates in a game or sport .	link:https://en.wikipedia.org/wiki/player	image:	layer:2
+id:120	title:river	abstract:a large natural stream of water emptying into an ocean , lake , or other body of water and usually fed along its course by converging tributaries .	link:https://en.wikipedia.org/wiki/river	image:	layer:1
+id:121	title:river	abstract:a stream or abundant flow .	link:https://en.wikipedia.org/wiki/river	image:	layer:2
+id:122	title:will	abstract:the mental faculty by which one deliberately chooses or decides upon a course of action .	link:https://en.wikipedia.org/wiki/will	image:	layer:2
+id:123	title:will	abstract:the act of exercising the will .	link:https://en.wikipedia.org/wiki/will	image:	layer:2
+id:124	title:village	abstract:a small group of dwellings in a rural area , usually ranking in size between a hamlet and a town .	link:https://en.wikipedia.org/wiki/village	image:	layer:1
+id:125	title:book	abstract:a set of written , printed , or blank pages fastened along one side and encased between protective covers .	link:https://en.wikipedia.org/wiki/book	image:	layer:1
+id:126	title:book	abstract:a printed or written literary work .	link:https://en.wikipedia.org/wiki/book	image:	layer:1
+id:127	title:service	abstract:employment in duties or work for another , as for a government .	link:https://en.wikipedia.org/wiki/service	image:	layer:2
+id:128	title:service	abstract:a government branch or department and its employees .	link:https://en.wikipedia.org/wiki/service	image:	layer:1
+id:129	title:music	abstract:the art of arranging sounds in time so as to produce a continuous , unified , and evocative composition , as through melody , harmony , rhythm , and timbre .	link:https://en.wikipedia.org/wiki/music	image:	layer:1
+id:130	title:music	abstract:vocal or instrumental sounds possessing a degree of melody , harmony , or rhythm .	link:https://en.wikipedia.org/wiki/music	image:	layer:2
+id:131	title:north	abstract:the direction along a meridian 90   counterclockwise from east ; the direction to the left of sunrise .	link:https://en.wikipedia.org/wiki/north	image:	layer:2
+id:132	title:north	abstract:the cardinal point on the mariner's compass located at 0   .	link:https://en.wikipedia.org/wiki/north	image:	layer:2
+id:133	title:south	abstract:the direction along a meridian 90   clockwise from east ; the direction to the right of sunrise .	link:https://en.wikipedia.org/wiki/south	image:	layer:2
+id:134	title:south	abstract:the cardinal point on the mariner's compass 180   clockwise from due north and directly opposite north .	link:https://en.wikipedia.org/wiki/south	image:	layer:2
+id:135	title:species	abstract:biology : a fundamental category of taxonomic classification , ranking below a genus or subgenus and consisting of related organisms capable of interbreeding .	link:https://en.wikipedia.org/wiki/species	image:	layer:2
+id:136	title:son	abstract:one's male child .	link:https://en.wikipedia.org/wiki/son	image:	layer:1
+id:137	title:son	abstract:a male descendant .	link:https://en.wikipedia.org/wiki/son	image:	layer:2
+id:138	title:community	abstract:a group of people living in the same locality and under the same government .	link:https://en.wikipedia.org/wiki/community	image:	layer:1
+id:139	title:park	abstract:an area of land set aside for public use ,  .	link:https://en.wikipedia.org/wiki/park	image:	layer:1
+id:140	title:park	abstract:a piece of land with few or no buildings within or adjoining a town , maintained for recreational and ornamental purposes .	link:https://en.wikipedia.org/wiki/park	image:	layer:2
+id:141	title:while	abstract:a period of time .	link:https://en.wikipedia.org/wiki/while	image:	layer:2
+id:142	title:while	abstract:the time , effort , or trouble taken in doing something .	link:https://en.wikipedia.org/wiki/while	image:	layer:2
+id:143	title:site	abstract:the place where a structure or group of structures was , is , or is to be located .	link:https://en.wikipedia.org/wiki/site	image:	layer:2
+id:144	title:site	abstract:the place or setting of something .	link:https://en.wikipedia.org/wiki/site	image:	layer:2
+id:145	title:association	abstract:the act of associating or the state of being associated .	link:https://en.wikipedia.org/wiki/association	image:	layer:2
+id:146	title:association	abstract:an organized body of people who have an interest , activity , or purpose in common ; a society .	link:https://en.wikipedia.org/wiki/association	image:	layer:1
+id:147	title:road	abstract:an open , generally public way for the passage of vehicles , people , and animals .	link:https://en.wikipedia.org/wiki/road	image:	layer:2
+id:148	title:road	abstract:the surface of a road ; a roadbed .	link:https://en.wikipedia.org/wiki/road	image:	layer:2
+id:149	title:program	abstract:a listing of the order of events and other pertinent information for a public presentation .	link:https://en.wikipedia.org/wiki/program	image:	layer:2
+id:150	title:program	abstract:the presentation itself .	link:https://en.wikipedia.org/wiki/program	image:	layer:1
+id:151	title:three	abstract:the cardinal number equal to 2 + 1 .	link:https://en.wikipedia.org/wiki/three	image:	layer:1
+id:152	title:three	abstract:the third in a set or sequence .	link:https://en.wikipedia.org/wiki/three	image:	layer:1
+id:153	title:side	abstract:mathematics : a line bounding a plane figure .	link:https://en.wikipedia.org/wiki/side	image:	layer:1
+id:154	title:side	abstract:mathematics : a surface bounding a solid figure .	link:https://en.wikipedia.org/wiki/side	image:	layer:2
+id:155	title:act	abstract:the process of doing or performing something .	link:https://en.wikipedia.org/wiki/act	image:	layer:2
+id:156	title:act	abstract:something done or performed ; a deed .	link:https://en.wikipedia.org/wiki/act	image:	layer:1
+id:157	title:information	abstract:knowledge derived from study , experience , or instruction .	link:https://en.wikipedia.org/wiki/information	image:	layer:2
+id:158	title:information	abstract:knowledge of specific events or situations that has been gathered or received by communication ; intelligence or news .	link:https://en.wikipedia.org/wiki/information	image:	layer:2
+id:159	title:man	abstract:an adult male human .	link:https://en.wikipedia.org/wiki/man	image:	layer:2
+id:160	title:man	abstract:a human regardless of sex or age ; a person .	link:https://en.wikipedia.org/wiki/man	image:	layer:1
+id:161	title:army	abstract:a large body of people organized and trained for land warfare .	link:https://en.wikipedia.org/wiki/army	image:	layer:1
+id:162	title:army	abstract:the entire military land forces of a country .	link:https://en.wikipedia.org/wiki/army	image:	layer:2
+id:163	title:council	abstract:an assembly of persons called together for consultation , deliberation , or discussion .	link:https://en.wikipedia.org/wiki/council	image:	layer:1
+id:164	title:council	abstract:a body of people elected or appointed to serve as administrators , legislators , or advisors .	link:https://en.wikipedia.org/wiki/council	image:	layer:2
+id:165	title:case	abstract:an instance of something ; an occurrence ; an example .	link:https://en.wikipedia.org/wiki/case	image:	layer:1
+id:166	title:case	abstract:an occurrence of a disease or disorder .	link:https://en.wikipedia.org/wiki/case	image:	layer:1
+id:167	title:division	abstract:the act or process of dividing .	link:https://en.wikipedia.org/wiki/division	image:	layer:1
+id:168	title:division	abstract:the state of having been divided .	link:https://en.wikipedia.org/wiki/division	image:	layer:1
+id:169	title:back	abstract:the posterior portion of the trunk of the human body between the neck and the pelvis ; the dorsum .	link:https://en.wikipedia.org/wiki/back	image:	layer:1
+id:170	title:back	abstract:the analogous dorsal region in other animals .	link:https://en.wikipedia.org/wiki/back	image:	layer:2
+id:171	title:west	abstract:the cardinal point on the mariner's compass 270   clockwise from due north and directly opposite east .	link:https://en.wikipedia.org/wiki/west	image:	layer:2
+id:172	title:west	abstract:the direction opposite to the direction of the earth's axial rotation .	link:https://en.wikipedia.org/wiki/west	image:	layer:2
+id:173	title:department	abstract:a distinct , usually specialized division of a large organization , especially:	link:https://en.wikipedia.org/wiki/department	image:	layer:1
+id:174	title:department	abstract:a principal administrative division of a government .	link:https://en.wikipedia.org/wiki/department	image:	layer:1
+id:175	title:second	abstract:a unit of time equal to one sixtieth of a minute .	link:https://en.wikipedia.org/wiki/second	image:	layer:2
+id:176	title:second	abstract:the time needed for a cesium-133 atom to perform 9 ,192 ,631 ,770 complete oscillations .	link:https://en.wikipedia.org/wiki/second	image:	layer:2
+id:177	title:region	abstract:a large , usually continuous segment of a surface or space ; area .	link:https://en.wikipedia.org/wiki/region	image:	layer:1
+id:178	title:region	abstract:a large , indefinite portion of the earth's surface .	link:https://en.wikipedia.org/wiki/region	image:	layer:1
+id:179	title:force	abstract:the capacity to do work or cause physical change ; energy , strength , or active power .	link:https://en.wikipedia.org/wiki/force	image:	layer:1
+id:180	title:force	abstract:power made operative against resistance ; exertion .	link:https://en.wikipedia.org/wiki/force	image:	layer:2
+id:181	title:title	abstract:an identifying name given to a book , play , film , musical composition , or other work .	link:https://en.wikipedia.org/wiki/title	image:	layer:2
+id:182	title:title	abstract:a general or descriptive heading , as of a book chapter .	link:https://en.wikipedia.org/wiki/title	image:	layer:1
+id:183	title:period	abstract:an interval of time characterized by the occurrence of a certain condition , event , or phenomenon .	link:https://en.wikipedia.org/wiki/period	image:	layer:2
+id:184	title:period	abstract:an interval of time characterized by the prevalence of a specified culture , ideology , or technology .	link:https://en.wikipedia.org/wiki/period	image:	layer:2
+id:185	title:home	abstract:a place where one lives ; a residence .	link:https://en.wikipedia.org/wiki/home	image:	layer:1
+id:186	title:home	abstract:the physical structure within which one lives , such as a house or apartment .	link:https://en.wikipedia.org/wiki/home	image:	layer:2
+id:187	title:population	abstract:all of the people inhabiting a specified area .	link:https://en.wikipedia.org/wiki/population	image:	layer:1
+id:188	title:population	abstract:the total number of such people .	link:https://en.wikipedia.org/wiki/population	image:	layer:1
+id:189	title:president	abstract:one appointed or elected to preside over an organized body of people , such as an assembly or meeting .	link:https://en.wikipedia.org/wiki/president	image:	layer:1
+id:190	title:president	abstract:the chief executive of a republic .	link:https://en.wikipedia.org/wiki/president	image:	layer:1
+id:191	title:death	abstract:the act of dying ; termination of life .	link:https://en.wikipedia.org/wiki/death	image:	layer:2
+id:192	title:death	abstract:the state of being dead .	link:https://en.wikipedia.org/wiki/death	image:	layer:1
+id:193	title:section	abstract:one of several components ; a piece .	link:https://en.wikipedia.org/wiki/section	image:	layer:2
+id:194	title:section	abstract:a subdivision of a written work .	link:https://en.wikipedia.org/wiki/section	image:	layer:1
+id:195	title:court	abstract:an extent of open ground partially or completely enclosed by walls or buildings ; a courtyard .	link:https://en.wikipedia.org/wiki/court	image:	layer:2
+id:196	title:court	abstract:a short street , especially a wide alley walled by buildings on three sides .	link:https://en.wikipedia.org/wiki/court	image:	layer:1
+id:197	title:project	abstract:a plan or proposal ; a scheme .	link:https://en.wikipedia.org/wiki/project	image:	layer:2
+id:198	title:project	abstract:an undertaking requiring concerted effort .	link:https://en.wikipedia.org/wiki/project	image:	layer:1
+id:199	title:society	abstract:the totality of social relationships among humans .	link:https://en.wikipedia.org/wiki/society	image:	layer:2
+id:200	title:society	abstract:a group of humans broadly distinguished from other groups by mutual interests , participation in characteristic relationships , shared institutions , and a common culture .	link:https://en.wikipedia.org/wiki/society	image:	layer:2
+id:201	title:going	abstract:the condition underfoot as it affects one's headway in walking or riding .	link:https://en.wikipedia.org/wiki/going	image:	layer:1
+id:202	title:island	abstract:a land mass , especially one smaller than a continent , entirely surrounded by water .	link:https://en.wikipedia.org/wiki/island	image:	layer:2
+id:203	title:island	abstract:something resembling an island , especially in being isolated or surrounded ,  .	link:https://en.wikipedia.org/wiki/island	image:	layer:2
+id:204	title:father	abstract:a male person whose sperm unites with an egg , resulting in the conception of a child .	link:https://en.wikipedia.org/wiki/father	image:	layer:1
+id:205	title:father	abstract:a man who adopts a child .	link:https://en.wikipedia.org/wiki/father	image:	layer:1
+id:206	title:east	abstract:the cardinal point on the mariner's compass 90   clockwise from due north and directly opposite west .	link:https://en.wikipedia.org/wiki/east	image:	layer:2
+id:207	title:east	abstract:the direction of the earth's axial rotation .	link:https://en.wikipedia.org/wiki/east	image:	layer:2
+id:208	title:age	abstract:the length of time that one has existed ; duration of life .	link:https://en.wikipedia.org/wiki/age	image:	layer:2
+id:209	title:age	abstract:the time of life when a person becomes qualified to assume certain civil and personal rights and responsibilities , usually at 18 or 21 years ; legal age .	link:https://en.wikipedia.org/wiki/age	image:	layer:2
+id:210	title:source	abstract:the point at which something springs into being or from which it derives or is obtained .	link:https://en.wikipedia.org/wiki/source	image:	layer:2
+id:211	title:source	abstract:the point of origin , such as a spring , of a stream or river .	link:https://en.wikipedia.org/wiki/source	image:	layer:1
+id:212	title:much	abstract:a large quantity or amount .	link:https://en.wikipedia.org/wiki/much	image:	layer:1
+id:213	title:career	abstract:a chosen pursuit ; a profession or occupation .	link:https://en.wikipedia.org/wiki/career	image:	layer:1
+id:214	title:career	abstract:the general course or progression of one's working life or one's professional achievements .	link:https://en.wikipedia.org/wiki/career	image:	layer:1
+id:215	title:order	abstract:a condition of logical or comprehensible arrangement among the separate elements of a group .	link:https://en.wikipedia.org/wiki/order	image:	layer:1
+id:216	title:order	abstract:a condition of methodical or prescribed arrangement among component parts such that proper functioning or appearance is achieved .	link:https://en.wikipedia.org/wiki/order	image:	layer:1
+id:217	title:country	abstract:a nation or state .	link:https://en.wikipedia.org/wiki/country	image:	layer:1
+id:218	title:country	abstract:the territory of a nation or state ; land .	link:https://en.wikipedia.org/wiki/country	image:	layer:1
+id:219	title:championship	abstract:the position or title of a winner .	link:https://en.wikipedia.org/wiki/championship	image:	layer:1
+id:220	title:championship	abstract:defense or support ; advocacy .	link:https://en.wikipedia.org/wiki/championship	image:	layer:1
+id:221	title:making	abstract:the act of one that makes .	link:https://en.wikipedia.org/wiki/making	image:	layer:1
+id:222	title:making	abstract:the process of coming into being .	link:https://en.wikipedia.org/wiki/making	image:	layer:1
+id:223	title:u	abstract:the 21st letter of the modern english alphabet .	link:https://en.wikipedia.org/wiki/u	image:	layer:2
+id:224	title:u	abstract:any of the speech sounds represented by the letter u .	link:https://en.wikipedia.org/wiki/u	image:	layer:2
+id:225	title:hall	abstract:a corridor or passageway in a building .	link:https://en.wikipedia.org/wiki/hall	image:	layer:1
+id:226	title:hall	abstract:a large entrance room or vestibule in a building ; a lobby .	link:https://en.wikipedia.org/wiki/hall	image:	layer:1
+id:227	title:king	abstract:a male sovereign .	link:https://en.wikipedia.org/wiki/king	image:	layer:1
+id:228	title:king	abstract:one that is supreme or preeminent in a particular group , category , or sphere .	link:https://en.wikipedia.org/wiki/king	image:	layer:2
+id:229	title:children	abstract:plural of child .	link:https://en.wikipedia.org/wiki/children	image:	layer:2
+id:230	title:development	abstract:the state of being developed .	link:https://en.wikipedia.org/wiki/development	image:	layer:1
+id:231	title:position	abstract:a place or location .	link:https://en.wikipedia.org/wiki/position	image:	layer:2
+id:232	title:position	abstract:the right or appropriate place .	link:https://en.wikipedia.org/wiki/position	image:	layer:1
+id:233	title:office	abstract:a place in which business , clerical , or professional activities are conducted .	link:https://en.wikipedia.org/wiki/office	image:	layer:1
+id:234	title:law	abstract:a rule of conduct or procedure established by custom , agreement , or authority .	link:https://en.wikipedia.org/wiki/law	image:	layer:2
+id:235	title:law	abstract:the body of rules and principles governing the affairs of a community and enforced by a political authority ; a legal system .	link:https://en.wikipedia.org/wiki/law	image:	layer:2
+id:236	title:level	abstract:relative position or rank on a scale .	link:https://en.wikipedia.org/wiki/level	image:	layer:2
+id:237	title:level	abstract:a relative degree , as of achievement , intensity , or concentration .	link:https://en.wikipedia.org/wiki/level	image:	layer:2
+id:238	title:story	abstract:an account or recital of an event or a series of events , either true or fictitious ,  .	link:https://en.wikipedia.org/wiki/story	image:	layer:2
+id:239	title:story	abstract:an account or report regarding the facts of an event or group of events .	link:https://en.wikipedia.org/wiki/story	image:	layer:1
+id:240	title:election	abstract:the act or power of electing .	link:https://en.wikipedia.org/wiki/election	image:	layer:1
+id:241	title:election	abstract:the fact of being elected .	link:https://en.wikipedia.org/wiki/election	image:	layer:1
+id:242	title:board	abstract:a long flat slab of sawed lumber ; a plank .	link:https://en.wikipedia.org/wiki/board	image:	layer:1
+id:243	title:board	abstract:a flat piece of wood or similarly rigid material adapted for a special use .	link:https://en.wikipedia.org/wiki/board	image:	layer:2
+id:244	title:director	abstract:one that supervises , controls , or manages .	link:https://en.wikipedia.org/wiki/director	image:	layer:1
+id:245	title:director	abstract:a member of a group of persons chosen to control or govern the affairs of an institution or corporation .	link:https://en.wikipedia.org/wiki/director	image:	layer:2
+id:246	title:committee	abstract:a group of people officially delegated to perform a function , such as investigating , considering , reporting , or acting on a matter .	link:https://en.wikipedia.org/wiki/committee	image:	layer:2
+id:247	title:committee	abstract:archaic : a person to whom a trust or charge is committed .	link:https://en.wikipedia.org/wiki/committee	image:	layer:1
+id:248	title:street	abstract:a public way or thoroughfare in a city or town , usually with a sidewalk or sidewalks .	link:https://en.wikipedia.org/wiki/street	image:	layer:1
+id:249	title:street	abstract:such a public way considered apart from the sidewalks .	link:https://en.wikipedia.org/wiki/street	image:	layer:1
+id:250	title:thought	abstract:the act or process of thinking ; cogitation .	link:https://en.wikipedia.org/wiki/thought	image:	layer:2
+id:251	title:language	abstract:communication of thoughts and feelings through a system of arbitrary signals , such as voice sounds , gestures , or written symbols .	link:https://en.wikipedia.org/wiki/language	image:	layer:1
+id:252	title:language	abstract:such a system including its rules for combining its components , such as words .	link:https://en.wikipedia.org/wiki/language	image:	layer:2
+id:253	title:cup	abstract:a small open container , usually with a flat bottom and a handle , used for drinking .	link:https://en.wikipedia.org/wiki/cup	image:	layer:1
+id:254	title:cup	abstract:such a container and its contents .	link:https://en.wikipedia.org/wiki/cup	image:	layer:1
+id:255	title:battle	abstract:an encounter between opposing forces .	link:https://en.wikipedia.org/wiki/battle	image:	layer:2
+id:256	title:battle	abstract:armed fighting ; combat .	link:https://en.wikipedia.org/wiki/battle	image:	layer:2
+id:257	title:event	abstract:something that takes place ; an occurrence .	link:https://en.wikipedia.org/wiki/event	image:	layer:2
+id:258	title:event	abstract:a significant occurrence or happening .	link:https://en.wikipedia.org/wiki/event	image:	layer:1
+id:259	title:saw	abstract:any of various tools , either hand-operated or power-driven , having a thin metal blade or disk with a sharp , usually toothed edge , used for cutting wood , metal , or other hard materials .	link:https://en.wikipedia.org/wiki/saw	image:	layer:1
+id:260	title:field	abstract:a broad , level , open expanse of land .	link:https://en.wikipedia.org/wiki/field	image:	layer:1
+id:261	title:person	abstract:a living human .	link:https://en.wikipedia.org/wiki/person	image:	layer:1
+id:262	title:person	abstract:an individual of specified character .	link:https://en.wikipedia.org/wiki/person	image:	layer:2
+id:263	title:power	abstract:the ability or capacity to perform or act effectively .	link:https://en.wikipedia.org/wiki/power	image:	layer:2
+id:264	title:power	abstract:a specific capacity , faculty , or aptitude .	link:https://en.wikipedia.org/wiki/power	image:	layer:2
+id:265	title:centre	abstract:chiefly british : variant of center .	link:https://en.wikipedia.org/wiki/centre	image:	layer:2
+id:266	title:research	abstract:scholarly or scientific investigation or inquiry .	link:https://en.wikipedia.org/wiki/research	image:	layer:1
+id:267	title:research	abstract:close , careful study .	link:https://en.wikipedia.org/wiki/research	image:	layer:2
+id:268	title:museum	abstract:a building , place , or institution devoted to the acquisition , conservation , study , exhibition , and educational interpretation of objects having scientific , historical , or artistic value .	link:https://en.wikipedia.org/wiki/museum	image:	layer:1
+id:269	title:festival	abstract:an occasion for feasting or celebration , especially a day or time of religious significance that recurs at regular intervals .	link:https://en.wikipedia.org/wiki/festival	image:	layer:1
+id:270	title:festival	abstract:an often regularly recurring program of cultural performances , exhibitions , or competitions .	link:https://en.wikipedia.org/wiki/festival	image:	layer:1
+id:271	title:process	abstract:a series of actions , changes , or functions bringing about a result .	link:https://en.wikipedia.org/wiki/process	image:	layer:1
+id:272	title:process	abstract:a series of operations performed in the making or treatment of a product .	link:https://en.wikipedia.org/wiki/process	image:	layer:1
+id:273	title:head	abstract:the uppermost or forwardmost part of the body of a vertebrate , containing the brain and the eyes , ears , nose , mouth , and jaws .	link:https://en.wikipedia.org/wiki/head	image:	layer:2
+id:274	title:head	abstract:the analogous part of an invertebrate organism .	link:https://en.wikipedia.org/wiki/head	image:	layer:1
+id:275	title:character	abstract:the combination of qualities or features that distinguishes one person , group , or thing from another .	link:https://en.wikipedia.org/wiki/character	image:	layer:1
+id:276	title:character	abstract:a distinguishing feature or attribute , as of an individual , group , or category .	link:https://en.wikipedia.org/wiki/character	image:	layer:2
+id:277	title:women	abstract:plural of woman .	link:https://en.wikipedia.org/wiki/women	image:	layer:1
+id:278	title:union	abstract:the act of uniting or the state of being united .	link:https://en.wikipedia.org/wiki/union	image:	layer:2
+id:279	title:union	abstract:a combination so formed , especially an alliance or confederation of people , parties , or political entities for mutual interest or benefit .	link:https://en.wikipedia.org/wiki/union	image:	layer:2
+id:280	title:range	abstract:extent of perception , knowledge , experience , or ability .	link:https://en.wikipedia.org/wiki/range	image:	layer:1
+id:281	title:range	abstract:the area or sphere in which an activity takes place .	link:https://en.wikipedia.org/wiki/range	image:	layer:2
+id:282	title:report	abstract:an account presented usually in detail .	link:https://en.wikipedia.org/wiki/report	image:	layer:2
+id:283	title:report	abstract:a formal account of the proceedings or transactions of a group .	link:https://en.wikipedia.org/wiki/report	image:	layer:2
+id:284	title:organization	abstract:the act or process of organizing .	link:https://en.wikipedia.org/wiki/organization	image:	layer:1
+id:285	title:organization	abstract:the state or manner of being organized .	link:https://en.wikipedia.org/wiki/organization	image:	layer:2
+id:286	title:issue	abstract:the act or an instance of flowing , passing , or giving out .	link:https://en.wikipedia.org/wiki/issue	image:	layer:1
+id:287	title:issue	abstract:the act of circulating , distributing , or publishing by an office or official group .	link:https://en.wikipedia.org/wiki/issue	image:	layer:2
+id:288	title:four	abstract:the cardinal number equal to 3 + 1 .	link:https://en.wikipedia.org/wiki/four	image:	layer:1
+id:289	title:four	abstract:the fourth in a set or sequence .	link:https://en.wikipedia.org/wiki/four	image:	layer:1
+id:290	title:minister	abstract:one who is authorized to perform religious functions in a christian church , especially a protestant church .	link:https://en.wikipedia.org/wiki/minister	image:	layer:1
+id:291	title:minister	abstract:roman catholic church : the superior in certain orders .	link:https://en.wikipedia.org/wiki/minister	image:	layer:2
+id:292	title:province	abstract:a territory governed as an administrative or political unit of a country or empire .	link:https://en.wikipedia.org/wiki/province	image:	layer:2
+id:293	title:province	abstract:a division of territory under the jurisdiction of an archbishop .	link:https://en.wikipedia.org/wiki/province	image:	layer:1
+id:294	title:editor	abstract:one who edits , especially as an occupation .	link:https://en.wikipedia.org/wiki/editor	image:	layer:1
+id:295	title:editor	abstract:one who writes editorials .	link:https://en.wikipedia.org/wiki/editor	image:	layer:1
+id:296	title:football	abstract:sports : a game played by two teams of 11 players each on a rectangular , 100-yard-long field with goal lines and goal posts at either end , the object being to gain possession of the ball and advance it in running or passing plays across the opponent's goal line or kick it through the air between the opponent's goal posts .	link:https://en.wikipedia.org/wiki/football	image:	layer:2
+id:297	title:football	abstract:sports : the inflated oval ball used in this game .	link:https://en.wikipedia.org/wiki/football	image:	layer:2
+id:298	title:route	abstract:a road , course , or way for travel from one place to another .	link:https://en.wikipedia.org/wiki/route	image:	layer:1
+id:299	title:style	abstract:the way in which something is said , done , expressed , or performed .	link:https://en.wikipedia.org/wiki/style	image:	layer:1
+id:300	title:style	abstract:the combination of distinctive features of literary or artistic expression , execution , or performance characterizing a particular person , group , school , or era .	link:https://en.wikipedia.org/wiki/style	image:	layer:2
+id:301	title:body	abstract:the entire material or physical structure of an organism , especially of a human or animal .	link:https://en.wikipedia.org/wiki/body	image:	layer:2
+id:302	title:body	abstract:the physical part of a person .	link:https://en.wikipedia.org/wiki/body	image:	layer:2
+id:303	title:land	abstract:the solid ground of the earth .	link:https://en.wikipedia.org/wiki/land	image:	layer:2
+id:304	title:land	abstract:ground or soil .	link:https://en.wikipedia.org/wiki/land	image:	layer:1
+id:305	title:term	abstract:a limited period of time .	link:https://en.wikipedia.org/wiki/term	image:	layer:2
+id:306	title:term	abstract:a period of time that is assigned to a person to serve .	link:https://en.wikipedia.org/wiki/term	image:	layer:1
+id:307	title:match	abstract:one that is exactly like another ; a counterpart .	link:https://en.wikipedia.org/wiki/match	image:	layer:1
+id:308	title:match	abstract:one that is like another in one or more specified qualities .	link:https://en.wikipedia.org/wiki/match	image:	layer:1
+id:309	title:john	abstract:slang : a toilet .	link:https://en.wikipedia.org/wiki/john	image:	layer:2
+id:310	title:john	abstract:slang : a man who is a prostitute's customer .	link:https://en.wikipedia.org/wiki/john	image:	layer:2
+id:311	title:wife	abstract:a woman joined to a man in marriage ; a female spouse .	link:https://en.wikipedia.org/wiki/wife	image:	layer:2
+id:312	title:network	abstract:an openwork fabric or structure in which cords , threads , or wires cross at regular intervals .	link:https://en.wikipedia.org/wiki/network	image:	layer:2
+id:313	title:network	abstract:something resembling an openwork fabric or structure in form or concept , especially:	link:https://en.wikipedia.org/wiki/network	image:	layer:2
+id:314	title:movement	abstract:the act or an instance of moving ; a change in place or position .	link:https://en.wikipedia.org/wiki/movement	image:	layer:2
+id:315	title:movement	abstract:a particular manner of moving .	link:https://en.wikipedia.org/wiki/movement	image:	layer:2
+id:316	title:production	abstract:the act or process of producing .	link:https://en.wikipedia.org/wiki/production	image:	layer:2
+id:317	title:production	abstract:the fact or process of being produced .	link:https://en.wikipedia.org/wiki/production	image:	layer:2
+id:318	title:education	abstract:the act or process of educating or being educated .	link:https://en.wikipedia.org/wiki/education	image:	layer:2
+id:319	title:education	abstract:the knowledge or skill obtained or developed by a learning process .	link:https://en.wikipedia.org/wiki/education	image:	layer:2
+id:320	title:kingdom	abstract:a political or territorial unit ruled by a sovereign .	link:https://en.wikipedia.org/wiki/kingdom	image:	layer:2
+id:321	title:kingdom	abstract:the eternal spiritual sovereignty of god or christ .	link:https://en.wikipedia.org/wiki/kingdom	image:	layer:1
+id:322	title:tour	abstract:a trip with visits to various places of interest for business , pleasure , or instruction .	link:https://en.wikipedia.org/wiki/tour	image:	layer:2
+id:323	title:image	abstract:a reproduction of the form of a person or object , especially a sculptured likeness .	link:https://en.wikipedia.org/wiki/image	image:	layer:2
+id:324	title:image	abstract:physics : an optically formed duplicate , counterpart , or other representative reproduction of an object , especially an optical reproduction formed by a lens or mirror .	link:https://en.wikipedia.org/wiki/image	image:	layer:1
+id:325	title:top	abstract:the uppermost part , point , surface , or end .	link:https://en.wikipedia.org/wiki/top	image:	layer:2
+id:326	title:top	abstract:the part farthest from a given reference point .	link:https://en.wikipedia.org/wiki/top	image:	layer:2
+id:327	title:user	abstract:one that uses .	link:https://en.wikipedia.org/wiki/user	image:	layer:2
+id:328	title:user	abstract:law : the exercise or enjoyment of a right or property .	link:https://en.wikipedia.org/wiki/user	image:	layer:2
+id:329	title:class	abstract:a set , collection , group , or configuration containing members regarded as having certain attributes or traits in common ; a kind or category .	link:https://en.wikipedia.org/wiki/class	image:	layer:2
+id:330	title:class	abstract:a division based on quality , rank , or grade ,  .	link:https://en.wikipedia.org/wiki/class	image:	layer:2
+id:331	title:episode	abstract:an incident or event that is part of a progression or a larger sequence .	link:https://en.wikipedia.org/wiki/episode	image:	layer:1
+id:332	title:episode	abstract:one of a series of related events in the course of a continuous account .	link:https://en.wikipedia.org/wiki/episode	image:	layer:2
+id:333	title:type	abstract:a number of people or things having in common traits or characteristics that distinguish them as a group or class .	link:https://en.wikipedia.org/wiki/type	image:	layer:2
+id:334	title:type	abstract:the general character or structure held in common by a number of people or things considered as a group or class .	link:https://en.wikipedia.org/wiki/type	image:	layer:2
+id:335	title:study	abstract:the act or process of studying .	link:https://en.wikipedia.org/wiki/study	image:	layer:1
+id:336	title:study	abstract:the pursuit of knowledge , as by reading , observation , or research .	link:https://en.wikipedia.org/wiki/study	image:	layer:1
+id:337	title:example	abstract:one that is representative of a group as a whole .	link:https://en.wikipedia.org/wiki/example	image:	layer:1
+id:338	title:example	abstract:one serving as a pattern of a specific kind .	link:https://en.wikipedia.org/wiki/example	image:	layer:1
+id:339	title:reason	abstract:the basis or motive for an action , decision , or conviction .	link:https://en.wikipedia.org/wiki/reason	image:	layer:2
+id:340	title:reason	abstract:a declaration made to explain or justify action , decision , or conviction .	link:https://en.wikipedia.org/wiki/reason	image:	layer:2
+id:341	title:republic	abstract:a political order whose head of state is not a monarch and in modern times is usually a president .	link:https://en.wikipedia.org/wiki/republic	image:	layer:2
+id:342	title:love	abstract:a deep , tender , ineffable feeling of affection and solicitude toward a person , such as that arising from kinship , recognition of attractive qualities , or a sense of underlying oneness .	link:https://en.wikipedia.org/wiki/love	image:	layer:1
+id:343	title:love	abstract:a feeling of intense desire and attraction toward a person with whom one is disposed to make a pair ; the emotion of sex and romance .	link:https://en.wikipedia.org/wiki/love	image:	layer:1
+id:344	title:race	abstract:a local geographic or global human population distinguished as a more or less distinct group by genetically transmitted physical characteristics .	link:https://en.wikipedia.org/wiki/race	image:	layer:2
+id:345	title:race	abstract:a group of people united or classified together on the basis of common history , nationality , or geographic distribution .	link:https://en.wikipedia.org/wiki/race	image:	layer:1
+id:346	title:model	abstract:a small object , usually built to scale , that represents in detail another , often larger object .	link:https://en.wikipedia.org/wiki/model	image:	layer:1
+id:347	title:model	abstract:a preliminary work or construction that serves as a plan from which a final product is to be made .	link:https://en.wikipedia.org/wiki/model	image:	layer:1
+id:348	title:water	abstract:a clear , colorless , odorless , and tasteless liquid , h2o , essential for most plant and animal life and the most widely used of all solvents .	link:https://en.wikipedia.org/wiki/water	image:	layer:1
+id:349	title:water	abstract:any of various forms of water .	link:https://en.wikipedia.org/wiki/water	image:	layer:1
+id:350	title:base	abstract:the lowest or bottom part .	link:https://en.wikipedia.org/wiki/base	image:	layer:1
+id:351	title:base	abstract:biology : the part of a plant or animal organ that is nearest to its point of attachment .	link:https://en.wikipedia.org/wiki/base	image:	layer:2
+id:352	title:academy	abstract:a school for special instruction .	link:https://en.wikipedia.org/wiki/academy	image:	layer:2
+id:353	title:academy	abstract:a secondary or college-preparatory school , especially a private one .	link:https://en.wikipedia.org/wiki/academy	image:	layer:2
+id:354	title:policy	abstract:a plan or course of action , as of a government , political party , or business , intended to influence and determine decisions , actions , and other matters .	link:https://en.wikipedia.org/wiki/policy	image:	layer:2
+id:355	title:policy	abstract:a course of action , guiding principle , or procedure considered expedient , prudent , or advantageous .	link:https://en.wikipedia.org/wiki/policy	image:	layer:1
+id:356	title:shot	abstract:the firing or discharge of a weapon , such as a gun .	link:https://en.wikipedia.org/wiki/shot	image:	layer:1
+id:357	title:shot	abstract:the distance over which something is shot ; the range .	link:https://en.wikipedia.org/wiki/shot	image:	layer:2
+id:358	title:mother	abstract:a female person who is pregnant with or gives birth to a child .	link:https://en.wikipedia.org/wiki/mother	image:	layer:1
+id:359	title:mother	abstract:a female person whose egg unites with a sperm , resulting in the conception of a child .	link:https://en.wikipedia.org/wiki/mother	image:	layer:1
+id:360	title:air	abstract:a colorless , odorless , tasteless , gaseous mixture , mainly nitrogen (approximately 78 percent) and oxygen (approximately 21 percent) with lesser amounts of argon , carbon dioxide , hydrogen , neon , helium , and other gases .	link:https://en.wikipedia.org/wiki/air	image:	layer:1
+id:361	title:air	abstract:this mixture with varying amounts of moisture and particulate matter , enveloping the earth ; the atmosphere .	link:https://en.wikipedia.org/wiki/air	image:	layer:1
+id:362	title:business	abstract:the occupation , work , or trade in which a person is engaged .	link:https://en.wikipedia.org/wiki/business	image:	layer:1
+id:363	title:business	abstract:a specific occupation or pursuit .	link:https://en.wikipedia.org/wiki/business	image:	layer:1
+id:364	title:fact	abstract:knowledge or information based on real occurrences .	link:https://en.wikipedia.org/wiki/fact	image:	layer:1
+id:365	title:fact	abstract:something demonstrated to exist or known to have existed .	link:https://en.wikipedia.org/wiki/fact	image:	layer:2
+id:366	title:daughter	abstract:one's female child .	link:https://en.wikipedia.org/wiki/daughter	image:	layer:1
+id:367	title:daughter	abstract:a female descendant .	link:https://en.wikipedia.org/wiki/daughter	image:	layer:2
+id:368	title:link	abstract:one of the rings or loops forming a chain .	link:https://en.wikipedia.org/wiki/link	image:	layer:1
+id:369	title:link	abstract:a unit in a connected series of units .	link:https://en.wikipedia.org/wiki/link	image:	layer:2
+id:370	title:problem	abstract:a question to be considered , solved , or answered .	link:https://en.wikipedia.org/wiki/problem	image:	layer:2
+id:371	title:problem	abstract:a situation , matter , or person that presents perplexity or difficulty .	link:https://en.wikipedia.org/wiki/problem	image:	layer:1
+id:372	title:discussion	abstract:consideration of a subject by a group ; an earnest conversation .	link:https://en.wikipedia.org/wiki/discussion	image:	layer:1
+id:373	title:discussion	abstract:a formal discourse on a topic ; an exposition .	link:https://en.wikipedia.org/wiki/discussion	image:	layer:2
+id:374	title:officer	abstract:one who holds an office of authority or trust in an organization , such as a corporation or government .	link:https://en.wikipedia.org/wiki/officer	image:	layer:2
+id:375	title:officer	abstract:one who holds a commission in the armed forces .	link:https://en.wikipedia.org/wiki/officer	image:	layer:2
+id:376	title:former	abstract:one that forms ; a maker or creator .	link:https://en.wikipedia.org/wiki/former	image:	layer:1
+id:377	title:former	abstract:a member of a school form .	link:https://en.wikipedia.org/wiki/former	image:	layer:1
+id:378	title:collection	abstract:the act or process of collecting .	link:https://en.wikipedia.org/wiki/collection	image:	layer:2
+id:379	title:collection	abstract:a group of objects or works to be seen , studied , or kept together .	link:https://en.wikipedia.org/wiki/collection	image:	layer:1
+id:380	title:content	abstract:something contained , as in a receptacle .	link:https://en.wikipedia.org/wiki/content	image:	layer:2
+id:381	title:content	abstract:the individual items or topics that are dealt with in a publication or document .	link:https://en.wikipedia.org/wiki/content	image:	layer:1
+id:382	title:track	abstract:a mark or succession of marks left by something that has passed .	link:https://en.wikipedia.org/wiki/track	image:	layer:1
+id:383	title:track	abstract:a path , route , or course indicated by such marks .	link:https://en.wikipedia.org/wiki/track	image:	layer:2
+id:384	title:bridge	abstract:a structure spanning and providing passage over a gap or barrier , such as a river or roadway .	link:https://en.wikipedia.org/wiki/bridge	image:	layer:1
+id:385	title:bridge	abstract:something resembling or analogous to this structure in form or function .	link:https://en.wikipedia.org/wiki/bridge	image:	layer:1
+id:386	title:competition	abstract:the act of competing , as for profit or a prize ; rivalry .	link:https://en.wikipedia.org/wiki/competition	image:	layer:2
+id:387	title:competition	abstract:a test of skill or ability ; a contest .	link:https://en.wikipedia.org/wiki/competition	image:	layer:1
+id:388	title:ship	abstract:a vessel of considerable size for deep-water navigation .	link:https://en.wikipedia.org/wiki/ship	image:	layer:2
+id:389	title:ship	abstract:a sailing vessel having three or more square-rigged masts .	link:https://en.wikipedia.org/wiki/ship	image:	layer:2
+id:390	title:beginning	abstract:the act or process of bringing or being brought into being ; a start .	link:https://en.wikipedia.org/wiki/beginning	image:	layer:1
+id:391	title:beginning	abstract:the time when something begins or is begun .	link:https://en.wikipedia.org/wiki/beginning	image:	layer:2
+id:392	title:post	abstract:a long piece of wood or other material set upright into the ground to serve as a marker or support .	link:https://en.wikipedia.org/wiki/post	image:	layer:1
+id:393	title:post	abstract:a similar vertical support or structure ,  .	link:https://en.wikipedia.org/wiki/post	image:	layer:1
+id:394	title:brother	abstract:a male having the same parents as another or one parent in common with another .	link:https://en.wikipedia.org/wiki/brother	image:	layer:1
+id:395	title:brother	abstract:one who shares a common ancestry , allegiance , character , or purpose with another or others , especially:	link:https://en.wikipedia.org/wiki/brother	image:	layer:2
+id:396	title:evidence	abstract:a thing or things helpful in forming a conclusion or judgment .	link:https://en.wikipedia.org/wiki/evidence	image:	layer:1
+id:397	title:evidence	abstract:something indicative ; an outward sign .	link:https://en.wikipedia.org/wiki/evidence	image:	layer:1
+id:398	title:course	abstract:onward movement in a particular direction ; progress .	link:https://en.wikipedia.org/wiki/course	image:	layer:2
+id:399	title:course	abstract:movement in time ; duration .	link:https://en.wikipedia.org/wiki/course	image:	layer:2
+id:400	title:campaign	abstract:a series of military operations undertaken to achieve a large-scale objective during a war .	link:https://en.wikipedia.org/wiki/campaign	image:	layer:1
+id:401	title:campaign	abstract:an operation or series of operations energetically pursued to accomplish a purpose .	link:https://en.wikipedia.org/wiki/campaign	image:	layer:1
+id:402	title:leader	abstract:one that leads or guides .	link:https://en.wikipedia.org/wiki/leader	image:	layer:1
+id:403	title:leader	abstract:one who is in charge or in command of others .	link:https://en.wikipedia.org/wiki/leader	image:	layer:1
+id:404	title:material	abstract:the substance or substances out of which a thing is or can be made .	link:https://en.wikipedia.org/wiki/material	image:	layer:1
+id:405	title:material	abstract:something , such as an idea or information , that is to be refined and made or incorporated into a finished effort .	link:https://en.wikipedia.org/wiki/material	image:	layer:1
+id:406	title:bank	abstract:a piled-up mass , as of snow or clouds .	link:https://en.wikipedia.org/wiki/bank	image:	layer:2
+id:407	title:bank	abstract:a steep natural incline .	link:https://en.wikipedia.org/wiki/bank	image:	layer:2
+id:408	title:railway	abstract:a railroad , especially one operated over a limited area .	link:https://en.wikipedia.org/wiki/railway	image:	layer:1
+id:409	title:railway	abstract:a track providing a runway for wheeled equipment .	link:https://en.wikipedia.org/wiki/railway	image:	layer:1
+id:410	title:aircraft	abstract:a machine or device , such as an airplane , helicopter , glider , or dirigible , that is capable of atmospheric flight .	link:https://en.wikipedia.org/wiki/aircraft	image:	layer:2
+id:411	title:cause	abstract:the producer of an effect , result , or consequence .	link:https://en.wikipedia.org/wiki/cause	image:	layer:1
+id:412	title:cause	abstract:the one , such as a person , event , or condition , that is responsible for an action or result .	link:https://en.wikipedia.org/wiki/cause	image:	layer:1
+id:413	title:magazine	abstract:a periodical containing a collection of articles , stories , pictures , or other features .	link:https://en.wikipedia.org/wiki/magazine	image:	layer:2
+id:414	title:magazine	abstract:a television program that presents a variety of topics , usually on current events , in a format that often includes interviews and commentary .	link:https://en.wikipedia.org/wiki/magazine	image:	layer:2
+id:415	title:unit	abstract:an individual , group , structure , or other entity regarded as an elementary structural or functional constituent of a whole .	link:https://en.wikipedia.org/wiki/unit	image:	layer:2
+id:416	title:unit	abstract:a group regarded as a distinct entity within a larger group .	link:https://en.wikipedia.org/wiki/unit	image:	layer:2
+id:417	title:degree	abstract:one of a series of steps in a process , course , or progression ; a stage .	link:https://en.wikipedia.org/wiki/degree	image:	layer:1
+id:418	title:degree	abstract:a step in a direct hereditary line of descent or ascent .	link:https://en.wikipedia.org/wiki/degree	image:	layer:1
+id:419	title:structure	abstract:something made up of a number of parts that are held or put together in a particular way .	link:https://en.wikipedia.org/wiki/structure	image:	layer:1
+id:420	title:structure	abstract:the way in which parts are arranged or put together to form a whole ; makeup .	link:https://en.wikipedia.org/wiki/structure	image:	layer:2
+id:421	title:space	abstract:mathematics : a set of elements or points satisfying specified geometric postulates .	link:https://en.wikipedia.org/wiki/space	image:	layer:2
+id:422	title:space	abstract:the infinite extension of the three-dimensional region in which all matter exists .	link:https://en.wikipedia.org/wiki/space	image:	layer:2
+id:423	title:conference	abstract:a meeting for consultation or discussion .	link:https://en.wikipedia.org/wiki/conference	image:	layer:1
+id:424	title:conference	abstract:an exchange of views .	link:https://en.wikipedia.org/wiki/conference	image:	layer:2
+id:425	title:third	abstract:the ordinal number matching the number three in a series .	link:https://en.wikipedia.org/wiki/third	image:	layer:2
+id:426	title:third	abstract:one of three equal parts .	link:https://en.wikipedia.org/wiki/third	image:	layer:1
+id:427	title:coach	abstract:a railroad passenger car .	link:https://en.wikipedia.org/wiki/coach	image:	layer:1
+id:428	title:view	abstract:an examination or inspection .	link:https://en.wikipedia.org/wiki/view	image:	layer:2
+id:429	title:view	abstract:a sight ; a look .	link:https://en.wikipedia.org/wiki/view	image:	layer:2
+id:430	title:b	abstract:the second letter of the modern english alphabet .	link:https://en.wikipedia.org/wiki/b	image:	layer:2
+id:431	title:b	abstract:any of the speech sounds represented by the letter b .	link:https://en.wikipedia.org/wiki/b	image:	layer:2
+id:432	title:library	abstract:a place in which literary and artistic materials , such as books , periodicals , newspapers , pamphlets , prints , records , and tapes , are kept for reading , reference , or lending .	link:https://en.wikipedia.org/wiki/library	image:	layer:2
+id:433	title:library	abstract:a collection of such materials , especially when systematically arranged .	link:https://en.wikipedia.org/wiki/library	image:	layer:2
+id:434	title:training	abstract:the process or routine of one who trains .	link:https://en.wikipedia.org/wiki/training	image:	layer:1
+id:435	title:training	abstract:the state of being trained .	link:https://en.wikipedia.org/wiki/training	image:	layer:2
+id:436	title:interest	abstract:a state of curiosity or concern about or attention to something .	link:https://en.wikipedia.org/wiki/interest	image:	layer:1
+id:437	title:interest	abstract:something , such as a quality , subject , or activity , that evokes this mental state .	link:https://en.wikipedia.org/wiki/interest	image:	layer:1
+id:438	title:writing	abstract:written form .	link:https://en.wikipedia.org/wiki/writing	image:	layer:1
+id:439	title:performance	abstract:the act of performing or the state of being performed .	link:https://en.wikipedia.org/wiki/performance	image:	layer:2
+id:440	title:performance	abstract:the act or style of performing a work or role before an audience .	link:https://en.wikipedia.org/wiki/performance	image:	layer:2
+id:441	title:novel	abstract:a fictional prose narrative of considerable length , typically having a plot that is unfolded by the actions , speech , and thoughts of the characters .	link:https://en.wikipedia.org/wiki/novel	image:	layer:2
+id:442	title:novel	abstract:the literary genre represented by novels .	link:https://en.wikipedia.org/wiki/novel	image:	layer:1
+id:443	title:construction	abstract:the act or process of constructing .	link:https://en.wikipedia.org/wiki/construction	image:	layer:2
+id:444	title:construction	abstract:the art , trade , or work of building .	link:https://en.wikipedia.org/wiki/construction	image:	layer:1
+id:445	title:coast	abstract:land next to the sea ; the seashore .	link:https://en.wikipedia.org/wiki/coast	image:	layer:2
+id:446	title:coast	abstract:the pacific coast of the united states .	link:https://en.wikipedia.org/wiki/coast	image:	layer:1
+id:447	title:half	abstract:one of two equal parts that together constitute a whole .	link:https://en.wikipedia.org/wiki/half	image:	layer:1
+id:448	title:half	abstract:one part approximately equal to the remaining part .	link:https://en.wikipedia.org/wiki/half	image:	layer:1
+id:449	title:e	abstract:the fifth letter of the modern english alphabet .	link:https://en.wikipedia.org/wiki/e	image:	layer:2
+id:450	title:e	abstract:any of the speech sounds represented by the letter e .	link:https://en.wikipedia.org/wiki/e	image:	layer:2
+id:451	title:industry	abstract:commercial production and sale of goods .	link:https://en.wikipedia.org/wiki/industry	image:	layer:1
+id:452	title:industry	abstract:a specific branch of manufacture and trade .	link:https://en.wikipedia.org/wiki/industry	image:	layer:1
+id:453	title:professor	abstract:a college or university teacher who ranks above an associate professor .	link:https://en.wikipedia.org/wiki/professor	image:	layer:1
+id:454	title:professor	abstract:a teacher or instructor .	link:https://en.wikipedia.org/wiki/professor	image:	layer:1
+id:455	title:appearance	abstract:the act or an instance of coming into sight .	link:https://en.wikipedia.org/wiki/appearance	image:	layer:2
+id:456	title:appearance	abstract:the act or an instance of coming into public view .	link:https://en.wikipedia.org/wiki/appearance	image:	layer:2
+id:457	title:science	abstract:the observation , identification , description , experimental investigation , and theoretical explanation of phenomena .	link:https://en.wikipedia.org/wiki/science	image:	layer:1
+id:458	title:science	abstract:such activities restricted to a class of natural phenomena .	link:https://en.wikipedia.org/wiki/science	image:	layer:1
+id:459	title:lake	abstract:a large inland body of fresh water or salt water .	link:https://en.wikipedia.org/wiki/lake	image:	layer:1
+id:460	title:lake	abstract:a scenic pond , as in a park .	link:https://en.wikipedia.org/wiki/lake	image:	layer:1
+id:461	title:foundation	abstract:the act of founding , especially the establishment of an institution with provisions for future maintenance .	link:https://en.wikipedia.org/wiki/foundation	image:	layer:1
+id:462	title:foundation	abstract:the basis on which a thing stands , is founded , or is supported .	link:https://en.wikipedia.org/wiki/foundation	image:	layer:1
+id:463	title:author	abstract:the writer of a book , article , or other text .	link:https://en.wikipedia.org/wiki/author	image:	layer:2
+id:464	title:author	abstract:one who practices writing as a profession .	link:https://en.wikipedia.org/wiki/author	image:	layer:1
+id:465	title:edition	abstract:the entire number of copies of a publication issued at one time or from a single set of type .	link:https://en.wikipedia.org/wiki/edition	image:	layer:1
+id:466	title:edition	abstract:a single copy from this group .	link:https://en.wikipedia.org/wiki/edition	image:	layer:1
+id:467	title:amount	abstract:the total of two or more quantities ; the aggregate .	link:https://en.wikipedia.org/wiki/amount	image:	layer:1
+id:468	title:census	abstract:an official , usually periodic enumeration of a population , often including the collection of related demographic information .	link:https://en.wikipedia.org/wiki/census	image:	layer:2
+id:469	title:census	abstract:in ancient rome , a count of the citizens and an evaluation of their property for taxation purposes .	link:https://en.wikipedia.org/wiki/census	image:	layer:1
+id:470	title:block	abstract:a solid piece of a hard substance , such as wood , having one or more flat sides .	link:https://en.wikipedia.org/wiki/block	image:	layer:1
+id:471	title:block	abstract:such a piece used as a construction member or as a support .	link:https://en.wikipedia.org/wiki/block	image:	layer:2
+id:472	title:lot	abstract:informal : a large extent , amount , or number .	link:https://en.wikipedia.org/wiki/lot	image:	layer:1
+id:473	title:lot	abstract:informal : used adverbially with a or in the plural to mean "to a great degree or extent    or "frequently    .	link:https://en.wikipedia.org/wiki/lot	image:	layer:1
+id:474	title:hospital	abstract:an institution that provides medical , surgical , or psychiatric care and treatment for the sick or the injured .	link:https://en.wikipedia.org/wiki/hospital	image:	layer:2
+id:475	title:hospital	abstract:chiefly british : a charitable institution , such as an orphanage or a home for the elderly .	link:https://en.wikipedia.org/wiki/hospital	image:	layer:1
+id:476	title:woman	abstract:an adult female human .	link:https://en.wikipedia.org/wiki/woman	image:	layer:2
+id:477	title:woman	abstract:women considered as a group ; womankind .	link:https://en.wikipedia.org/wiki/woman	image:	layer:1
+id:478	title:plan	abstract:a scheme , program , or method worked out beforehand for the accomplishment of an objective .	link:https://en.wikipedia.org/wiki/plan	image:	layer:2
+id:479	title:plan	abstract:a proposed or tentative project or course of action .	link:https://en.wikipedia.org/wiki/plan	image:	layer:1
+id:480	title:idea	abstract:something , such as a thought or conception , that potentially or actually exists in the mind as a product of mental activity .	link:https://en.wikipedia.org/wiki/idea	image:	layer:1
+id:481	title:idea	abstract:an opinion , conviction , or principle .	link:https://en.wikipedia.org/wiki/idea	image:	layer:1
+id:482	title:c	abstract:the third letter of the modern english alphabet .	link:https://en.wikipedia.org/wiki/c	image:	layer:2
+id:483	title:c	abstract:any of the speech sounds represented by the letter c .	link:https://en.wikipedia.org/wiki/c	image:	layer:2
+id:484	title:commission	abstract:the act of granting certain powers or the authority to carry out a particular task or duty .	link:https://en.wikipedia.org/wiki/commission	image:	layer:2
+id:485	title:commission	abstract:the authority so granted .	link:https://en.wikipedia.org/wiki/commission	image:	layer:1
+id:486	title:success	abstract:the achievement of something desired , planned , or attempted .	link:https://en.wikipedia.org/wiki/success	image:	layer:2
+id:487	title:success	abstract:the gaining of fame or prosperity .	link:https://en.wikipedia.org/wiki/success	image:	layer:2
+id:488	title:present	abstract:a moment or period in time perceptible as intermediate between past and future ; now .	link:https://en.wikipedia.org/wiki/present	image:	layer:2
+id:489	title:present	abstract:grammar : the present tense .	link:https://en.wikipedia.org/wiki/present	image:	layer:1
+id:490	title:theatre	abstract:variant of theater .	link:https://en.wikipedia.org/wiki/theatre	image:	layer:2
+id:491	title:medal	abstract:a flat piece of metal stamped with a design or an inscription commemorating an event or a person , often given as an award .	link:https://en.wikipedia.org/wiki/medal	image:	layer:1
+id:492	title:medal	abstract:a piece of metal stamped with a religious device , used as an object of veneration or commemoration .	link:https://en.wikipedia.org/wiki/medal	image:	layer:2
+id:493	title:valley	abstract:an elongated lowland between ranges of mountains , hills , or other uplands , often having a river or stream running along the bottom .	link:https://en.wikipedia.org/wiki/valley	image:	layer:2
+id:494	title:valley	abstract:an extensive area of land drained or irrigated by a river system .	link:https://en.wikipedia.org/wiki/valley	image:	layer:2
+id:495	title:television	abstract:the transmission of dynamic or sometimes static images , generally with accompanying sound , via electric or electromagnetic signals .	link:https://en.wikipedia.org/wiki/television	image:	layer:2
+id:496	title:television	abstract:an electronic apparatus that receives such signals , reproducing the images on a screen , and typically reproducing accompanying sound signals on speakers .	link:https://en.wikipedia.org/wiki/television	image:	layer:2
+id:497	title:variety	abstract:the quality or condition of being various or varied ; diversity .	link:https://en.wikipedia.org/wiki/variety	image:	layer:2
+id:498	title:variety	abstract:a number or collection of varied things , especially of a particular group ; an assortment .	link:https://en.wikipedia.org/wiki/variety	image:	layer:2
+id:499	title:stage	abstract:a raised and level floor or platform .	link:https://en.wikipedia.org/wiki/stage	image:	layer:1
+id:500	title:stage	abstract:a raised platform on which theatrical performances are presented .	link:https://en.wikipedia.org/wiki/stage	image:	layer:1
+id:501	title:location	abstract:the act or process of locating .	link:https://en.wikipedia.org/wiki/location	image:	layer:2
+id:502	title:location	abstract:a place where something is or could be located ; a site .	link:https://en.wikipedia.org/wiki/location	image:	layer:2
+id:503	title:running	abstract:the act or an instance of running .	link:https://en.wikipedia.org/wiki/running	image:	layer:2
+id:504	title:running	abstract:the power or ability to run .	link:https://en.wikipedia.org/wiki/running	image:	layer:1
+id:505	title:doing	abstract:activities that go on every day .	link:https://en.wikipedia.org/wiki/doing	image:	layer:1
+id:506	title:addition	abstract:the act or process of adding , especially the process of computing with sets of numbers so as to find their sum .	link:https://en.wikipedia.org/wiki/addition	image:	layer:1
+id:507	title:addition	abstract:something added , such as a room or section appended to a building .	link:https://en.wikipedia.org/wiki/addition	image:	layer:1
+id:508	title:fire	abstract:a rapid , persistent chemical change that releases heat and light and is accompanied by flame , especially the exothermic oxidation of a combustible substance .	link:https://en.wikipedia.org/wiki/fire	image:	layer:1
+id:509	title:fire	abstract:burning fuel or other material .	link:https://en.wikipedia.org/wiki/fire	image:	layer:2
+id:510	title:rest	abstract:cessation of work , exertion , or activity .	link:https://en.wikipedia.org/wiki/rest	image:	layer:1
+id:511	title:rest	abstract:peace , ease , or refreshment resulting from sleep or the cessation of an activity .	link:https://en.wikipedia.org/wiki/rest	image:	layer:1
+id:512	title:channel	abstract:the bed of a stream or river .	link:https://en.wikipedia.org/wiki/channel	image:	layer:1
+id:513	title:channel	abstract:the deeper part of a river or harbor , especially a deep navigable passage .	link:https://en.wikipedia.org/wiki/channel	image:	layer:2
+id:514	title:five	abstract:the cardinal number equal to 4 + 1 .	link:https://en.wikipedia.org/wiki/five	image:	layer:1
+id:515	title:five	abstract:the fifth in a set or sequence .	link:https://en.wikipedia.org/wiki/five	image:	layer:1
+id:516	title:s	abstract:the 19th letter of the modern english alphabet .	link:https://en.wikipedia.org/wiki/s	image:	layer:2
+id:517	title:s	abstract:any of the speech sounds represented by the letter s .	link:https://en.wikipedia.org/wiki/s	image:	layer:2
+id:518	title:theory	abstract:a set of statements or principles devised to explain a group of facts or phenomena , especially one that has been repeatedly tested or is widely accepted and can be used to make predictions about natural phenomena .	link:https://en.wikipedia.org/wiki/theory	image:	layer:1
+id:519	title:theory	abstract:the branch of a science or art consisting of its explanatory statements , accepted principles , and methods of analysis , as opposed to practice .	link:https://en.wikipedia.org/wiki/theory	image:	layer:1
+id:520	title:date	abstract:time stated in terms of the day , month , and year .	link:https://en.wikipedia.org/wiki/date	image:	layer:1
+id:521	title:date	abstract:a statement of calendar time , as on a document .	link:https://en.wikipedia.org/wiki/date	image:	layer:2
+id:522	title:experience	abstract:the apprehension of an object , thought , or emotion through the senses or mind .	link:https://en.wikipedia.org/wiki/experience	image:	layer:1
+id:523	title:experience	abstract:active participation in events or activities , leading to the accumulation of knowledge or skill .	link:https://en.wikipedia.org/wiki/experience	image:	layer:1
+id:524	title:week	abstract:a period of seven days .	link:https://en.wikipedia.org/wiki/week	image:	layer:2
+id:525	title:week	abstract:a seven-day calendar period , especially one starting with sunday and continuing through saturday .	link:https://en.wikipedia.org/wiki/week	image:	layer:1
+id:526	title:rock	abstract:relatively hard , naturally formed mineral or petrified matter ; stone .	link:https://en.wikipedia.org/wiki/rock	image:	layer:1
+id:527	title:rock	abstract:a relatively small piece or fragment of such material .	link:https://en.wikipedia.org/wiki/rock	image:	layer:2
+id:528	title:tournament	abstract:a series of contests in which a number of contestants compete and the one that prevails through the final round or that finishes with the best record is declared the winner .	link:https://en.wikipedia.org/wiki/tournament	image:	layer:2
+id:529	title:tournament	abstract:a medieval martial sport in which two groups of mounted and armored combatants fought against each other with blunted lances or swords .	link:https://en.wikipedia.org/wiki/tournament	image:	layer:2
+id:530	title:sea	abstract:the continuous body of salt water covering most of the earth's surface , especially this body regarded as a geophysical entity distinct from earth and sky .	link:https://en.wikipedia.org/wiki/sea	image:	layer:2
+id:531	title:sea	abstract:a tract of water within an ocean .	link:https://en.wikipedia.org/wiki/sea	image:	layer:1
+id:532	title:car	abstract:a vehicle , such as a streetcar , that runs on rails .	link:https://en.wikipedia.org/wiki/car	image:	layer:2
+id:533	title:municipality	abstract:a political unit , such as a city , town , or village , incorporated for local self-government .	link:https://en.wikipedia.org/wiki/municipality	image:	layer:2
+id:534	title:municipality	abstract:a body of officials appointed to manage the affairs of a local political unit .	link:https://en.wikipedia.org/wiki/municipality	image:	layer:1
+id:535	title:action	abstract:the state or process of acting or doing .	link:https://en.wikipedia.org/wiki/action	image:	layer:2
+id:536	title:action	abstract:something done or accomplished ; a deed .	link:https://en.wikipedia.org/wiki/action	image:	layer:1
+id:537	title:thing	abstract:an entity , an idea , or a quality perceived , known , or thought to have its own existence .	link:https://en.wikipedia.org/wiki/thing	image:	layer:2
+id:538	title:thing	abstract:the real or concrete substance of an entity .	link:https://en.wikipedia.org/wiki/thing	image:	layer:1
+id:539	title:room	abstract:a space that is or may be occupied .	link:https://en.wikipedia.org/wiki/room	image:	layer:2
+id:540	title:room	abstract:an area separated by walls or partitions from other similar parts of the structure or building in which it is located .	link:https://en.wikipedia.org/wiki/room	image:	layer:1
+id:541	title:total	abstract:an amount obtained by addition ; a sum .	link:https://en.wikipedia.org/wiki/total	image:	layer:1
+id:542	title:total	abstract:a whole quantity ; an entirety .	link:https://en.wikipedia.org/wiki/total	image:	layer:1
+id:543	title:airport	abstract:a tract of leveled land where aircraft can take off and land , usually equipped with hard-surfaced landing strips , a control tower , hangars , aircraft maintenance and refueling facilities , and accommodations for passengers and cargo .	link:https://en.wikipedia.org/wiki/airport	image:	layer:1
+id:544	title:airport	abstract:such an installation in which the landing area is on water .	link:https://en.wikipedia.org/wiki/airport	image:	layer:1
+id:545	title:feature	abstract:any of the distinct parts of the face , as the eyes , nose , or mouth .	link:https://en.wikipedia.org/wiki/feature	image:	layer:2
+id:546	title:feature	abstract:the overall appearance of the face or its parts .	link:https://en.wikipedia.org/wiki/feature	image:	layer:2
+id:547	title:lack	abstract:deficiency or absence .	link:https://en.wikipedia.org/wiki/lack	image:	layer:1
+id:548	title:lack	abstract:a particular deficiency or absence .	link:https://en.wikipedia.org/wiki/lack	image:	layer:1
+id:549	title:police	abstract:the governmental department charged with the regulation and control of the affairs of a community , now chiefly the department established to maintain order , enforce the law , and prevent and detect crime .	link:https://en.wikipedia.org/wiki/police	image:	layer:2
+id:550	title:artist	abstract:one , such as a painter , sculptor , or writer , who is able by virtue of imagination and talent or skill to create works of aesthetic value , especially in the fine arts .	link:https://en.wikipedia.org/wiki/artist	image:	layer:2
+id:551	title:artist	abstract:a person whose work shows exceptional creative ability or skill .	link:https://en.wikipedia.org/wiki/artist	image:	layer:1
+id:552	title:night	abstract:the period between sunset and sunrise , especially the hours of darkness .	link:https://en.wikipedia.org/wiki/night	image:	layer:2
+id:553	title:night	abstract:this period considered as a unit of time .	link:https://en.wikipedia.org/wiki/night	image:	layer:2
+id:554	title:summer	abstract:the usually warmest season of the year , occurring between spring and autumn and constituting june , july , and august in the northern hemisphere , or , as calculated astronomically , extending from the summer solstice to the autumnal equinox .	link:https://en.wikipedia.org/wiki/summer	image:	layer:1
+id:555	title:summer	abstract:a period of fruition , fulfillment , happiness , or beauty .	link:https://en.wikipedia.org/wiki/summer	image:	layer:2
+id:556	title:front	abstract:the forward part or surface , as of a building .	link:https://en.wikipedia.org/wiki/front	image:	layer:2
+id:557	title:front	abstract:the area , location , or position directly before or ahead .	link:https://en.wikipedia.org/wiki/front	image:	layer:2
+id:558	title:empire	abstract:a political unit having an extensive territory or comprising a number of territories or nations and ruled by a single supreme authority .	link:https://en.wikipedia.org/wiki/empire	image:	layer:2
+id:559	title:market	abstract:a public gathering held for buying and selling merchandise .	link:https://en.wikipedia.org/wiki/market	image:	layer:1
+id:560	title:market	abstract:a place where goods are offered for sale .	link:https://en.wikipedia.org/wiki/market	image:	layer:1
+id:561	title:white	abstract:the achromatic color of maximum lightness ; the color of objects that reflect nearly all light of all visible wavelengths ; the complement or antagonist of black , the other extreme of the neutral gray series .	link:https://en.wikipedia.org/wiki/white	image:	layer:1
+id:562	title:white	abstract:the white or nearly white part ,  .	link:https://en.wikipedia.org/wiki/white	image:	layer:1
+id:563	title:question	abstract:an expression of inquiry that invites or calls for a reply .	link:https://en.wikipedia.org/wiki/question	image:	layer:1
+id:564	title:question	abstract:an interrogative sentence , phrase , or gesture .	link:https://en.wikipedia.org/wiki/question	image:	layer:1
+id:565	title:light	abstract:physics : electromagnetic radiation that has a wavelength in the range from about 4 ,000 (violet) to about 7 ,700 (red) angstroms and may be perceived by the normal unaided human eye .	link:https://en.wikipedia.org/wiki/light	image:	layer:2
+id:566	title:light	abstract:physics : electromagnetic radiation of any wavelength .	link:https://en.wikipedia.org/wiki/light	image:	layer:2
+id:567	title:majority	abstract:the greater number or part ; a number more than half of the total .	link:https://en.wikipedia.org/wiki/majority	image:	layer:2
+id:568	title:majority	abstract:the amount by which the greater number of votes cast , as in an election , exceeds the total number of remaining votes .	link:https://en.wikipedia.org/wiki/majority	image:	layer:1
+id:569	title:media	abstract:a plural of medium .	link:https://en.wikipedia.org/wiki/media	image:	layer:1
+id:570	title:media	abstract:linguistics : see medial .	link:https://en.wikipedia.org/wiki/media	image:	layer:1
+id:571	title:star	abstract:a self-luminous celestial body consisting of a mass of gas held together by its own gravity in which the energy generated by nuclear reactions in the interior is balanced by the outflow of energy to the surface , and the inward-directed gravitational forces are balanced by the outward-directed gas and radiation pressures .	link:https://en.wikipedia.org/wiki/star	image:	layer:2
+id:572	title:star	abstract:any of the celestial bodies visible at night from earth as relatively stationary , usually twinkling points of light .	link:https://en.wikipedia.org/wiki/star	image:	layer:2
+id:573	title:account	abstract:a narrative or record of events .	link:https://en.wikipedia.org/wiki/account	image:	layer:2
+id:574	title:account	abstract:a reason given for a particular action or event .	link:https://en.wikipedia.org/wiki/account	image:	layer:2
+id:575	title:m	abstract:the 13th letter of the modern english alphabet .	link:https://en.wikipedia.org/wiki/m	image:	layer:2
+id:576	title:m	abstract:any of the speech sounds represented by the letter m .	link:https://en.wikipedia.org/wiki/m	image:	layer:2
+id:577	title:note	abstract:a brief record , especially one written down to aid the memory .	link:https://en.wikipedia.org/wiki/note	image:	layer:1
+id:578	title:note	abstract:a brief informal letter .	link:https://en.wikipedia.org/wiki/note	image:	layer:1
+id:579	title:status	abstract:position relative to that of others ; standing .	link:https://en.wikipedia.org/wiki/status	image:	layer:2
+id:580	title:status	abstract:high standing ; prestige .	link:https://en.wikipedia.org/wiki/status	image:	layer:2
+id:581	title:german	abstract:an intricate dance for many couples .	link:https://en.wikipedia.org/wiki/german	image:	layer:1
+id:582	title:german	abstract:a party for dancing at which this dance is featured .	link:https://en.wikipedia.org/wiki/german	image:	layer:1
+id:583	title:lives	abstract:plural of life .	link:https://en.wikipedia.org/wiki/lives	image:	layer:2
+id:584	title:d	abstract:the fourth letter of the modern english alphabet .	link:https://en.wikipedia.org/wiki/d	image:	layer:2
+id:585	title:d	abstract:any of the speech sounds represented by the letter d .	link:https://en.wikipedia.org/wiki/d	image:	layer:2
+id:586	title:access	abstract:a means of approaching , entering , exiting , communicating with , or making use of .	link:https://en.wikipedia.org/wiki/access	image:	layer:1
+id:587	title:access	abstract:the ability or right to approach , enter , exit , communicate with , or make use of .	link:https://en.wikipedia.org/wiki/access	image:	layer:1
+id:588	title:hill	abstract:a well-defined natural elevation smaller than a mountain .	link:https://en.wikipedia.org/wiki/hill	image:	layer:1
+id:589	title:hill	abstract:a small heap , pile , or mound .	link:https://en.wikipedia.org/wiki/hill	image:	layer:1
+id:590	title:navy	abstract:all of a nation's warships .	link:https://en.wikipedia.org/wiki/navy	image:	layer:1
+id:591	title:navy	abstract:a nation's entire military organization for sea warfare and defense , including vessels , personnel , and shore establishments .	link:https://en.wikipedia.org/wiki/navy	image:	layer:1
+id:592	title:word	abstract:a sound or a combination of sounds , or its representation in writing or printing , that symbolizes and communicates a meaning and may consist of a single morpheme or of a combination of morphemes .	link:https://en.wikipedia.org/wiki/word	image:	layer:2
+id:593	title:word	abstract:something said ; an utterance , remark , or comment .	link:https://en.wikipedia.org/wiki/word	image:	layer:1
+id:594	title:cross	abstract:an upright post with a transverse piece near the top , on which condemned persons were executed in ancient times .	link:https://en.wikipedia.org/wiki/cross	image:	layer:1
+id:595	title:cross	abstract:the upright post with a transverse piece upon which jesus was crucified .	link:https://en.wikipedia.org/wiki/cross	image:	layer:1
+id:596	title:culture	abstract:the totality of socially transmitted behavior patterns , arts , beliefs , institutions , and all other products of human work and thought .	link:https://en.wikipedia.org/wiki/culture	image:	layer:2
+id:597	title:culture	abstract:these patterns , traits , and products considered as the expression of a particular period , class , community , or population .	link:https://en.wikipedia.org/wiki/culture	image:	layer:2
+id:598	title:hand	abstract:the terminal part of the human arm located below the forearm , used for grasping and holding and consisting of the wrist , palm , four fingers , and an opposable thumb .	link:https://en.wikipedia.org/wiki/hand	image:	layer:2
+id:599	title:hand	abstract:a homologous or similar part in other animals , as the terminal part of the forelimb in certain vertebrates .	link:https://en.wikipedia.org/wiki/hand	image:	layer:2
+id:600	title:bay	abstract:a body of water partially enclosed by land but with a wide mouth , affording access to the sea .	link:https://en.wikipedia.org/wiki/bay	image:	layer:1
+id:601	title:bay	abstract:an area of land , such as an arm of prairie partially enclosed by woodland , that resembles in shape or formation a partially enclosed body of water .	link:https://en.wikipedia.org/wiki/bay	image:	layer:2
+id:602	title:relationship	abstract:the condition or fact of being related ; connection or association .	link:https://en.wikipedia.org/wiki/relationship	image:	layer:1
+id:603	title:relationship	abstract:connection by blood or marriage ; kinship .	link:https://en.wikipedia.org/wiki/relationship	image:	layer:2
+id:604	title:assembly	abstract:the state of being assembled .	link:https://en.wikipedia.org/wiki/assembly	image:	layer:1
+id:605	title:ground	abstract:the solid surface of the earth .	link:https://en.wikipedia.org/wiki/ground	image:	layer:2
+id:606	title:ground	abstract:the floor of a body of water , especially the sea .	link:https://en.wikipedia.org/wiki/ground	image:	layer:2
+id:607	title:mission	abstract:a body of persons sent to conduct negotiations or establish relations with a foreign country .	link:https://en.wikipedia.org/wiki/mission	image:	layer:2
+id:608	title:sound	abstract:vibrations transmitted through an elastic solid or a liquid or gas , with frequencies in the approximate range of 20 to 20 ,000 hertz , capable of being detected by human organs of hearing .	link:https://en.wikipedia.org/wiki/sound	image:	layer:2
+id:609	title:sound	abstract:transmitted vibrations of any frequency .	link:https://en.wikipedia.org/wiki/sound	image:	layer:2
+id:610	title:text	abstract:the original words of something written or printed , as opposed to a paraphrase , translation , revision , or condensation .	link:https://en.wikipedia.org/wiki/text	image:	layer:2
+id:611	title:text	abstract:the words of a speech appearing in print .	link:https://en.wikipedia.org/wiki/text	image:	layer:2
+id:612	title:friend	abstract:a person whom one knows , likes , and trusts .	link:https://en.wikipedia.org/wiki/friend	image:	layer:1
+id:613	title:friend	abstract:a person whom one knows ; an acquaintance .	link:https://en.wikipedia.org/wiki/friend	image:	layer:1
+id:614	title:figure	abstract:a written or printed symbol representing something other than a letter , especially a number .	link:https://en.wikipedia.org/wiki/figure	image:	layer:2
+id:615	title:figure	abstract:mathematical calculations .	link:https://en.wikipedia.org/wiki/figure	image:	layer:1
+id:616	title:category	abstract:a specifically defined division in a system of classification ; a class .	link:https://en.wikipedia.org/wiki/category	image:	layer:2
+id:617	title:category	abstract:a general class of ideas , terms , or things that mark divisions or coordinations within a conceptual scheme , especially:	link:https://en.wikipedia.org/wiki/category	image:	layer:2
+id:618	title:plant	abstract:botany : any of various photosynthetic , eukaryotic , multicellular organisms of the kingdom plantae characteristically producing embryos , containing chloroplasts , having cellulose cell walls , and lacking the power of locomotion .	link:https://en.wikipedia.org/wiki/plant	image:	layer:1
+id:619	title:plant	abstract:botany : a plant having no permanent woody stem ; an herb .	link:https://en.wikipedia.org/wiki/plant	image:	layer:1
+id:620	title:capital	abstract:a town or city that is the official seat of government in a political entity , such as a state or nation .	link:https://en.wikipedia.org/wiki/capital	image:	layer:1
+id:621	title:capital	abstract:a city that is the center of a specific activity or industry .	link:https://en.wikipedia.org/wiki/capital	image:	layer:2
+id:622	title:writer	abstract:one who writes , especially as an occupation .	link:https://en.wikipedia.org/wiki/writer	image:	layer:1
+id:623	title:size	abstract:the physical dimensions , proportions , magnitude , or extent of an object .	link:https://en.wikipedia.org/wiki/size	image:	layer:2
+id:624	title:size	abstract:any of a series of graduated categories of dimension whereby manufactured articles , such as shoes and clothing , are classified .	link:https://en.wikipedia.org/wiki/size	image:	layer:2
+id:625	title:technology	abstract:the application of science , especially to industrial or commercial objectives .	link:https://en.wikipedia.org/wiki/technology	image:	layer:2
+id:626	title:technology	abstract:the scientific method and material used to achieve a commercial or industrial objective .	link:https://en.wikipedia.org/wiki/technology	image:	layer:2
+id:627	title:child	abstract:a person between birth and puberty .	link:https://en.wikipedia.org/wiki/child	image:	layer:1
+id:628	title:child	abstract:a person who has not attained maturity or the age of legal majority .	link:https://en.wikipedia.org/wiki/child	image:	layer:2
+id:629	title:engine	abstract:a machine that converts energy into mechanical force or motion .	link:https://en.wikipedia.org/wiki/engine	image:	layer:2
+id:630	title:engine	abstract:such a machine distinguished from an electric , spring-driven , or hydraulic motor by its use of a fuel .	link:https://en.wikipedia.org/wiki/engine	image:	layer:2
+id:631	title:decision	abstract:the passing of judgment on an issue under consideration .	link:https://en.wikipedia.org/wiki/decision	image:	layer:2
+id:632	title:decision	abstract:the act of reaching a conclusion or making up one's mind .	link:https://en.wikipedia.org/wiki/decision	image:	layer:1
+id:633	title:management	abstract:the act , manner , or practice of managing ; handling , supervision , or control .	link:https://en.wikipedia.org/wiki/management	image:	layer:1
+id:634	title:management	abstract:the person or persons who control or direct a business or other enterprise .	link:https://en.wikipedia.org/wiki/management	image:	layer:2
+id:635	title:meeting	abstract:the act or process or an instance of coming together ; an encounter .	link:https://en.wikipedia.org/wiki/meeting	image:	layer:2
+id:636	title:meeting	abstract:an assembly or gathering of people , as for a business , social , or religious purpose .	link:https://en.wikipedia.org/wiki/meeting	image:	layer:1
+id:637	title:journal	abstract:a personal record of occurrences , experiences , and reflections kept on a regular basis ; a diary .	link:https://en.wikipedia.org/wiki/journal	image:	layer:1
+id:638	title:journal	abstract:an official record of daily proceedings , as of a legislative body .	link:https://en.wikipedia.org/wiki/journal	image:	layer:1
+id:639	title:governor	abstract:a person who governs , especially:	link:https://en.wikipedia.org/wiki/governor	image:	layer:1
+id:640	title:governor	abstract:the chief executive of a state in the united states .	link:https://en.wikipedia.org/wiki/governor	image:	layer:1
+id:641	title:highway	abstract:a main public road , especially one connecting towns and cities .	link:https://en.wikipedia.org/wiki/highway	image:	layer:1
+id:642	title:matter	abstract:something that occupies space and can be perceived by one or more senses ; a physical body , a physical substance , or the universe as a whole .	link:https://en.wikipedia.org/wiki/matter	image:	layer:2
+id:643	title:matter	abstract:physics : something that has mass and exists as a solid , liquid , gas , or plasma .	link:https://en.wikipedia.org/wiki/matter	image:	layer:1
+id:644	title:reference	abstract:significance in a specified context .	link:https://en.wikipedia.org/wiki/reference	image:	layer:1
+id:645	title:effect	abstract:something brought about by a cause or agent ; a result .	link:https://en.wikipedia.org/wiki/effect	image:	layer:1
+id:646	title:effect	abstract:the power to produce an outcome or achieve a result ; influence .	link:https://en.wikipedia.org/wiki/effect	image:	layer:1
+id:647	title:notability	abstract:the state or quality of being eminent or worthy of notice .	link:https://en.wikipedia.org/wiki/notability	image:	layer:2
+id:648	title:notability	abstract:a prominent or notable person .	link:https://en.wikipedia.org/wiki/notability	image:	layer:1
+id:649	title:student	abstract:one who is enrolled or attends classes at a school , college , or university .	link:https://en.wikipedia.org/wiki/student	image:	layer:2
+id:650	title:student	abstract:one who studies something .	link:https://en.wikipedia.org/wiki/student	image:	layer:1
+id:651	title:test	abstract:a procedure for critical evaluation ; a means of determining the presence , quality , or truth of something ; a trial .	link:https://en.wikipedia.org/wiki/test	image:	layer:2
+id:652	title:test	abstract:a series of questions , problems , or physical responses designed to determine knowledge , intelligence , or ability .	link:https://en.wikipedia.org/wiki/test	image:	layer:2
+id:653	title:red	abstract:the hue of the long-wave end of the visible spectrum , evoked in the human observer by radiant energy with wavelengths of approximately 630 to 750 nanometers ; any of a group of colors that may vary in lightness and saturation and whose hue resembles that of blood ; one of the additive or light primaries ; one of the psychological primary hues .	link:https://en.wikipedia.org/wiki/red	image:	layer:2
+id:654	title:red	abstract:a pigment or dye having a red hue .	link:https://en.wikipedia.org/wiki/red	image:	layer:1
+id:655	title:chief	abstract:one who is highest in rank or authority ; a leader .	link:https://en.wikipedia.org/wiki/chief	image:	layer:2
+id:656	title:chief	abstract:a chief petty officer .	link:https://en.wikipedia.org/wiki/chief	image:	layer:1
+id:657	title:authority	abstract:the power to enforce laws , exact obedience , command , determine , or judge .	link:https://en.wikipedia.org/wiki/authority	image:	layer:2
+id:658	title:authority	abstract:one that is invested with this power , especially a government or body of government officials .	link:https://en.wikipedia.org/wiki/authority	image:	layer:1
+id:659	title:coverage	abstract:the extent or degree to which something is observed , analyzed , and reported .	link:https://en.wikipedia.org/wiki/coverage	image:	layer:2
+id:660	title:coverage	abstract:inclusion in an insurance policy or protective plan .	link:https://en.wikipedia.org/wiki/coverage	image:	layer:2
+id:661	title:rule	abstract:governing power or its possession or use ; authority .	link:https://en.wikipedia.org/wiki/rule	image:	layer:1
+id:662	title:rule	abstract:the duration of such power .	link:https://en.wikipedia.org/wiki/rule	image:	layer:1
+id:663	title:stadium	abstract:a large , usually open structure for sports events with tiered seating for spectators .	link:https://en.wikipedia.org/wiki/stadium	image:	layer:1
+id:664	title:stadium	abstract:a course on which foot races were held in ancient greece , usually semicircular and having tiers of seats for spectators .	link:https://en.wikipedia.org/wiki/stadium	image:	layer:1
+id:665	title:manager	abstract:one who handles , controls , or directs , especially:	link:https://en.wikipedia.org/wiki/manager	image:	layer:1
+id:666	title:manager	abstract:one who directs a business or other enterprise .	link:https://en.wikipedia.org/wiki/manager	image:	layer:2
+id:667	title:goal	abstract:the purpose toward which an endeavor is directed ; an objective .	link:https://en.wikipedia.org/wiki/goal	image:	layer:2
+id:668	title:goal	abstract:sports : the finish line of a race .	link:https://en.wikipedia.org/wiki/goal	image:	layer:1
+id:669	title:standard	abstract:a flag , banner , or ensign , especially:	link:https://en.wikipedia.org/wiki/standard	image:	layer:1
+id:670	title:standard	abstract:the ensign of a chief of state , nation , or city .	link:https://en.wikipedia.org/wiki/standard	image:	layer:1
+id:671	title:vote	abstract:a formal expression of preference for a candidate for office or for a proposed resolution of an issue .	link:https://en.wikipedia.org/wiki/vote	image:	layer:1
+id:672	title:face	abstract:the surface of the front of the head from the top of the forehead to the base of the chin and from ear to ear .	link:https://en.wikipedia.org/wiki/face	image:	layer:1
+id:673	title:loss	abstract:the act or an instance of losing .	link:https://en.wikipedia.org/wiki/loss	image:	layer:2
+id:674	title:loss	abstract:one that is lost .	link:https://en.wikipedia.org/wiki/loss	image:	layer:2
+id:675	title:nature	abstract:the material world and its phenomena .	link:https://en.wikipedia.org/wiki/nature	image:	layer:1
+id:676	title:nature	abstract:the forces and processes that produce and control all the phenomena of the material world .	link:https://en.wikipedia.org/wiki/nature	image:	layer:1
+id:677	title:movie	abstract:a sequence of photographs projected onto a screen with sufficient rapidity as to create the illusion of motion and continuity .	link:https://en.wikipedia.org/wiki/movie	image:	layer:2
+id:678	title:movie	abstract:a connected cinematic narrative represented in this form .	link:https://en.wikipedia.org/wiki/movie	image:	layer:2
+id:679	title:politician	abstract:one who is actively involved in politics , especially party politics .	link:https://en.wikipedia.org/wiki/politician	image:	layer:2
+id:680	title:politician	abstract:one who holds or seeks a political office .	link:https://en.wikipedia.org/wiki/politician	image:	layer:2
+id:681	title:corporation	abstract:a body that is granted a charter recognizing it as a separate legal entity having its own rights , privileges , and liabilities distinct from those of its members .	link:https://en.wikipedia.org/wiki/corporation	image:	layer:2
+id:682	title:corporation	abstract:such a body created for purposes of government .	link:https://en.wikipedia.org/wiki/corporation	image:	layer:2
+id:683	title:influence	abstract:a power affecting a person , thing , or course of events , especially one that operates without any direct or apparent effort .	link:https://en.wikipedia.org/wiki/influence	image:	layer:2
+id:684	title:influence	abstract:power to sway or affect based on prestige , wealth , ability , or position .	link:https://en.wikipedia.org/wiki/influence	image:	layer:2
+id:685	title:contract	abstract:an agreement between two or more parties , especially one that is written and enforceable by law .	link:https://en.wikipedia.org/wiki/contract	image:	layer:2
+id:686	title:contract	abstract:the writing or document containing such an agreement .	link:https://en.wikipedia.org/wiki/contract	image:	layer:2
+id:687	title:felt	abstract:a fabric of matted , compressed animal fibers , such as wool or fur , sometimes mixed with vegetable or synthetic fibers .	link:https://en.wikipedia.org/wiki/felt	image:	layer:1
+id:688	title:felt	abstract:a material resembling this fabric .	link:https://en.wikipedia.org/wiki/felt	image:	layer:2
+id:689	title:scene	abstract:something seen by a viewer ; a view or prospect .	link:https://en.wikipedia.org/wiki/scene	image:	layer:1
+id:690	title:scene	abstract:the place where an action or event occurs .	link:https://en.wikipedia.org/wiki/scene	image:	layer:2
+id:691	title:six	abstract:the cardinal number equal to 5 + 1 .	link:https://en.wikipedia.org/wiki/six	image:	layer:1
+id:692	title:six	abstract:the sixth in a set or sequence .	link:https://en.wikipedia.org/wiki/six	image:	layer:1
+id:693	title:ability	abstract:the quality of being able to do something , especially the physical , mental , financial , or legal power to accomplish something .	link:https://en.wikipedia.org/wiki/ability	image:	layer:2
+id:694	title:ability	abstract:a natural or acquired skill or talent .	link:https://en.wikipedia.org/wiki/ability	image:	layer:2
+id:695	title:mention	abstract:the act of referring to something briefly or casually .	link:https://en.wikipedia.org/wiki/mention	image:	layer:1
+id:696	title:candidate	abstract:a person who seeks or is nominated for an office , prize , or honor .	link:https://en.wikipedia.org/wiki/candidate	image:	layer:1
+id:697	title:candidate	abstract:a student who has nearly completed the requirements for a degree .	link:https://en.wikipedia.org/wiki/candidate	image:	layer:2
+id:698	title:regiment	abstract:a military unit of ground troops consisting of at least two battalions , usually commanded by a colonel .	link:https://en.wikipedia.org/wiki/regiment	image:	layer:1
+id:699	title:regiment	abstract:a large group of people .	link:https://en.wikipedia.org/wiki/regiment	image:	layer:2
+id:700	title:staff	abstract:a stick or cane carried as an aid in walking or climbing .	link:https://en.wikipedia.org/wiki/staff	image:	layer:2
+id:701	title:staff	abstract:a stout stick used as a weapon ; a cudgel .	link:https://en.wikipedia.org/wiki/staff	image:	layer:1
+id:702	title:focus	abstract:a point at which rays of light or other radiation converge or from which they appear to diverge , as after refraction or reflection in an optical system .	link:https://en.wikipedia.org/wiki/focus	image:	layer:1
+id:703	title:basis	abstract:a foundation upon which something rests .	link:https://en.wikipedia.org/wiki/basis	image:	layer:2
+id:704	title:basis	abstract:the chief constituent ; the fundamental ingredient .	link:https://en.wikipedia.org/wiki/basis	image:	layer:1
+id:705	title:administration	abstract:the act or process of administering , especially the management of a government or large institution .	link:https://en.wikipedia.org/wiki/administration	image:	layer:1
+id:706	title:administration	abstract:the activity of a government or state in the exercise of its powers and duties .	link:https://en.wikipedia.org/wiki/administration	image:	layer:1
+id:707	title:comment	abstract:a written note intended as an explanation , illustration , or criticism of a passage in a book or other writing ; an annotation .	link:https://en.wikipedia.org/wiki/comment	image:	layer:2
+id:708	title:comment	abstract:a series of annotations or explanations .	link:https://en.wikipedia.org/wiki/comment	image:	layer:2
+id:709	title:future	abstract:the indefinite time yet to come .	link:https://en.wikipedia.org/wiki/future	image:	layer:1
+id:710	title:future	abstract:something that will happen in time to come .	link:https://en.wikipedia.org/wiki/future	image:	layer:1
+id:711	title:secretary	abstract:a person employed to handle correspondence , keep files , and do clerical work for another person or an organization .	link:https://en.wikipedia.org/wiki/secretary	image:	layer:1
+id:712	title:secretary	abstract:an officer who keeps records , takes minutes of the meetings , and answers correspondence , as for a company .	link:https://en.wikipedia.org/wiki/secretary	image:	layer:1
+id:713	title:format	abstract:a plan for the organization and arrangement of a specified production .	link:https://en.wikipedia.org/wiki/format	image:	layer:1
+id:714	title:format	abstract:the material form or layout of a publication .	link:https://en.wikipedia.org/wiki/format	image:	layer:1
+id:715	title:studio	abstract:an artist's workroom .	link:https://en.wikipedia.org/wiki/studio	image:	layer:2
+id:716	title:studio	abstract:a photographer's establishment .	link:https://en.wikipedia.org/wiki/studio	image:	layer:2
+id:717	title:branch	abstract:a secondary woody stem or limb growing from the trunk or main stem of a tree or shrub or from another secondary limb .	link:https://en.wikipedia.org/wiki/branch	image:	layer:1
+id:718	title:branch	abstract:a lateral division or subdivision of certain other plant parts , such as a root or flower cluster .	link:https://en.wikipedia.org/wiki/branch	image:	layer:2
+id:719	title:meaning	abstract:something that is conveyed or signified ; sense or significance .	link:https://en.wikipedia.org/wiki/meaning	image:	layer:2
+id:720	title:meaning	abstract:something that one wishes to convey , especially by language .	link:https://en.wikipedia.org/wiki/meaning	image:	layer:2
+id:721	title:serving	abstract:the act of one that serves .	link:https://en.wikipedia.org/wiki/serving	image:	layer:1
+id:722	title:serving	abstract:an individual portion or helping of food or drink .	link:https://en.wikipedia.org/wiki/serving	image:	layer:1
+id:723	title:health	abstract:the overall condition of an organism at a given time .	link:https://en.wikipedia.org/wiki/health	image:	layer:1
+id:724	title:health	abstract:soundness , especially of body or mind ; freedom from disease or abnormality .	link:https://en.wikipedia.org/wiki/health	image:	layer:1
+id:725	title:actor	abstract:a theatrical performer .	link:https://en.wikipedia.org/wiki/actor	image:	layer:1
+id:726	title:actor	abstract:one who takes part ; a participant .	link:https://en.wikipedia.org/wiki/actor	image:	layer:2
+id:727	title:newspaper	abstract:a publication , usually issued daily or weekly , containing current news , editorials , feature articles , and usually advertising .	link:https://en.wikipedia.org/wiki/newspaper	image:	layer:1
+id:728	title:corps	abstract:a separate branch or department of the armed forces having a specialized function .	link:https://en.wikipedia.org/wiki/corps	image:	layer:1
+id:729	title:corps	abstract:a tactical unit of ground combat forces between a division and an army commanded by a lieutenant general and composed of two or more divisions and auxiliary service troops .	link:https://en.wikipedia.org/wiki/corps	image:	layer:2
+id:730	title:girl	abstract:a female child .	link:https://en.wikipedia.org/wiki/girl	image:	layer:1
+id:731	title:label	abstract:an item used to identify something or someone , as a small piece of paper or cloth attached to an article to designate its origin , owner , contents , use , or destination .	link:https://en.wikipedia.org/wiki/label	image:	layer:1
+id:732	title:label	abstract:a descriptive term ; an epithet .	link:https://en.wikipedia.org/wiki/label	image:	layer:1
+id:733	title:saying	abstract:something , such as an adage or maxim , that is said .	link:https://en.wikipedia.org/wiki/saying	image:	layer:1
+id:734	title:temple	abstract:a building dedicated to religious ceremonies or worship .	link:https://en.wikipedia.org/wiki/temple	image:	layer:1
+id:735	title:temple	abstract:either of two successive buildings in ancient jerusalem serving as the primary center for jewish worship .	link:https://en.wikipedia.org/wiki/temple	image:	layer:1
+id:736	title:value	abstract:an amount , as of goods , services , or money , considered to be a fair and suitable equivalent for something else ; a fair price or return .	link:https://en.wikipedia.org/wiki/value	image:	layer:1
+id:737	title:value	abstract:monetary or material worth .	link:https://en.wikipedia.org/wiki/value	image:	layer:1
+id:738	title:rate	abstract:a quantity measured with respect to another measured quantity .	link:https://en.wikipedia.org/wiki/rate	image:	layer:1
+id:739	title:rate	abstract:a measure of a part with respect to a whole ; a proportion .	link:https://en.wikipedia.org/wiki/rate	image:	layer:1
+id:740	title:singer	abstract:music : one who sings , especially a trained or professional vocalist .	link:https://en.wikipedia.org/wiki/singer	image:	layer:2
+id:741	title:care	abstract:a burdened state of mind , as that arising from heavy responsibilities ; worry .	link:https://en.wikipedia.org/wiki/care	image:	layer:2
+id:742	title:care	abstract:mental suffering ; grief .	link:https://en.wikipedia.org/wiki/care	image:	layer:2
+id:743	title:victory	abstract:defeat of an enemy or opponent .	link:https://en.wikipedia.org/wiki/victory	image:	layer:2
+id:744	title:victory	abstract:success in a struggle against difficulties or an obstacle .	link:https://en.wikipedia.org/wiki/victory	image:	layer:2
+id:745	title:prize	abstract:something offered or won as an award for superiority or victory , as in a contest or competition .	link:https://en.wikipedia.org/wiki/prize	image:	layer:1
+id:746	title:prize	abstract:something worth striving for ; a highly desirable possession .	link:https://en.wikipedia.org/wiki/prize	image:	layer:1
+id:747	title:leaves	abstract:plural of leaf .	link:https://en.wikipedia.org/wiki/leaves	image:	layer:1
+id:748	title:tower	abstract:a building or part of a building that is exceptionally high in proportion to its width and length .	link:https://en.wikipedia.org/wiki/tower	image:	layer:2
+id:749	title:tower	abstract:a tall , slender structure used for observation , signaling , or pumping .	link:https://en.wikipedia.org/wiki/tower	image:	layer:2
+id:750	title:master	abstract:one that has control over another or others .	link:https://en.wikipedia.org/wiki/master	image:	layer:1
+id:751	title:master	abstract:the owner or keeper of an animal .	link:https://en.wikipedia.org/wiki/master	image:	layer:1
+id:752	title:trade	abstract:the business of buying and selling commodities ; commerce .	link:https://en.wikipedia.org/wiki/trade	image:	layer:1
+id:753	title:trade	abstract:the people working in or associated with a business or industry .	link:https://en.wikipedia.org/wiki/trade	image:	layer:2
+id:754	title:knowledge	abstract:the state or fact of knowing .	link:https://en.wikipedia.org/wiki/knowledge	image:	layer:2
+id:755	title:knowledge	abstract:familiarity , awareness , or understanding gained through experience or study .	link:https://en.wikipedia.org/wiki/knowledge	image:	layer:1
+id:756	title:smith	abstract:a metalworker , especially one who works metal when it is hot and malleable .	link:https://en.wikipedia.org/wiki/smith	image:	layer:2
+id:757	title:code	abstract:a systematically arranged and comprehensive collection of laws .	link:https://en.wikipedia.org/wiki/code	image:	layer:2
+id:758	title:code	abstract:a systematic collection of regulations and rules of procedure or conduct .	link:https://en.wikipedia.org/wiki/code	image:	layer:2
+id:759	title:quality	abstract:an inherent or distinguishing characteristic ; a property .	link:https://en.wikipedia.org/wiki/quality	image:	layer:2
+id:760	title:quality	abstract:a personal trait , especially a character trait .	link:https://en.wikipedia.org/wiki/quality	image:	layer:2
+id:761	title:territory	abstract:an area of land ; a region .	link:https://en.wikipedia.org/wiki/territory	image:	layer:1
+id:762	title:territory	abstract:the land and waters under the jurisdiction of a government .	link:https://en.wikipedia.org/wiki/territory	image:	layer:1
+id:763	title:agency	abstract:the condition of being in action ; operation .	link:https://en.wikipedia.org/wiki/agency	image:	layer:1
+id:764	title:agency	abstract:the means or mode of acting ; instrumentality .	link:https://en.wikipedia.org/wiki/agency	image:	layer:1
+id:765	title:method	abstract:a means or manner of procedure , especially a regular and systematic way of accomplishing something .	link:https://en.wikipedia.org/wiki/method	image:	layer:2
+id:766	title:method	abstract:orderly arrangement of parts or steps to accomplish an end .	link:https://en.wikipedia.org/wiki/method	image:	layer:1
+id:767	title:energy	abstract:the capacity for work or vigorous activity ; vigor ; power .	link:https://en.wikipedia.org/wiki/energy	image:	layer:1
+id:768	title:energy	abstract:exertion of vigor or power .	link:https://en.wikipedia.org/wiki/energy	image:	layer:2
+id:769	title:green	abstract:the hue of that portion of the visible spectrum lying between yellow and blue , evoked in the human observer by radiant energy with wavelengths of approximately 490 to 570 nanometers ; any of a group of colors that may vary in lightness and saturation and whose hue is that of the emerald or somewhat less yellow than that of growing grass ; one of the additive or light primaries ; one of the psychological primary hues .	link:https://en.wikipedia.org/wiki/green	image:	layer:2
+id:770	title:green	abstract:something green in color .	link:https://en.wikipedia.org/wiki/green	image:	layer:2
+id:771	title:bit	abstract:a small portion , degree , or amount .	link:https://en.wikipedia.org/wiki/bit	image:	layer:2
+id:772	title:bit	abstract:a brief amount of time ; a moment .	link:https://en.wikipedia.org/wiki/bit	image:	layer:1
+id:773	title:sense	abstract:any of the faculties by which stimuli from outside or inside the body are received and felt , as the faculties of hearing , sight , smell , touch , taste , and equilibrium .	link:https://en.wikipedia.org/wiki/sense	image:	layer:1
+id:774	title:sense	abstract:a perception or feeling produced by a stimulus ; sensation .	link:https://en.wikipedia.org/wiki/sense	image:	layer:1
+id:775	title:castle	abstract:a large fortified building or group of buildings with thick walls , usually dominating the surrounding country .	link:https://en.wikipedia.org/wiki/castle	image:	layer:2
+id:776	title:castle	abstract:a fortified stronghold converted to residential use .	link:https://en.wikipedia.org/wiki/castle	image:	layer:2
+id:777	title:brown	abstract:any of a group of colors between red and yellow in hue that are medium to low in lightness and low to moderate in saturation .	link:https://en.wikipedia.org/wiki/brown	image:	layer:1
+id:778	title:store	abstract:a place where merchandise is offered for sale ; a shop .	link:https://en.wikipedia.org/wiki/store	image:	layer:1
+id:779	title:store	abstract:a stock or supply reserved for future use .	link:https://en.wikipedia.org/wiki/store	image:	layer:1
+id:780	title:parliament	abstract:a national representative body having supreme legislative powers within the state .	link:https://en.wikipedia.org/wiki/parliament	image:	layer:2
+id:781	title:parliament	abstract:the national legislature of various countries , especially that of the united kingdom , made up of the house of lords and the house of commons .	link:https://en.wikipedia.org/wiki/parliament	image:	layer:1
+id:782	title:train	abstract:a series of connected railroad cars pulled or pushed by one or more locomotives .	link:https://en.wikipedia.org/wiki/train	image:	layer:1
+id:783	title:train	abstract:a long line of moving people , animals , or vehicles .	link:https://en.wikipedia.org/wiki/train	image:	layer:2
+id:784	title:concept	abstract:a general idea derived or inferred from specific instances or occurrences .	link:https://en.wikipedia.org/wiki/concept	image:	layer:1
+id:785	title:concept	abstract:something formed in the mind ; a thought or notion .	link:https://en.wikipedia.org/wiki/concept	image:	layer:1
+id:786	title:response	abstract:a reply or an answer .	link:https://en.wikipedia.org/wiki/response	image:	layer:2
+id:787	title:property	abstract:something owned ; a possession .	link:https://en.wikipedia.org/wiki/property	image:	layer:2
+id:788	title:property	abstract:a piece of real estate .	link:https://en.wikipedia.org/wiki/property	image:	layer:1
+id:789	title:camp	abstract:a place where tents , huts , or other temporary shelters are set up , as by soldiers , nomads , or travelers .	link:https://en.wikipedia.org/wiki/camp	image:	layer:2
+id:790	title:camp	abstract:a cabin or shelter or group of such buildings .	link:https://en.wikipedia.org/wiki/camp	image:	layer:2
+id:791	title:chart	abstract:a map showing coastlines , water depths , or other information of use to navigators .	link:https://en.wikipedia.org/wiki/chart	image:	layer:1
+id:792	title:chart	abstract:an outline map on which specific information , such as scientific data , can be plotted .	link:https://en.wikipedia.org/wiki/chart	image:	layer:1
+id:793	title:consensus	abstract:an opinion or position reached by a group as a whole .	link:https://en.wikipedia.org/wiki/consensus	image:	layer:1
+id:794	title:consensus	abstract:general agreement or accord .	link:https://en.wikipedia.org/wiki/consensus	image:	layer:2
+id:795	title:china	abstract:high-quality porcelain or ceramic ware , originally made in china .	link:https://en.wikipedia.org/wiki/china	image:	layer:2
+id:796	title:china	abstract:porcelain or earthenware used for the table .	link:https://en.wikipedia.org/wiki/china	image:	layer:2
+id:797	title:operation	abstract:the act or process of operating or functioning .	link:https://en.wikipedia.org/wiki/operation	image:	layer:2
+id:798	title:operation	abstract:the state of being operative or functional .	link:https://en.wikipedia.org/wiki/operation	image:	layer:2
+id:799	title:money	abstract:a medium that can be exchanged for goods and services and is used as a measure of their values on the market , including among its forms a commodity such as gold , an officially issued coin or note , or a deposit in a checking account or other readily liquefiable account .	link:https://en.wikipedia.org/wiki/money	image:	layer:2
+id:800	title:money	abstract:the official currency , coins , and negotiable paper notes issued by a government .	link:https://en.wikipedia.org/wiki/money	image:	layer:1
+id:801	title:la	abstract:music : the sixth tone of the diatonic scale in solfeggio .	link:https://en.wikipedia.org/wiki/la	image:	layer:2
+id:802	title:agreement	abstract:harmony of opinion ; accord .	link:https://en.wikipedia.org/wiki/agreement	image:	layer:2
+id:803	title:effort	abstract:the use of physical or mental energy to do something ; exertion .	link:https://en.wikipedia.org/wiki/effort	image:	layer:1
+id:804	title:effort	abstract:a difficult exertion of the strength or will .	link:https://en.wikipedia.org/wiki/effort	image:	layer:1
+id:805	title:month	abstract:a unit of time corresponding approximately to one cycle of the moon's phases , or about 30 days or 4 weeks .	link:https://en.wikipedia.org/wiki/month	image:	layer:2
+id:806	title:month	abstract:one of the 12 divisions of a year as determined by a calendar , especially the gregorian calendar .	link:https://en.wikipedia.org/wiki/month	image:	layer:1
+id:807	title:campus	abstract:the grounds of a school , college , university , or hospital .	link:https://en.wikipedia.org/wiki/campus	image:	layer:1
+id:808	title:campus	abstract:a college or university .	link:https://en.wikipedia.org/wiki/campus	image:	layer:1
+id:809	title:food	abstract:material , usually of plant or animal origin , that contains or consists of essential body nutrients , such as carbohydrates , fats , proteins , vitamins , or minerals , and is ingested and assimilated by an organism to produce energy , stimulate growth , and maintain life .	link:https://en.wikipedia.org/wiki/food	image:	layer:1
+id:810	title:food	abstract:a specified kind of nourishment .	link:https://en.wikipedia.org/wiki/food	image:	layer:1
+id:811	title:situation	abstract:the way in which something is positioned vis-  -vis its surroundings .	link:https://en.wikipedia.org/wiki/situation	image:	layer:2
+id:812	title:situation	abstract:the place in which something is situated ; a location .	link:https://en.wikipedia.org/wiki/situation	image:	layer:2
+id:813	title:might	abstract:the power , force , or influence held by a person or group .	link:https://en.wikipedia.org/wiki/might	image:	layer:2
+id:814	title:might	abstract:physical strength .	link:https://en.wikipedia.org/wiki/might	image:	layer:1
+id:815	title:congress	abstract:a formal assembly of representatives , as of various nations , to discuss problems .	link:https://en.wikipedia.org/wiki/congress	image:	layer:2
+id:816	title:congress	abstract:the national legislative body of a nation , especially a republic .	link:https://en.wikipedia.org/wiki/congress	image:	layer:1
+id:817	title:border	abstract:a part that forms the outer edge of something .	link:https://en.wikipedia.org/wiki/border	image:	layer:1
+id:818	title:border	abstract:a decorative strip around the edge of something , such as fabric .	link:https://en.wikipedia.org/wiki/border	image:	layer:1
+id:819	title:recording	abstract:something on which sound or visual images have been recorded .	link:https://en.wikipedia.org/wiki/recording	image:	layer:2
+id:820	title:recording	abstract:a recorded sound or picture .	link:https://en.wikipedia.org/wiki/recording	image:	layer:1
+id:821	title:job	abstract:a regular activity performed in exchange for payment , especially as one's trade , occupation , or profession .	link:https://en.wikipedia.org/wiki/job	image:	layer:1
+id:822	title:job	abstract:a position in which one is employed .	link:https://en.wikipedia.org/wiki/job	image:	layer:1
+id:823	title:commander	abstract:a person who commands , especially a commanding officer .	link:https://en.wikipedia.org/wiki/commander	image:	layer:1
+id:824	title:commander	abstract:a commissioned rank in the u .s .	link:https://en.wikipedia.org/wiki/commander	image:	layer:1
+id:825	title:hotel	abstract:an establishment that provides lodging and usually meals and other services for travelers and other paying guests .	link:https://en.wikipedia.org/wiki/hotel	image:	layer:1
+id:826	title:ministry	abstract:the act of serving ; ministration .	link:https://en.wikipedia.org/wiki/ministry	image:	layer:1
+id:827	title:ministry	abstract:one that serves as a means ; an instrumentality .	link:https://en.wikipedia.org/wiki/ministry	image:	layer:1
+id:828	title:genus	abstract:biology : a taxonomic category ranking below a family and above a species and generally consisting of a group of species exhibiting similar characteristics .	link:https://en.wikipedia.org/wiki/genus	image:	layer:1
+id:829	title:genus	abstract:logic : a class of objects divided into subordinate species having certain common attributes .	link:https://en.wikipedia.org/wiki/genus	image:	layer:2
+id:830	title:score	abstract:a notch or incision , especially one that is made to keep a tally .	link:https://en.wikipedia.org/wiki/score	image:	layer:2
+id:831	title:score	abstract:sports & games : a usually numerical record of a competitive event .	link:https://en.wikipedia.org/wiki/score	image:	layer:2
+id:832	title:opening	abstract:the act or an instance of becoming open or being made to open .	link:https://en.wikipedia.org/wiki/opening	image:	layer:2
+id:833	title:opening	abstract:an open space serving as a passage or gap .	link:https://en.wikipedia.org/wiki/opening	image:	layer:1
+id:834	title:champion	abstract:one that wins first place or first prize in a competition .	link:https://en.wikipedia.org/wiki/champion	image:	layer:2
+id:835	title:champion	abstract:one that is clearly superior or has the attributes of a winner .	link:https://en.wikipedia.org/wiki/champion	image:	layer:1
+id:836	title:human	abstract:a member of the genus homo and especially of the species h .	link:https://en.wikipedia.org/wiki/human	image:	layer:1
+id:837	title:era	abstract:a period of time as reckoned from a specific date serving as the basis of its chronological system .	link:https://en.wikipedia.org/wiki/era	image:	layer:1
+id:838	title:era	abstract:a period of time characterized by particular circumstances , events , or personages .	link:https://en.wikipedia.org/wiki/era	image:	layer:2
+id:839	title:piece	abstract:a thing considered as a unit or an element of a larger thing , quantity , or class ; a portion .	link:https://en.wikipedia.org/wiki/piece	image:	layer:2
+id:840	title:piece	abstract:a portion or part that has been separated from a whole .	link:https://en.wikipedia.org/wiki/piece	image:	layer:2
+id:841	title:purpose	abstract:the object toward which one strives or for which something exists ; an aim or a goal .	link:https://en.wikipedia.org/wiki/purpose	image:	layer:1
+id:842	title:purpose	abstract:a result or effect that is intended or desired ; an intention .	link:https://en.wikipedia.org/wiki/purpose	image:	layer:1
+id:843	title:settlement	abstract:the act or process of settling .	link:https://en.wikipedia.org/wiki/settlement	image:	layer:2
+id:844	title:settlement	abstract:establishment , as of a person in a business or of people in a new region .	link:https://en.wikipedia.org/wiki/settlement	image:	layer:2
+id:845	title:wing	abstract:one of a pair of movable organs for flying , as the feather-covered modified forelimb of a bird or the skin-covered modified digits of the forelimb of a bat .	link:https://en.wikipedia.org/wiki/wing	image:	layer:1
+id:846	title:wing	abstract:any of usually four membranous organs for flying that extend from the thorax of an insect .	link:https://en.wikipedia.org/wiki/wing	image:	layer:1
+id:847	title:facility	abstract:ease in moving , acting , or doing ; aptitude .	link:https://en.wikipedia.org/wiki/facility	image:	layer:2
+id:848	title:facility	abstract:readiness to be persuaded ; pliability .	link:https://en.wikipedia.org/wiki/facility	image:	layer:2
+id:849	title:v	abstract:the 22nd letter of the modern english alphabet .	link:https://en.wikipedia.org/wiki/v	image:	layer:2
+id:850	title:v	abstract:any of the speech sounds represented by the letter v .	link:https://en.wikipedia.org/wiki/v	image:	layer:2
+id:851	title:opinion	abstract:a belief or conclusion held with confidence but not substantiated by positive knowledge or proof .	link:https://en.wikipedia.org/wiki/opinion	image:	layer:1
+id:852	title:opinion	abstract:a judgment based on special knowledge and given by an expert .	link:https://en.wikipedia.org/wiki/opinion	image:	layer:1
+id:853	title:topic	abstract:the subject of a speech , essay , thesis , or discourse .	link:https://en.wikipedia.org/wiki/topic	image:	layer:2
+id:854	title:topic	abstract:a subject of discussion or conversation .	link:https://en.wikipedia.org/wiki/topic	image:	layer:1
+id:855	title:couple	abstract:two items of the same kind ; a pair .	link:https://en.wikipedia.org/wiki/couple	image:	layer:1
+id:856	title:couple	abstract:something that joins or connects two things together ; a link .	link:https://en.wikipedia.org/wiki/couple	image:	layer:2
+id:857	title:someone	abstract:a person of importance .	link:https://en.wikipedia.org/wiki/someone	image:	layer:2
+id:858	title:function	abstract:the action for which a person or thing is particularly fitted or employed .	link:https://en.wikipedia.org/wiki/function	image:	layer:1
+id:859	title:function	abstract:assigned duty or activity .	link:https://en.wikipedia.org/wiki/function	image:	layer:1
+id:860	title:ten	abstract:the cardinal number equal to 9 + 1 .	link:https://en.wikipedia.org/wiki/ten	image:	layer:1
+id:861	title:ten	abstract:the tenth in a set or sequence .	link:https://en.wikipedia.org/wiki/ten	image:	layer:1
+id:862	title:length	abstract:the state , quality , or fact of being long .	link:https://en.wikipedia.org/wiki/length	image:	layer:2
+id:863	title:length	abstract:the measurement of the extent of something along its greatest dimension .	link:https://en.wikipedia.org/wiki/length	image:	layer:2
+id:864	title:portion	abstract:a section or quantity within a larger thing ; a part of a whole .	link:https://en.wikipedia.org/wiki/portion	image:	layer:2
+id:865	title:portion	abstract:a part separated from a whole .	link:https://en.wikipedia.org/wiki/portion	image:	layer:2
+id:866	title:flight	abstract:the motion of an object in or through a medium , especially through the earth's atmosphere or through space .	link:https://en.wikipedia.org/wiki/flight	image:	layer:1
+id:867	title:flight	abstract:an instance of such motion .	link:https://en.wikipedia.org/wiki/flight	image:	layer:1
+id:868	title:producer	abstract:one that produces , especially a person or organization that produces goods or services for sale .	link:https://en.wikipedia.org/wiki/producer	image:	layer:1
+id:869	title:producer	abstract:one who supervises and controls the finances , creation , and public presentation of a play , film , program , or similar work .	link:https://en.wikipedia.org/wiki/producer	image:	layer:1
+id:870	title:mountain	abstract:a natural elevation of the earth's surface having considerable mass , generally steep sides , and a height greater than that of a hill .	link:https://en.wikipedia.org/wiki/mountain	image:	layer:2
+id:871	title:mountain	abstract:a large heap .	link:https://en.wikipedia.org/wiki/mountain	image:	layer:1
+id:872	title:boy	abstract:a male child .	link:https://en.wikipedia.org/wiki/boy	image:	layer:1
+id:873	title:chairman	abstract:the presiding officer of an assembly , meeting , committee , or board .	link:https://en.wikipedia.org/wiki/chairman	image:	layer:1
+id:874	title:chairman	abstract:the administrative head of a department of instruction , as at a college .	link:https://en.wikipedia.org/wiki/chairman	image:	layer:1
+id:875	title:p	abstract:the 16th letter of the modern english alphabet .	link:https://en.wikipedia.org/wiki/p	image:	layer:2
+id:876	title:p	abstract:any of the speech sounds represented by the letter p .	link:https://en.wikipedia.org/wiki/p	image:	layer:2
+id:877	title:san	abstract:used as a courtesy title in japanese-speaking areas as a suffix to the given name , surname , or title of the person being addressed , regardless of age or gender .	link:https://en.wikipedia.org/wiki/san	image:	layer:1
+id:878	title:sign	abstract:something that suggests the presence or existence of a fact , condition , or quality .	link:https://en.wikipedia.org/wiki/sign	image:	layer:2
+id:879	title:sign	abstract:an act or gesture used to convey an idea , a desire , information , or a command .	link:https://en.wikipedia.org/wiki/sign	image:	layer:2
+id:880	title:software	abstract:computer science : the programs , routines , and symbolic languages that control the functioning of the hardware and direct its operation .	link:https://en.wikipedia.org/wiki/software	image:	layer:1
+id:881	title:port	abstract:a place on a waterway with facilities for loading and unloading ships .	link:https://en.wikipedia.org/wiki/port	image:	layer:2
+id:882	title:port	abstract:a city or town on a waterway with such facilities .	link:https://en.wikipedia.org/wiki/port	image:	layer:2
+id:883	title:j	abstract:the tenth letter of the modern english alphabet .	link:https://en.wikipedia.org/wiki/j	image:	layer:2
+id:884	title:j	abstract:any of the speech sounds represented by the letter j .	link:https://en.wikipedia.org/wiki/j	image:	layer:2
+id:885	title:environment	abstract:the circumstances or conditions that surround one ; surroundings .	link:https://en.wikipedia.org/wiki/environment	image:	layer:2
+id:886	title:environment	abstract:the totality of circumstances surrounding an organism or group of organisms , especially:	link:https://en.wikipedia.org/wiki/environment	image:	layer:2
+id:887	title:letter	abstract:a written symbol or character representing a speech sound and being a component of an alphabet .	link:https://en.wikipedia.org/wiki/letter	image:	layer:2
+id:888	title:letter	abstract:a written symbol or character used in the graphemic representation of a word , such as the h in thames .	link:https://en.wikipedia.org/wiki/letter	image:	layer:2
+id:889	title:sister	abstract:a female having the same parents as another or one parent in common with another .	link:https://en.wikipedia.org/wiki/sister	image:	layer:1
+id:890	title:sister	abstract:a girl or woman who shares a common ancestry , allegiance , character , or purpose with another or others , specifically:	link:https://en.wikipedia.org/wiki/sister	image:	layer:2
+id:891	title:nation	abstract:a relatively large group of people organized under a single , usually independent government ; a country .	link:https://en.wikipedia.org/wiki/nation	image:	layer:1
+id:892	title:draft	abstract:a current of air in an enclosed area .	link:https://en.wikipedia.org/wiki/draft	image:	layer:1
+id:893	title:draft	abstract:a device that regulates the flow or circulation of air .	link:https://en.wikipedia.org/wiki/draft	image:	layer:1
+id:894	title:creation	abstract:the fact or state of having been created .	link:https://en.wikipedia.org/wiki/creation	image:	layer:2
+id:895	title:orchestra	abstract:music : a large group of musicians who play together on various instruments , usually including strings , woodwinds , brass instruments , and percussion instruments .	link:https://en.wikipedia.org/wiki/orchestra	image:	layer:2
+id:896	title:japan	abstract:a black enamel or lacquer used to produce a durable glossy finish .	link:https://en.wikipedia.org/wiki/japan	image:	layer:1
+id:897	title:japan	abstract:an object decorated with this substance .	link:https://en.wikipedia.org/wiki/japan	image:	layer:1
+id:898	title:squadron	abstract:a naval unit consisting of two or more divisions of a fleet .	link:https://en.wikipedia.org/wiki/squadron	image:	layer:2
+id:899	title:squadron	abstract:an armored cavalry unit subordinate to a regiment and consisting of two or more troops .	link:https://en.wikipedia.org/wiki/squadron	image:	layer:1
+id:900	title:queen	abstract:the wife or widow of a king .	link:https://en.wikipedia.org/wiki/queen	image:	layer:1
+id:901	title:queen	abstract:a woman sovereign .	link:https://en.wikipedia.org/wiki/queen	image:	layer:1
+id:902	title:host	abstract:one who receives or entertains guests in a social or official capacity .	link:https://en.wikipedia.org/wiki/host	image:	layer:2
+id:903	title:host	abstract:a person who manages an inn or hotel .	link:https://en.wikipedia.org/wiki/host	image:	layer:1
+id:904	title:wall	abstract:an upright structure of masonry , wood , plaster , or other building material serving to enclose , divide , or protect an area , especially a vertical construction forming an inner partition or exterior siding of a building .	link:https://en.wikipedia.org/wiki/wall	image:	layer:1
+id:905	title:wall	abstract:a continuous structure of masonry or other material forming a rampart and built for defensive purposes .	link:https://en.wikipedia.org/wiki/wall	image:	layer:1
+id:906	title:direction	abstract:the act or function of directing .	link:https://en.wikipedia.org/wiki/direction	image:	layer:2
+id:907	title:direction	abstract:management , supervision , or guidance of an action or operation .	link:https://en.wikipedia.org/wiki/direction	image:	layer:1
+id:908	title:mark	abstract:a visible trace or impression , such as a line or spot .	link:https://en.wikipedia.org/wiki/mark	image:	layer:2
+id:909	title:mark	abstract:a sign , such as a cross , made in lieu of a signature .	link:https://en.wikipedia.org/wiki/mark	image:	layer:1
+id:910	title:surface	abstract:the outer or the topmost boundary of an object .	link:https://en.wikipedia.org/wiki/surface	image:	layer:1
+id:911	title:forest	abstract:a dense growth of trees , plants , and underbrush covering a large area .	link:https://en.wikipedia.org/wiki/forest	image:	layer:1
+id:912	title:forest	abstract:something that resembles a large , dense growth of trees , as in density , quantity , or profusion .	link:https://en.wikipedia.org/wiki/forest	image:	layer:1
+id:913	title:picture	abstract:a visual representation or image painted , drawn , photographed , or otherwise rendered on a flat surface .	link:https://en.wikipedia.org/wiki/picture	image:	layer:1
+id:914	title:picture	abstract:a visible image , especially one on a flat surface or screen .	link:https://en.wikipedia.org/wiki/picture	image:	layer:2
+id:915	title:bill	abstract:an itemized list or statement of fees or charges .	link:https://en.wikipedia.org/wiki/bill	image:	layer:2
+id:916	title:bill	abstract:a statement or list of particulars , such as a theater program or menu .	link:https://en.wikipedia.org/wiki/bill	image:	layer:2
+id:917	title:bishop	abstract:a high-ranking christian cleric , in modern churches usually in charge of a diocese and in some churches regarded as having received the highest ordination in unbroken succession from the apostles .	link:https://en.wikipedia.org/wiki/bishop	image:	layer:2
+id:918	title:bishop	abstract:games : a usually miter-shaped chess piece that can move diagonally across any number of unoccupied spaces .	link:https://en.wikipedia.org/wiki/bishop	image:	layer:2
+id:919	title:presence	abstract:the state or fact of being present ; current existence or occurrence .	link:https://en.wikipedia.org/wiki/presence	image:	layer:2
+id:920	title:presence	abstract:immediate proximity in time or space .	link:https://en.wikipedia.org/wiki/presence	image:	layer:2
+id:921	title:captain	abstract:one who commands , leads , or guides others , especially:	link:https://en.wikipedia.org/wiki/captain	image:	layer:1
+id:922	title:captain	abstract:the officer in command of a ship , an aircraft , or a spacecraft .	link:https://en.wikipedia.org/wiki/captain	image:	layer:1
+id:923	title:convention	abstract:a formal meeting of members , representatives , or delegates , as of a political party , fraternal society , profession , or industry .	link:https://en.wikipedia.org/wiki/convention	image:	layer:2
+id:924	title:convention	abstract:the body of persons attending such an assembly .	link:https://en.wikipedia.org/wiki/convention	image:	layer:2
+id:925	title:voice	abstract:the sound produced by the vocal organs of a vertebrate , especially a human .	link:https://en.wikipedia.org/wiki/voice	image:	layer:2
+id:926	title:voice	abstract:the ability to produce such sounds .	link:https://en.wikipedia.org/wiki/voice	image:	layer:2
+id:927	title:fleet	abstract:a number of warships operating together under one command .	link:https://en.wikipedia.org/wiki/fleet	image:	layer:1
+id:928	title:fleet	abstract:a group of vessels or vehicles , such as taxicabs or fishing boats , owned or operated as a unit .	link:https://en.wikipedia.org/wiki/fleet	image:	layer:2
+id:929	title:speed	abstract:physics : the rate or a measure of the rate of motion , especially:	link:https://en.wikipedia.org/wiki/speed	image:	layer:1
+id:930	title:speed	abstract:physics : distance traveled divided by the time of travel .	link:https://en.wikipedia.org/wiki/speed	image:	layer:1
+id:931	title:crew	abstract:a group of people working together ; a gang .	link:https://en.wikipedia.org/wiki/crew	image:	layer:2
+id:932	title:crew	abstract:a group of people gathered together temporarily ; a crowd .	link:https://en.wikipedia.org/wiki/crew	image:	layer:2
+id:933	title:register	abstract:a formal or official recording of items , names , or actions .	link:https://en.wikipedia.org/wiki/register	image:	layer:2
+id:934	title:register	abstract:a book for such entries .	link:https://en.wikipedia.org/wiki/register	image:	layer:1
+id:935	title:f	abstract:the sixth letter of the modern english alphabet .	link:https://en.wikipedia.org/wiki/f	image:	layer:2
+id:936	title:f	abstract:any of the speech sounds represented by the letter f .	link:https://en.wikipedia.org/wiki/f	image:	layer:2
+id:937	title:reading	abstract:the act or activity of one that reads .	link:https://en.wikipedia.org/wiki/reading	image:	layer:2
+id:938	title:reading	abstract:the act or practice of rendering aloud written or printed matter .	link:https://en.wikipedia.org/wiki/reading	image:	layer:2
+id:939	title:revolution	abstract:orbital motion about a point , especially as distinguished from axial rotation .	link:https://en.wikipedia.org/wiki/revolution	image:	layer:1
+id:940	title:revolution	abstract:a turning or rotational motion about an axis .	link:https://en.wikipedia.org/wiki/revolution	image:	layer:1
+id:941	title:township	abstract:a subdivision of a county in most northeast and midwest u .s .	link:https://en.wikipedia.org/wiki/township	image:	layer:2
+id:942	title:township	abstract:a public land surveying unit of 36 sections or 36 square miles .	link:https://en.wikipedia.org/wiki/township	image:	layer:1
+id:943	title:paper	abstract:a material made of cellulose pulp , derived mainly from wood , rags , and certain grasses , processed into flexible sheets or rolls by deposit from an aqueous suspension , and used chiefly for writing , printing , drawing , wrapping , and covering walls .	link:https://en.wikipedia.org/wiki/paper	image:	layer:2
+id:944	title:paper	abstract:a single sheet of this material .	link:https://en.wikipedia.org/wiki/paper	image:	layer:2
+id:945	title:attention	abstract:concentration of the mental powers upon an object ; a close or careful observing or listening .	link:https://en.wikipedia.org/wiki/attention	image:	layer:2
+id:946	title:attention	abstract:the ability or power to concentrate mentally .	link:https://en.wikipedia.org/wiki/attention	image:	layer:1
+id:947	title:entry	abstract:the act or an instance of entering .	link:https://en.wikipedia.org/wiki/entry	image:	layer:1
+id:948	title:entry	abstract:the privilege or right of entering .	link:https://en.wikipedia.org/wiki/entry	image:	layer:1
+id:949	title:gold	abstract:a soft , yellow , corrosion-resistant element , the most malleable and ductile metal , occurring in veins and alluvial deposits and recovered by mining or by panning or sluicing .	link:https://en.wikipedia.org/wiki/gold	image:	layer:1
+id:950	title:gold	abstract:coinage made of this element .	link:https://en.wikipedia.org/wiki/gold	image:	layer:2
+id:951	title:parish	abstract:an administrative part of a diocese that has its own church in the anglican , roman catholic , and some other churches .	link:https://en.wikipedia.org/wiki/parish	image:	layer:2
+id:952	title:product	abstract:something produced by human or mechanical effort or by a natural process .	link:https://en.wikipedia.org/wiki/product	image:	layer:1
+id:953	title:product	abstract:a direct result ; a consequence .	link:https://en.wikipedia.org/wiki/product	image:	layer:1
+id:954	title:avenue	abstract:a wide street or thoroughfare .	link:https://en.wikipedia.org/wiki/avenue	image:	layer:2
+id:955	title:avenue	abstract:a broad roadway lined with trees .	link:https://en.wikipedia.org/wiki/avenue	image:	layer:1
+id:956	title:literature	abstract:the body of written works of a language , period , or culture .	link:https://en.wikipedia.org/wiki/literature	image:	layer:2
+id:957	title:literature	abstract:imaginative or creative writing , especially of recognized artistic value .	link:https://en.wikipedia.org/wiki/literature	image:	layer:1
+id:958	title:heart	abstract:anatomy : the chambered muscular organ in vertebrates that pumps blood received from the veins into the arteries , thereby maintaining the flow of blood through the entire circulatory system .	link:https://en.wikipedia.org/wiki/heart	image:	layer:2
+id:959	title:heart	abstract:anatomy : a similarly functioning structure in invertebrates .	link:https://en.wikipedia.org/wiki/heart	image:	layer:1
+id:960	title:trust	abstract:firm reliance on the integrity , ability , or character of a person or thing .	link:https://en.wikipedia.org/wiki/trust	image:	layer:2
+id:961	title:trust	abstract:custody ; care .	link:https://en.wikipedia.org/wiki/trust	image:	layer:2
+id:962	title:volume	abstract:a collection of written or printed sheets bound together ; a book .	link:https://en.wikipedia.org/wiki/volume	image:	layer:2
+id:963	title:volume	abstract:one of the books of a work printed and bound in more than one book .	link:https://en.wikipedia.org/wiki/volume	image:	layer:1
+id:964	title:conflict	abstract:a state of open , often prolonged fighting ; a battle or war .	link:https://en.wikipedia.org/wiki/conflict	image:	layer:2
+id:965	title:conflict	abstract:a state of disharmony between incompatible or antithetical persons , ideas , or interests ; a clash .	link:https://en.wikipedia.org/wiki/conflict	image:	layer:1
+id:966	title:earth	abstract:the land surface of the world .	link:https://en.wikipedia.org/wiki/earth	image:	layer:1
+id:967	title:earth	abstract:the softer , friable part of land ; soil , especially productive soil .	link:https://en.wikipedia.org/wiki/earth	image:	layer:1
+id:968	title:activity	abstract:the state of being active .	link:https://en.wikipedia.org/wiki/activity	image:	layer:2
+id:969	title:activity	abstract:energetic action or movement ; liveliness .	link:https://en.wikipedia.org/wiki/activity	image:	layer:2
+id:970	title:deletion	abstract:the act of deleting ; removal by striking out .	link:https://en.wikipedia.org/wiki/deletion	image:	layer:1
+id:971	title:deletion	abstract:material , such as a word or passage , that has been removed from a body of written or printed matter .	link:https://en.wikipedia.org/wiki/deletion	image:	layer:2
+id:972	title:zone	abstract:an area or a region distinguished from adjacent parts by a distinctive feature or characteristic .	link:https://en.wikipedia.org/wiki/zone	image:	layer:1
+id:973	title:zone	abstract:any of the five regions of the surface of the earth that are loosely divided according to prevailing climate and latitude , including the torrid zone , the north and south temperate zones , and the north and south frigid zones .	link:https://en.wikipedia.org/wiki/zone	image:	layer:1
+id:974	title:analysis	abstract:the separation of an intellectual or material whole into its constituent parts for individual study .	link:https://en.wikipedia.org/wiki/analysis	image:	layer:1
+id:975	title:analysis	abstract:the study of such constituent parts and their interrelationships in making up a whole .	link:https://en.wikipedia.org/wiki/analysis	image:	layer:1
+id:976	title:computer	abstract:a device that computes , especially a programmable electronic machine that performs high-speed mathematical or logical operations or that assembles , stores , correlates , or otherwise processes information .	link:https://en.wikipedia.org/wiki/computer	image:	layer:2
+id:977	title:capacity	abstract:the ability to receive , hold , or absorb .	link:https://en.wikipedia.org/wiki/capacity	image:	layer:1
+id:978	title:capacity	abstract:a measure of this ability ; volume .	link:https://en.wikipedia.org/wiki/capacity	image:	layer:1
+id:979	title:lord	abstract:a man of high rank in a feudal society or in one that retains feudal forms and institutions , especially:	link:https://en.wikipedia.org/wiki/lord	image:	layer:2
+id:980	title:winner	abstract:one that wins , especially a victor in sports or a notably successful person .	link:https://en.wikipedia.org/wiki/winner	image:	layer:2
+id:981	title:formation	abstract:the act or process of forming something or of taking form .	link:https://en.wikipedia.org/wiki/formation	image:	layer:1
+id:982	title:formation	abstract:something formed .	link:https://en.wikipedia.org/wiki/formation	image:	layer:1
+id:983	title:husband	abstract:a man joined to a woman in marriage ; a male spouse .	link:https://en.wikipedia.org/wiki/husband	image:	layer:2
+id:984	title:husband	abstract:chiefly british : a manager or steward , as of a household .	link:https://en.wikipedia.org/wiki/husband	image:	layer:1
+id:985	title:prince	abstract:a male member of a royal family other than the monarch , especially a son of the monarch .	link:https://en.wikipedia.org/wiki/prince	image:	layer:2
+id:986	title:prince	abstract:a man who is a ruler of a principality .	link:https://en.wikipedia.org/wiki/prince	image:	layer:2
+id:987	title:blue	abstract:the hue of that portion of the visible spectrum lying between green and indigo , evoked in the human observer by radiant energy with wavelengths of approximately 420 to 490 nanometers ; any of a group of colors that may vary in lightness and saturation , whose hue is that of a clear daytime sky ; one of the additive or light primaries ; one of the psychological primary hues .	link:https://en.wikipedia.org/wiki/blue	image:	layer:2
+id:988	title:blue	abstract:a pigment or dye imparting this hue .	link:https://en.wikipedia.org/wiki/blue	image:	layer:2
+id:989	title:check	abstract:an action or influence that stops motion or expression ; a restraint .	link:https://en.wikipedia.org/wiki/check	image:	layer:2
+id:990	title:check	abstract:the condition of being stopped or held back ; restraint .	link:https://en.wikipedia.org/wiki/check	image:	layer:2
+id:991	title:rose	abstract:a member of the rose family .	link:https://en.wikipedia.org/wiki/rose	image:	layer:1
+id:992	title:rose	abstract:any of numerous shrubs or vines of the genus rosa , having prickly stems , pinnately compound leaves , and variously colored , often fragrant flowers .	link:https://en.wikipedia.org/wiki/rose	image:	layer:1
+id:993	title:redirect	abstract:a redirect examination .	link:https://en.wikipedia.org/wiki/redirect	image:	layer:2
+id:994	title:square	abstract:a plane figure having four equal sides .	link:https://en.wikipedia.org/wiki/square	image:	layer:2
+id:995	title:square	abstract:something having an equal-sided rectangular form .	link:https://en.wikipedia.org/wiki/square	image:	layer:2
+id:996	title:beach	abstract:the shore of a body of water , especially when sandy or pebbly .	link:https://en.wikipedia.org/wiki/beach	image:	layer:1

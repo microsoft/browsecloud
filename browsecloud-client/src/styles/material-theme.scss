@@ -1,0 +1,56 @@
+// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT License.
+
+@import '~@angular/material/theming';
+@import './color';
+
+// Base Theme ///////////////////////////////////////////////////////////////
+@include mat-core();
+
+// Color ///////////////////////////////////////////////////////////////
+$primary: mat-palette($ms-blue, 500);
+$accent: mat-palette($ms-blue, 400);
+$warn: mat-palette($mat-red, 600);
+$theme: mat-light-theme($primary, $accent, $warn);
+
+@include angular-material-theme($theme);
+
+// Background Color ///////////////////////////////////////////////////
+
+body {
+    background-color: mat-color(map-get($theme, background), background);
+}
+
+// Typography ///////////////////////////////////////////////////////////////
+$custom-typography: mat-typography-config(
+  $font-family: "\"Segoe UI Web (West European)\", \"Segoe UI\", -apple-system, BlinkMacSystemFont, \"Roboto\", \"Helvetica Neue\", sans-serif"
+);
+
+@include mat-base-typography($custom-typography);
+@include angular-material-typography($custom-typography);
+
+// Overrides ///////////////////////////////////////////////////////////////
+
+mat-checkbox {
+    .mat-checkbox-ripple {
+        display: none;
+    }
+
+    .mat-checkbox-frame {
+        border-width: 1px;
+    }
+}
+
+[mat-icon-button] {
+    transition: 500ms;
+
+    &:hover {
+        color: map-get($ms-blue, 300);
+    }
+}
+
+mat-form-field {
+    mat-label {
+        color: mat-color(map-get($theme, foreground), text);
+    }
+}

@@ -5,6 +5,7 @@ export const environment = {
     production: false,
     serviceURL: 'http://localhost',
     auth: {
+        // replace with your own clientId.
         clientId: 'a19cbb16-278c-49eb-8a8b-66551afee502',
         serviceScopes: [
             'https://microsoft.onmicrosoft.com/BrowseCloud.Service/BrowseCloud.Access',

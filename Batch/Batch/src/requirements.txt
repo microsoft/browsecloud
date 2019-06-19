@@ -1,0 +1,4 @@
+azure-batch==5.1.1
+azure-storage-blob==1.4.0
+adal==1.2.0
+azure-mgmt-datalake-analytics==0.2.0

@@ -1,11 +1,9 @@
 jobs:
   - job: Build Client App
-
-  - pool:
+  pool:
     vmImage: vs2017-win2016
     demands: npm
-
-  - steps:
+  steps:
     - task: Npm@1
       displayName: 'npm install'
       inputs:

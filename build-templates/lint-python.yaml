@@ -1,15 +1,12 @@
 jobs:
   - job: Lint Python Code
-
-  - pool:
+  pool:
     vmImage: 'ubuntu-16.04'
-    
-  - strategy:
+  strategy:
     matrix:
       Python36:
         python.version: '3.6'
-
-  - steps:
+  steps:
     - task: UsePythonVersion@0
       displayName: 'Use Python $(python.version)'
       inputs:

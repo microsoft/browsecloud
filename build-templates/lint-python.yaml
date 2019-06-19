@@ -1,22 +1,22 @@
 jobs:
   - job: Lint Python Code
 
-  pool:
+  - pool:
     vmImage: 'ubuntu-16.04'
     
-  strategy:
+  - strategy:
     matrix:
       Python36:
         python.version: '3.6'
 
-  steps:
-  - task: UsePythonVersion@0
-    displayName: 'Use Python $(python.version)'
-    inputs:
-      versionSpec: '$(python.version)'
+  - steps:
+    - task: UsePythonVersion@0
+      displayName: 'Use Python $(python.version)'
+      inputs:
+        versionSpec: '$(python.version)'
 
-  - script: pip install pep8
-    displayName: 'Install pep8 linter'
+    - script: pip install pep8
+      displayName: 'Install pep8 linter'
 
-  - script: pep8 . --max-line-length=150
-    displayName: 'Run pep8 linter'
+    - script: pep8 . --max-line-length=150
+      displayName: 'Run pep8 linter'

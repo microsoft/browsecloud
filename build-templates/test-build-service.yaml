@@ -36,19 +36,6 @@ jobs:
       platform: ${{ parameters.platform }}
       configuration: ${{ parameters.configuration }}
 
-  - task: ms-openapi.OpenApiDocumentTools.openApiDocumentBuilder-build-task.BuildOpenApiDocument@0
-    displayName: 'Build OpenAPI Document'
-    inputs:
-      visualStudioXmlDocumentationFileNamePatterns: |
-      BrowseCloud.Service.xml
-      BrowseCloud.Service.Models.xml
-      assemblyFileNamePatterns: |
-      BrowseCloud.Service.dll
-      BrowseCloud.Service.Models.dll
-      visualStudioXmlSearchPath: '$(Build.SourcesDirectory)\BrowseCloud.Service\BrowseCloud.Service\bin\Release\netcoreapp2.2'
-      assemblyFileSearchPath: '$(Build.SourcesDirectory)\BrowseCloud.Service\BrowseCloud.Service\bin\Release\netcoreapp2.2'
-    continueOnError: true
-
   - task: PublishSymbols@2
     displayName: 'Publish symbols path'
     inputs:
@@ -57,6 +44,6 @@ jobs:
     continueOnError: true
 
   - task: PublishBuildArtifacts@1
-    displayName: 'Publish Artifact: drop'
+    displayName: 'Publish Artifact'
     inputs:
       PathtoPublish: '$(build.artifactstagingdirectory)'

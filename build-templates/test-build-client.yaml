@@ -43,7 +43,7 @@ jobs:
       archiveFile: 'browsecloud-client/dist/browsecloud-client/web.zip'
 
   - task: PublishBuildArtifacts@1
-    displayName: 'Publish Artifact: drop'
+    displayName: 'Publish Artifact'
     inputs:
       PathtoPublish: 'browsecloud-client/dist/browsecloud-client'
 

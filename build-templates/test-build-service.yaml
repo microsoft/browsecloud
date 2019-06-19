@@ -37,7 +37,7 @@ jobs:
       configuration: ${{ parameters.configuration }}
 
   - task: ms-openapi.OpenApiDocumentTools.openApiDocumentBuilder-build-task.BuildOpenApiDocument@0
-    displayName: 'Build OpenAPI Document: '
+    displayName: 'Build OpenAPI Document'
     inputs:
       visualStudioXmlDocumentationFileNamePatterns: |
       BrowseCloud.Service.xml

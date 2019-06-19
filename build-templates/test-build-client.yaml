@@ -1,48 +1,48 @@
 jobs:
-  - job: Build Client App
+- job: Build Client App
   pool:
     vmImage: vs2017-win2016
     demands: npm
   steps:
-    - task: Npm@1
-      displayName: 'npm install'
-      inputs:
-        workingDir: 'browsecloud-client'
-        verbose: false
+  - task: Npm@1
+    displayName: 'npm install'
+    inputs:
+      workingDir: 'browsecloud-client'
+      verbose: false
 
-    - task: Npm@1
-      displayName: 'npm run test:no-watch'
-      inputs:
-        command: custom
-        workingDir: 'browsecloud-client'
-        verbose: false
-        customCommand: 'run test:no-watch'
+  - task: Npm@1
+    displayName: 'npm run test:no-watch'
+    inputs:
+      command: custom
+      workingDir: 'browsecloud-client'
+      verbose: false
+      customCommand: 'run test:no-watch'
 
-    - task: Npm@1
-      displayName: 'npm run lint'
-      inputs:
-        command: custom
-        workingDir: 'browsecloud-client'
-        verbose: false
-        customCommand: 'run lint'
+  - task: Npm@1
+    displayName: 'npm run lint'
+    inputs:
+      command: custom
+      workingDir: 'browsecloud-client'
+      verbose: false
+      customCommand: 'run lint'
 
-    - task: Npm@1
-      displayName: 'npm run build:prod'
-      inputs:
-        command: custom
-        workingDir: 'browsecloud-client'
-        verbose: false
-        customCommand: 'run build:prod'
+  - task: Npm@1
+    displayName: 'npm run build:prod'
+    inputs:
+      command: custom
+      workingDir: 'browsecloud-client'
+      verbose: false
+      customCommand: 'run build:prod'
 
-    - task: ArchiveFiles@2
-      displayName: 'Archive browsecloud-client/dist/browsecloud-client'
-      inputs:
-        rootFolderOrFile: 'browsecloud-client/dist/browsecloud-client'
-        includeRootFolder: false
-        archiveFile: 'browsecloud-client/dist/browsecloud-client/web.zip'
+  - task: ArchiveFiles@2
+    displayName: 'Archive browsecloud-client/dist/browsecloud-client'
+    inputs:
+      rootFolderOrFile: 'browsecloud-client/dist/browsecloud-client'
+      includeRootFolder: false
+      archiveFile: 'browsecloud-client/dist/browsecloud-client/web.zip'
 
-    - task: PublishBuildArtifacts@1
-      displayName: 'Publish Artifact: drop'
-      inputs:
-        PathtoPublish: 'browsecloud-client/dist/browsecloud-client'
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Artifact: drop'
+    inputs:
+      PathtoPublish: 'browsecloud-client/dist/browsecloud-client'
 

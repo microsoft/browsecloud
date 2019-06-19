@@ -31,11 +31,8 @@ jobs:
       configuration: ${{ parameters.configuration }}
 
   - task: VSTest@2
-    displayName: 'VsTest - testAssemblies'
+    displayName: 'Run Tests'
     inputs:
-      testAssemblyVer2: |
-      '**\$(BuildConfiguration)\*test*.dll'
-      '!**\obj\**'
       platform: ${{ parameters.platform }}
       configuration: ${{ parameters.configuration }}
 

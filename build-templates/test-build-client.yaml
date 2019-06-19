@@ -1,5 +1,6 @@
 jobs:
-- job: Build Client App
+- job: BuildClientApp
+  displayName: Build Client App
   pool:
     vmImage: vs2017-win2016
     demands: npm

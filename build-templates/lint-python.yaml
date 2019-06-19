@@ -1,5 +1,6 @@
 jobs:
-- job: Lint Python Code
+- job: LintPythonCode
+  displayName: Lint Python Code
   pool:
     vmImage: 'ubuntu-16.04'
   strategy:

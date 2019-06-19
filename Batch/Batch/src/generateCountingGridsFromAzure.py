@@ -182,7 +182,6 @@ if __name__ == "__main__":
             vocabulary, keep = engine.get_vocab(
                 DIRECTORY_DATA, CLEAN_DATA_FILE_NAME, cleaner.labelsS, MIN_FREQUENCY, keep)
 
-
         # ---------------------------------------------------------------------------------------
         # Output
         # ---------------------------------------------------------------------------------------

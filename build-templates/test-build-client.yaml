@@ -1,5 +1,5 @@
 jobs:
-  displayName: Build Client App
+  - job: Build Client App
 
   pool:
     vmImage: vs2017-win2016

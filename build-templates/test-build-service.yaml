@@ -26,12 +26,6 @@ jobs:
       platform: '$(BuildPlatform)'
       configuration: '$(BuildConfiguration)'
 
-  - task: VSTest@2
-    displayName: 'VsTest - testAssemblies'
-    inputs:
-      platform: '$(BuildPlatform)'
-      configuration: '$(BuildConfiguration)'
-
   - task: ms-openapi.OpenApiDocumentTools.openApiDocumentBuilder-build-task.BuildOpenApiDocument@0
     displayName: 'Build OpenAPI Document: '
     inputs:

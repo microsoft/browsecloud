@@ -17,7 +17,7 @@ TODO: Guide users through getting your code up and running on their own system. 
 4.	API references
 
 ## Documentation
-Our documentation is available on this repository's wiki(https://github.com/microsoft/browsecloud/wiki).
+Our documentation is available on this repository's [wiki](https://github.com/microsoft/browsecloud/wiki).
 
 # Build and Test
 TODO: Describe and show how to build your code and run the tests. 

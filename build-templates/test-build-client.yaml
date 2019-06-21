@@ -35,6 +35,21 @@ jobs:
       verbose: false
       customCommand: 'run build:prod'
 
+  - task: Npm@1
+    displayName: 'npm run build:demo:prod'
+    inputs:
+      command: custom
+      workingDir: 'browsecloud-client'
+      verbose: false
+      customCommand: 'run build:demo:prod'
+
+  - task: ArchiveFiles@2
+    displayName: 'Archive browsecloud-client/dist/browsecloud-client-demo'
+    inputs:
+      rootFolderOrFile: 'browsecloud-client/dist/browsecloud-client-demo'
+      includeRootFolder: false
+      archiveFile: 'browsecloud-client/dist/browsecloud-client-demo/web.zip'
+
   - task: ArchiveFiles@2
     displayName: 'Archive browsecloud-client/dist/browsecloud-client'
     inputs:
@@ -43,7 +58,14 @@ jobs:
       archiveFile: 'browsecloud-client/dist/browsecloud-client/web.zip'
 
   - task: PublishBuildArtifacts@1
-    displayName: 'Publish Artifact'
+    displayName: 'Publish Client Demo Artifact'
+    inputs:
+      PathtoPublish: 'browsecloud-client/dist/browsecloud-client-demo'
+      ArtifactName: drop-client-demo
+
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Client Artifact'
     inputs:
       PathtoPublish: 'browsecloud-client/dist/browsecloud-client'
+      ArtifactName: drop-client
 

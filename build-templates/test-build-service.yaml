@@ -44,6 +44,7 @@ jobs:
     continueOnError: true
 
   - task: PublishBuildArtifacts@1
-    displayName: 'Publish Artifact'
+    displayName: 'Publish Service Artifact'
     inputs:
       PathtoPublish: '$(build.artifactstagingdirectory)'
+      ArtifactName: drop-service

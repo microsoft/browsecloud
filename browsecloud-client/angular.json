@@ -121,7 +121,7 @@
                 "build": {
                     "builder": "@angular-devkit/build-angular:browser",
                     "options": {
-                        "outputPath": "dist/browsecloud-client",
+                        "outputPath": "dist/browsecloud-client-demo",
                         "index": "src/browsecloud-client-demo/index.html",
                         "main": "src/browsecloud-client-demo/main.ts",
                         "polyfills": "src/polyfills.ts",

@@ -1,10 +1,9 @@
 # What is BrowseCloud?
-At Microsoft, program managers have a hard task of gathering the perspectives of their customers.
-There's an immense number of digital channels to gather information from customers: survey data, StackOverflow, email, etc.
-Even for internal tools for the Cosine engineering systems, there are at least 10,000 user feedback documents generated per quarter.
-It's hard to make sense of it all of this feedback cohesively.
+It's a laborious task to collect and synthesize the perspectives of customers.
+There's an immense number of digital channels to gather information from customers: survey data, StackOverflow, Reddit, email, etc.
+Even for internal tools teams at Microsoft, there are at least 10,000 user feedback documents generated per quarter.
 
-BrowseCloud is an application that summarizes feedback data via smart word clouds, called counting grids.
+To help solve this problem, BrowseCloud is an application that summarizes feedback data via smart word clouds, called counting grids.
 On a word cloud, the size of the text simply scales with the frequency of the word.
 Text is scattered randomly on word clouds. In BrowseCloud, we have a word cloud where the position of the word matters.
 As the user scans along the visualization, themes smoothly transition between each other.

@@ -12,7 +12,7 @@ As the user scans along the visualization, themes smoothly transition between ea
 
 [Try out BrowseCloud on a demo data of definitions from the English dictionary here.](https://aka.ms/browsecloud-demo)
 
-][f you're a Microsoft FTE, try out our full site, which supports creating your own visualizations with your own data set.](https://aka.ms/browsecloud)
+[If you're a Microsoft FTE, try out our full site, which supports creating your own visualizations with your own data set.](https://aka.ms/browsecloud)
 
 # Getting Started
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:

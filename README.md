@@ -1,4 +1,6 @@
 # What is BrowseCloud?
+![alt text](https://github.com/microsoft/browsecloud/blob/master/Images/browsecloud-screenshot.png "A screenshot of the BrowseCloud visualization of feedback on the Windows & Devices Group Engineering Systems in 2018.")
+
 It's a laborious task to collect and synthesize the perspectives of customers.
 There's an immense number of digital channels to gather information from customers: survey data, StackOverflow, Reddit, email, etc.
 Even for internal tools teams at Microsoft, there are at least 10,000 user feedback documents generated per quarter.

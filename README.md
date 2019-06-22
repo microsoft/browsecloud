@@ -12,20 +12,23 @@ As the user scans along the visualization, themes smoothly transition between ea
 
 [Try out BrowseCloud on a demo data of definitions from the English dictionary here.](https://aka.ms/browsecloud-demo)
 
-[If you're a Microsoft FTE, try out our full site, which supports creating your own visualizations with your own data set.](https://aka.ms/browsecloud)
+[If you're a Microsoft full-time employee, try out our full site, which supports creating your own visualizations with your own data set.](https://aka.ms/browsecloud)
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+## Features
+- Visualize the text data by inspecting the largest words in clusters around the screen.
+- Drop a pin by clicking on the visualization to view a ranked list of verbatims (shown on the far right-hand side of the screen) related to the micro-topic you pinned!
+- Search for a word to narrow down the visualization and ranked list futher.
+- Correlate topics with positive or negative sentiment on the screen by looking at the color of the the words in a region, after applying the sentiment analysis job. &ast;
+- Correlate your own custom metadata with topic. We support numeric data, nominal data with two categories, and ordinal data. &ast;
+- Download the relevant verbatims into Excel!
 
-## Documentation
+&ast; <sub><sup>These features are not supported in the demo application but are available in the full version.</sup></sub>
+
+## Getting Started
 Our documentation is available on this repository's [wiki](https://github.com/microsoft/browsecloud/wiki).
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+We're working on adding a CI/CD pipeline to this repository. We have one already running on the internal repository on Azure DevOps. More to come soon!
 
 # Contributing
 This project welcomes contributions and suggestions. Most contributions require you to

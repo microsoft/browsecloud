@@ -10,6 +10,8 @@ On a word cloud, the size of the text simply scales with the frequency of the wo
 Text is scattered randomly on word clouds. In BrowseCloud, we have a word cloud where the position of the word matters.
 As the user scans along the visualization, themes smoothly transition between each other.
 
+[Try out BrowseCloud on a demo data using definitions from the English dictionary here.](https://aka.ms/browsecloud-demo)
+
 # Getting Started
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
 1.	Installation process

@@ -22,7 +22,7 @@ As the user scans along the visualization, themes smoothly transition between ea
 - Correlate your own custom metadata with topic. We support numeric data, nominal data with two categories, and ordinal data. &ast;
 - Download the relevant verbatims into Excel!
 
-&ast; <sub><sup>These features are not supported in the demo application but are available in the full version.</sup></sub>
+&ast; <sub><sup>These features are not supported in the demo application. They are in the full version.</sup></sub>
 
 ## Getting Started
 Our documentation is available on this repository's [wiki](https://github.com/microsoft/browsecloud/wiki).

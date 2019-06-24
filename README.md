@@ -1,26 +1,36 @@
 # What is BrowseCloud?
-At Microsoft, program managers have a hard task of gathering the perspectives of their customers.
-There's an immense number of digital channels to gather information from customers: survey data, StackOverflow, email, etc.
-Even for internal tools for the Cosine engineering systems, there are at least 10,000 user feedback documents generated per quarter.
-It's hard to make sense of it all of this feedback cohesively.
+![alt text](https://github.com/microsoft/browsecloud/blob/master/Images/browsecloud-screenshot.png "A screenshot of the BrowseCloud visualization of feedback on the Windows & Devices Group Engineering Systems in 2018.")
 
-BrowseCloud is an application that summarizes feedback data via smart word clouds, called counting grids.
+It's a laborious task to collect and synthesize the perspectives of customers.
+There's an immense amount of customer data from a variety of digital channels: survey data, StackOverflow, Reddit, email, etc.
+Even for internal tools teams at Microsoft, there are at least 10,000 user feedback documents generated per quarter.
+
+To help solve this problem, BrowseCloud is an application that summarizes feedback data via smart word clouds, called counting grids.
 On a word cloud, the size of the text simply scales with the frequency of the word.
 Text is scattered randomly on word clouds. In BrowseCloud, we have a word cloud where the position of the word matters.
 As the user scans along the visualization, themes smoothly transition between each other.
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+[Try out BrowseCloud on a demo data of definitions from the English dictionary here.](https://aka.ms/browsecloud-demo)
 
-## Documentation
+[If you're a Microsoft full-time employee, try out our full site, which supports creating your own visualizations with your own data set.](https://aka.ms/browsecloud)
+
+## Features
+- Visualize the text data by inspecting the largest words in clusters around the screen.
+- Drop a pin by clicking on the visualization to view a ranked list of verbatims (shown on the far right-hand side of the screen) related to the micro-topic you pinned!
+- Search for a word to narrow down the visualization and ranked list futher.
+- Correlate topics with positive or negative sentiment on the screen by looking at the color of the the words in a region, after applying the sentiment analysis job. &ast;
+- Correlate your own custom metadata with topic. We support numeric data, nominal data with two categories, and ordinal data. &ast;
+- Download the relevant verbatims into Excel!
+
+&ast; <sub><sup>These features are not supported in the demo application. They are in the full version.</sup></sub>
+
+## Getting Started
 Our documentation is available on this repository's [wiki](https://github.com/microsoft/browsecloud/wiki).
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+We have Azure Pipelines set up on the pull request workflow for pre-checkin validation. The piepline will also deploy the demo site on merge with master.
+
+TODO: add local build steps here.
 
 # Contributing
 This project welcomes contributions and suggestions. Most contributions require you to

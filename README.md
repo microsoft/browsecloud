@@ -28,7 +28,9 @@ As the user scans along the visualization, themes smoothly transition between ea
 Our documentation is available on this repository's [wiki](https://github.com/microsoft/browsecloud/wiki).
 
 # Build and Test
-We're working on adding a CI/CD pipeline to this repository. We have one already running on the internal repository on Azure DevOps. More to come soon!
+We have Azure Pipelines set up on the pull request workflow for pre-checkin validation. The piepline will also deploy the demo site on merge with master.
+
+TODO: add local build steps here.
 
 # Contributing
 This project welcomes contributions and suggestions. Most contributions require you to

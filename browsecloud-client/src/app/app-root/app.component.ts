@@ -5,8 +5,8 @@ import { Component, OnDestroy, OnInit } from '@angular/core';
 import { MatDialog, MatSnackBar } from '@angular/material';
 import { NavigationEnd, Router } from '@angular/router';
 
-import { ApplicationInsightsService } from '@ngx-diagnostics/application-insights';
-import { LoggerService } from '@ngx-diagnostics/core';
+import { ApplicationInsightsService } from '@ngx-engoy/diagnostics-application-insights';
+import { LoggerService } from '@ngx-engoy/diagnostics-core';
 import { Subscription } from 'rxjs';
 import { filter } from 'rxjs/operators';
 

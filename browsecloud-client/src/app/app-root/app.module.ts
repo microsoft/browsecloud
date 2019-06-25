@@ -17,8 +17,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import {
     ApplicationInsightsConfiguration, ApplicationInsightsService, NgxDiagnosticsApplicationInsightsModule
-} from '@ngx-diagnostics/application-insights';
-import { NgxDiagnosticsCoreModule } from '@ngx-diagnostics/core';
+} from '@ngx-engoy/diagnostics-application-insights';
+import { NgxDiagnosticsCoreModule } from '@ngx-engoy/diagnostics-core';
 
 import { AuthService, ErrorService } from '@browsecloud/services';
 import { ErrorDialogModule } from '@browsecloud/shared';

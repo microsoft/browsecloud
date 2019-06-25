@@ -6,7 +6,7 @@ import { MatDialog, MatSort, MatTableDataSource, Sort } from '@angular/material'
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute, Router } from '@angular/router';
 
-import { LoggerService } from '@ngx-diagnostics/core';
+import { LoggerService } from '@ngx-engoy/diagnostics-core';
 import { User } from 'msal';
 import { Subscription } from 'rxjs';
 

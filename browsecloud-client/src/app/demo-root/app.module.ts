@@ -17,8 +17,8 @@ import {
     ApplicationInsightsConfiguration,
     ApplicationInsightsService,
     NgxDiagnosticsApplicationInsightsModule
-} from '@ngx-diagnostics/application-insights';
-import { NgxDiagnosticsCoreModule } from '@ngx-diagnostics/core';
+} from '@ngx-engoy/diagnostics-application-insights';
+import { NgxDiagnosticsCoreModule } from '@ngx-engoy/diagnostics-core';
 import { DocumentComponent } from '../pages/document/document.component';
 import { PagesModule } from '../pages/pages.module';
 

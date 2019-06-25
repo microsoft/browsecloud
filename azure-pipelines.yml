@@ -1,0 +1,7 @@
+trigger:
+- master
+
+jobs:
+  - template: ./build-templates/test-build-client.yaml
+  - template: ./build-templates/test-build-service.yaml
+  - template: ./build-templates/lint-python.yaml

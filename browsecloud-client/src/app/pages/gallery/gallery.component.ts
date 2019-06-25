@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { Router } from '@angular/router';
 
-import { LoggerService } from '@ngx-diagnostics/core';
+import { LoggerService } from '@ngx-engoy/diagnostics-core';
 
 import { BrowseCloudDocument, JobStatus } from '@browsecloud/models';
 import { BrowseCloudService } from '@browsecloud/services';

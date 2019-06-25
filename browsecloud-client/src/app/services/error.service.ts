@@ -4,7 +4,7 @@
 import { HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
-import { LoggerService } from '@ngx-diagnostics/core';
+import { LoggerService } from '@ngx-engoy/diagnostics-core';
 import { Subject } from 'rxjs';
 
 export interface IBrowseCloudError {

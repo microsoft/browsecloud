@@ -3,7 +3,7 @@
 
 import { Injectable } from '@angular/core';
 
-import { LoggerService } from '@ngx-diagnostics/core';
+import { LoggerService } from '@ngx-engoy/diagnostics-core';
 import { User, UserAgentApplication } from 'msal';
 import { from, Observable } from 'rxjs';
 import { catchError } from 'rxjs/operators';

@@ -8,7 +8,7 @@ import { MatChipInputEvent, MatDialog } from '@angular/material';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 
-import { LoggerService } from '@ngx-diagnostics/core';
+import { LoggerService } from '@ngx-engoy/diagnostics-core';
 import { FileSaverService } from 'ngx-filesaver';
 import { Observable, Subject, Subscription, zip } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';

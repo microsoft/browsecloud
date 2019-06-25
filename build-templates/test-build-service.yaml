@@ -1,0 +1,50 @@
+parameters:
+  platform: 'any cpu'
+  configuration: 'release'
+
+jobs:
+- job: BuildServiceApp
+  displayName: Build Service App
+  pool:
+    vmImage: vs2017-win2016
+    demands:
+    - msbuild
+    - visualstudio
+    - vstest
+  steps:
+  - task: NuGetToolInstaller@0
+    displayName: 'Use NuGet 4.4.1'
+    inputs:
+      versionSpec: 4.4.1
+
+  - task: NuGetCommand@2
+    displayName: 'NuGet restore'
+    inputs:
+      restoreSolution: BrowseCloud.Service/BrowseCloud.Service.sln
+
+  - task: VSBuild@1
+    displayName: 'Build solution BrowseCloud.Service/BrowseCloud.Service.sln'
+    inputs:
+      solution: BrowseCloud.Service/BrowseCloud.Service.sln
+      msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactstagingdirectory)\\"'
+      platform: ${{ parameters.platform }}
+      configuration: ${{ parameters.configuration }}
+
+  - task: VSTest@2
+    displayName: 'Run Tests'
+    inputs:
+      platform: ${{ parameters.platform }}
+      configuration: ${{ parameters.configuration }}
+
+  - task: PublishSymbols@2
+    displayName: 'Publish symbols path'
+    inputs:
+      SearchPattern: '**\bin\**\*.pdb'
+      PublishSymbols: false
+    continueOnError: true
+
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Service Artifact'
+    inputs:
+      PathtoPublish: '$(build.artifactstagingdirectory)'
+      ArtifactName: drop-service

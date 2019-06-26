@@ -16,7 +16,7 @@ import { GraphService } from '@browsecloud/services';
     styleUrls: ['./user-input.component.scss'],
 })
 export class UserInputComponent implements OnChanges, OnInit, OnDestroy {
-    @ViewChild('chipInput') chipInputElement: ElementRef;
+    @ViewChild('chipInput', { static: false }) chipInputElement: ElementRef;
     @Input() public chipInput = false;
     @Input() public user: BrowseCloudUserIdentity;
     @Input() public users: BrowseCloudUserIdentity[];

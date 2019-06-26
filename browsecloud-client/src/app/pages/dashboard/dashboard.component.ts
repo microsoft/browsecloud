@@ -36,7 +36,7 @@ interface IFilterOptions {
     styleUrls: ['./dashboard.component.scss'],
 })
 export class DashboardComponent implements OnInit, OnDestroy {
-    @ViewChild(MatSort) sort: MatSort;
+    @ViewChild(MatSort, { static: false }) sort: MatSort;
 
     public displayedColumns: string[] = ['name', 'type', 'jobDate', 'status', 'options'];
     public documentsWithJobs: BrowseCloudDocumentWithJobs[];

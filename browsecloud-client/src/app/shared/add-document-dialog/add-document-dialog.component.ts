@@ -16,7 +16,7 @@ import { FileUtils } from '@browsecloud/utils';
     styleUrls: ['./add-document-dialog.component.scss'],
 })
 export class AddDocumentDialogComponent implements OnInit {
-    @ViewChild('filePicker') public filePicker: ElementRef;
+    @ViewChild('filePicker', { static: false }) public filePicker: ElementRef;
     public documentNameFormControl: FormControl;
     public descriptionFormControl: FormControl;
     public documentName = '';

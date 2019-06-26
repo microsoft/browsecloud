@@ -29,7 +29,7 @@ import { BrowseCloudFontSettings, CountingGridModel, IWordLabel } from '@browsec
     changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class CloudViewComponent implements OnChanges, AfterViewInit {
-    @ViewChild('cloudView') public entryElement: ElementRef<HTMLCanvasElement>;
+    @ViewChild('cloudView', { static: true }) public entryElement: ElementRef<HTMLCanvasElement>;
     @Input() public model: CountingGridModel;
     @Input() public searchWordIds: number[] = [];
     @Input() public zoomRange: [number, number] = [1, 13];

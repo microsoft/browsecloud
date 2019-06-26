@@ -39,8 +39,8 @@ export class DocumentComponent implements OnInit, OnDestroy {
         quadraticWeight: 45,
     };
 
-    @ViewChild('resultsView') public resultsView: ElementRef<HTMLDivElement>;
-    @ViewChild(CloudViewComponent) public cloudViewComponent: CloudViewComponent;
+    @ViewChild('resultsView', { static: false }) public resultsView: ElementRef<HTMLDivElement>;
+    @ViewChild(CloudViewComponent, { static: false }) public cloudViewComponent: CloudViewComponent;
     public documentWithJobs: BrowseCloudDocumentWithJobs;
     public countingGridModel: CountingGridModel;
     public documentList: IDocEntry[];

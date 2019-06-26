@@ -1,4 +1,4 @@
-# What is BrowseCloud?
+# BrowseCloud [![Build Status](https://dev.azure.com/ms/browsecloud/_apis/build/status/microsoft.browsecloud?branchName=master)](https://dev.azure.com/ms/browsecloud/_build/latest?definitionId=161&branchName=master)
 ![alt text](https://github.com/microsoft/browsecloud/blob/master/Images/browsecloud-screenshot.png "A screenshot of the BrowseCloud visualization of feedback on the Windows & Devices Group Engineering Systems in 2018.")
 
 It's a laborious task to collect and synthesize the perspectives of customers.

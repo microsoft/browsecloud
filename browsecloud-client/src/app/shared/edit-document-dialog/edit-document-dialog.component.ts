@@ -17,7 +17,7 @@ import { UserInputComponent } from '@browsecloud/shared/user-input/user-input.co
     styleUrls: ['./edit-document-dialog.component.scss'],
 })
 export class EditDocumentDialogComponent {
-    @ViewChild('ownerInput') public ownerInput: UserInputComponent;
+    @ViewChild('ownerInput', { static: false }) public ownerInput: UserInputComponent;
     public document: BrowseCloudDocument;
     public documentNameFormControl: FormControl;
     public descriptionFormControl: FormControl;

@@ -1,8 +1,8 @@
-**Public Demo Website**
-[Try out BrowseCloud on a demo data of definitions from the English dictionary here.](https://aka.ms/browsecloud-demo)
+**BrowseCloud - Public Demo**
+[Try out BrowseCloud with a demonstration model trained on the English dictionary here.](https://aka.ms/browsecloud-demo)
 
-**Internal Full-Featured Website*
-[If you're a Microsoft full-time employee, try out our full site, which supports creating your own visualizations with your own data set.](https://aka.ms/browsecloud)
+**BrowseCloud - Microsoft Internal**
+[If you're a Microsoft full-time employee, try out our full site, which supports creating your own visualizations with your own data set and correlate metadata with topics. This site also has a Gallery of models and visualizations with data such as the Microsoft employee engagement survey, called MSPoll, and feedback on the Windows Engineering System.](https://aka.ms/browsecloud)
 
 # BrowseCloud [![Build Status](https://dev.azure.com/ms/browsecloud/_apis/build/status/microsoft.browsecloud?branchName=master)](https://dev.azure.com/ms/browsecloud/_build/latest?definitionId=161&branchName=master)
 ![alt text](https://github.com/microsoft/browsecloud/blob/master/Images/browsecloud-screenshot.png "A screenshot of the BrowseCloud visualization of feedback on the Windows & Devices Group Engineering Systems in 2018.")
@@ -18,6 +18,7 @@ As the user scans along the visualization, themes smoothly transition between ea
 
 
 ## Features
+- Add your custom text data set to the site. &ast;
 - Visualize the text data by inspecting the largest words in clusters around the screen.
 - Drop a pin by clicking on the visualization to view a ranked list of verbatims (shown on the far right-hand side of the screen) related to the micro-topic you pinned!
 - Search for a word to narrow down the visualization and ranked list futher.

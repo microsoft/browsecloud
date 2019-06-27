@@ -1,3 +1,9 @@
+**Public Demo Website**
+[Try out BrowseCloud on a demo data of definitions from the English dictionary here.](https://aka.ms/browsecloud-demo)
+
+**Internal Full-Featured Website*
+[If you're a Microsoft full-time employee, try out our full site, which supports creating your own visualizations with your own data set.](https://aka.ms/browsecloud)
+
 # BrowseCloud [![Build Status](https://dev.azure.com/ms/browsecloud/_apis/build/status/microsoft.browsecloud?branchName=master)](https://dev.azure.com/ms/browsecloud/_build/latest?definitionId=161&branchName=master)
 ![alt text](https://github.com/microsoft/browsecloud/blob/master/Images/browsecloud-screenshot.png "A screenshot of the BrowseCloud visualization of feedback on the Windows & Devices Group Engineering Systems in 2018.")
 
@@ -10,9 +16,6 @@ On a word cloud, the size of the text simply scales with the frequency of the wo
 Text is scattered randomly on word clouds. In BrowseCloud, we have a word cloud where the position of the word matters.
 As the user scans along the visualization, themes smoothly transition between each other.
 
-[Try out BrowseCloud on a demo data of definitions from the English dictionary here.](https://aka.ms/browsecloud-demo)
-
-[If you're a Microsoft full-time employee, try out our full site, which supports creating your own visualizations with your own data set.](https://aka.ms/browsecloud)
 
 ## Features
 - Visualize the text data by inspecting the largest words in clusters around the screen.

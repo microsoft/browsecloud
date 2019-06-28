@@ -107,14 +107,17 @@ rc\deployBrowseCloudBatchPool.py`. In our design, jobs are permenant, and each t
 We recommend that you scale the number of VMs elastically with the number of tasks running on your queue, so work can be done in parallel. You can even have multiple tasks running on the same machine using Batch. Lastly, recommend that you always have one Windows VM running and ready to go due to in the autoScale Formula.
 
 An example scaling configuration could be:
+
+```json
     "scaleSettings": {
                     "autoScale": {
                         "formula": "maxNumberofVMs = 5;sample =$PendingTasks.GetSample(10);pendingTaskSamplePercent = avg(sample);startingNumberOfVMs = 1; pendingTaskSamples = pendingTaskSamplePercent < 2 ? startingNumberOfVMs : avg($PendingTasks.GetSample(180 * TimeInterval_Second));$TargetDedicatedNodes=min(maxNumberofVMs, pendingTaskSamples);",
                         "evaluationInterval": "PT5M"
                     }
                 }
+```
 
-    We also recommend that you use a more powerful VM in your production instance than in your development instance. We use "vmSize" of "STANDARD_D16_V3" on our production site for training new models. We use a "vmSize" of "STANDARD_A1" in our development instance.
+We also recommend that you use a more powerful VM in your production instance than in your development instance. We use "vmSize" of "STANDARD_D16_V3" on our production site for training new models. We use a "vmSize" of "STANDARD_A1" in our development instance.
 
 - In `/Batch/Batch/src/metadata.json` and `/Batch/Batch/src/keys.json` (which are not checked into this repo), configure your development environment using the information from the services you just created.
 

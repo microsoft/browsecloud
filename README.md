@@ -109,12 +109,12 @@ We recommend that you scale the number of VMs elastically with the number of tas
 An example scaling configuration could be:
 
 ```json
-    "scaleSettings": {
-                    "autoScale": {
-                        "formula": "maxNumberofVMs = 5;sample =$PendingTasks.GetSample(10);pendingTaskSamplePercent = avg(sample);startingNumberOfVMs = 1; pendingTaskSamples = pendingTaskSamplePercent < 2 ? startingNumberOfVMs : avg($PendingTasks.GetSample(180 * TimeInterval_Second));$TargetDedicatedNodes=min(maxNumberofVMs, pendingTaskSamples);",
-                        "evaluationInterval": "PT5M"
-                    }
-                }
+"scaleSettings": {
+    "autoScale": {
+        "formula": "maxNumberofVMs = 5;sample =$PendingTasks.GetSample(10);pendingTaskSamplePercent = avg(sample);startingNumberOfVMs = 1; pendingTaskSamples = pendingTaskSamplePercent < 2 ? startingNumberOfVMs : avg($PendingTasks.GetSample(180 * TimeInterval_Second));$TargetDedicatedNodes=min(maxNumberofVMs, pendingTaskSamples);",
+        "evaluationInterval": "PT5M"
+    }
+}
 ```
 
 We also recommend that you use a more powerful VM in your production instance than in your development instance. We use "vmSize" of "STANDARD_D16_V3" on our production site for training new models. We use a "vmSize" of "STANDARD_A1" in our development instance.

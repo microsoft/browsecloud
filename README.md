@@ -85,11 +85,15 @@ This can be built and deployed to the Azure App Service generated in the steps a
 The easiest method is to right click on the BrowseCloud.Service project and "Publish", but we should recommend a CI/CD pipeline of some type.
 We have our Azure DevOps build pipelines checked in as yaml files which you are welcomed to use.
 
-There are currently no tests, but we would love it if someone would contribute some 😉
+There are currently no tests on the Service, but we welcome contribution on this front.
 
 ## Trainer Jobs
+Trainer Jobs is the machine learning backend that powers BrowseCloud. It that has many Azure dependencies. We will first get these dependencies set up.
 
-TODO
+- Visit the Azure Portal and choose to create a new resource of type "Template Deployment".
+On the next page, select "Build your own template in the editor", and upload the template file `/deployment/az-ml-backend-template.json`.
+On the next page, fill in the resource and resource group names. Purchase this resource group.
+- In `/Batch/Batch/src/metadata.json` and `/Batch/Batch/src/keys.json`, Configure your development environment using the information from the services you just created.
 
 # Contributing
 This project welcomes contributions and suggestions. Most contributions require you to

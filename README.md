@@ -65,7 +65,7 @@ There are currently no tests, but we would love it if someone would contribute s
 
 The service is an ASP.NET Core application that has many Azure dependencies. We will first get these dependencies set up.
 
-- Visit the Azure Portal and choose to create a new resource of type "Template Deployment".
+- Visit the Azure Portal and create a new resource of type "Template Deployment".
 On the next page, select "Build your own template in the editor", and upload the template file `/deployment/az-service-template.json`.
 On the next page, fill in the resource and resource group names. Purchase this resource group.
 - Create an AAD app for the service. For more information on how to create an AAD app,
@@ -88,22 +88,22 @@ We have our Azure DevOps build pipelines checked in as yaml files which you are 
 There are currently no tests on the Service, but we welcome contribution on this front.
 
 ## Trainer Jobs
-This is the machine learning backend that powers BrowseCloud. It that has many Azure dependencies.
+This is the machine learning backend that powers BrowseCloud. It has many Azure dependencies.
 
-- Visit the Azure Portal and choose to create a new resource of type "Template Deployment".
+- Visit the Azure Portal and create a new resource of type "Template Deployment".
 On the next page, select "Build your own template in the editor", and upload the template file `/deployment/az-ml-backend-template.json`.
 On the next page, fill in the resource and resource group names. Purchase this resource group.
 
-Next, we will setup our VM The work to setup dependencies like this is automatable, but it hasn't been done. 
+Next, we will setup our VM .The work to setup dependencies on a machine in the cloud like this is automatable, but it hasn't been done. 
 - Visit the Azure Portal and choose to create a new resource of type "Windows Server 2016 Datacenter". In this initial setup, make sure you have RDP enabled to setup the VM. 
 - RDP into the non-production VM and [follow the setup instructions to get the CountingGridsPy library running on the VM](https://github.com/microsoft/browsecloud/wiki/Environment-Setup-&-Dependencies-to-run-CountingGridsPy-Locally). In your production instance of the VM, we recommend that you have RDP turned off. 
 - Save your VM as an image within the new virtual machine resource on the Azure Portal. This will destabilize the VM, so you should delete it.
 
 - Next, we'll take a look at the Batch resource you generated from the template. The purpose of Batch is to manage and scale computational power with the machine learning work to do. 
 
-Create two jobs and two pools within this Batch resource, one for your dev environment and another for your production enviornment. In our design, jobs are permenant, and each training request is a task underneath each job.
+Create two jobs and two pools within this Batch resource, one for your dev environment and another for your production environment. In our design, jobs are permenant, and each training request is a task underneath each job.
 
-We recommend that you scale the number of VMs elastically with the number of jobs running on your queue, so that work can be done in parallel. You can even have multiple jobs running on the same machine using Batch. In this instance, we always have one VM running and ready to go.
+We recommend that you scale the number of VMs elastically with the number of tasks running on your queue, so work can be done in parallel. You can even have multiple tasks running on the same machine using Batch. Lastly, we always have one VM running and ready to go.
 
     An example scaling configuration could be "scaleSettings": {
                     "autoScale": {

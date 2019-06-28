@@ -21,15 +21,19 @@
             "type": "string"
         },
         "networkInterfaces_bcworker_17xrdp462_name": {
+            "defaultValue": "worker-xrdp",
             "type": "string"
         },
         "networkInterfaces_bcworker_win_17740_name": {
+            "defaultValue": "worker",
             "type": "string"
         },
         "publicIPAddresses_BCWorker_17xrdp_ip_name": {
+            "defaultValue": "worker-xrdp-ip",
             "type": "string"
         },
         "publicIPAddresses_BCWorker_win_17_ip_name": {
+            "defaultValue": "worker-ip",
             "type": "string"
         },
         "storageAccounts_browsecloudapppackage_name": {
@@ -48,15 +52,19 @@
             "type": "string"
         },
         "networkSecurityGroups_BCWorker_17xrdp_nsg_name": {
+            "defaultValue": "worker-xrdp-nsg",
             "type": "string"
         },
         "networkSecurityGroups_BCWorker_win_17_nsg_name": {
+            "defaultValue": "worker-nsg",
             "type": "string"
         },
         "images_BCWorker_17xrdp_image_20190222171600_name": {
+            "defaultValue": "worker-xrdp-image",
             "type": "string"
         },
         "images_BCWorker_win_17_image_20190118143431_name": {
+            "defaultValue": "worker-image",
             "type": "string"
         },
         "alertrules_Failure_Anomalies___Browsecloud_TrainingService_name": {
@@ -68,19 +76,20 @@
         "disks_BCWorker_win_17_disk1_ba36f75a634e47179f5e40fd9b237cca_name": {
             "type": "string"
         },
-        "images_CG_Server_image_20181205170047_externalid": {
-            "type": "string"
-        },
         "snapshots_BCWorker_win_17_image_20190118143431_0_2amm1obixv5_externalid": {
+            "defaultValue": "/subscriptions/ad49354a-6ce2-4dae-a51d-b6907372f608/resourceGroups/BrowseCloud/providers/Microsoft.Compute/snapshots/BCWorker-win-17-image-20190118143431_0_2amm1obixv5",
             "type": "string"
         },
         "snapshots_BCWorker_win_16_image_20190104185840_0_lxxdrflvakf_externalid": {
+            "defaultValue": "/subscriptions/ad49354a-6ce2-4dae-a51d-b6907372f608/resourceGroups/BrowseCloud/providers/Microsoft.Compute/snapshots/BCWorker-win-16-image-20190104185840_0_lxxdrflvakf",
             "type": "string"
         },
         "virtualMachines_BCWorker_17xrdp_externalid": {
+            "defaultValue": "/subscriptions/ad49354a-6ce2-4dae-a51d-b6907372f608/resourceGroups/BrowseCloud/providers/Microsoft.Compute/virtualMachines/BCWorker-17xrdp",
             "type": "string"
         },
         "virtualMachines_BCWorker_win_17_externalid": {
+            "defaultValue": "/subscriptions/ad49354a-6ce2-4dae-a51d-b6907372f608/resourceGroups/BrowseCloud/providers/Microsoft.Compute/virtualMachines/BCWorker-win-17",
             "type": "string"
         }
     },
@@ -680,14 +689,6 @@
                 "taskSchedulingPolicy": {
                     "nodeFillType": "Spread"
                 },
-                "deploymentConfiguration": {
-                    "virtualMachineConfiguration": {
-                        "imageReference": {
-                            "id": "[parameters('images_CG_Server_image_20181205170047_externalid')]"
-                        },
-                        "nodeAgentSkuId": "batch.node.windows amd64"
-                    }
-                },
                 "scaleSettings": {
                     "fixedScale": {
                         "targetDedicatedNodes": 0,
@@ -950,126 +951,6 @@
                 "minTlsVersion": "1.2",
                 "ftpsState": "AllAllowed",
                 "reservedInstanceCount": 0
-            }
-        },
-        {
-            "type": "Microsoft.Web/sites/deployments",
-            "apiVersion": "2016-08-01",
-            "name": "[concat(parameters('sites_Browsecloud_TrainingService_name'), '/4d7420115af746be8823703a6e3cbd0c')]",
-            "location": "Central US",
-            "dependsOn": [
-                "[resourceId('Microsoft.Web/sites', parameters('sites_Browsecloud_TrainingService_name'))]"
-            ],
-            "properties": {
-                "id": "4d7420115af746be8823703a6e3cbd0c",
-                "status": 4,
-                "author_email": "N/A",
-                "author": "N/A",
-                "deployer": "Push-Deployer",
-                "message": "Created via a push deployment",
-                "start_time": "2018-12-06T22:06:04.6330395Z",
-                "end_time": "2018-12-06T22:06:09.2470304Z",
-                "active": false
-            }
-        },
-        {
-            "type": "Microsoft.Web/sites/deployments",
-            "apiVersion": "2016-08-01",
-            "name": "[concat(parameters('sites_Browsecloud_TrainingService_name'), '/715bc3fbf6c74f83ac55d7ed3f560330')]",
-            "location": "Central US",
-            "dependsOn": [
-                "[resourceId('Microsoft.Web/sites', parameters('sites_Browsecloud_TrainingService_name'))]"
-            ],
-            "properties": {
-                "id": "715bc3fbf6c74f83ac55d7ed3f560330",
-                "status": 4,
-                "author_email": "N/A",
-                "author": "N/A",
-                "deployer": "Push-Deployer",
-                "message": "Created via a push deployment",
-                "start_time": "2018-12-06T23:00:18.5873048Z",
-                "end_time": "2018-12-06T23:00:24.2087445Z",
-                "active": true
-            }
-        },
-        {
-            "type": "Microsoft.Web/sites/deployments",
-            "apiVersion": "2016-08-01",
-            "name": "[concat(parameters('sites_Browsecloud_TrainingService_name'), '/8c601356ba8649cb884e0ca203551d71')]",
-            "location": "Central US",
-            "dependsOn": [
-                "[resourceId('Microsoft.Web/sites', parameters('sites_Browsecloud_TrainingService_name'))]"
-            ],
-            "properties": {
-                "id": "8c601356ba8649cb884e0ca203551d71",
-                "status": 4,
-                "author_email": "N/A",
-                "author": "N/A",
-                "deployer": "Push-Deployer",
-                "message": "Created via a push deployment",
-                "start_time": "2018-12-06T03:30:52.1791431Z",
-                "end_time": "2018-12-06T03:30:56.5502464Z",
-                "active": false
-            }
-        },
-        {
-            "type": "Microsoft.Web/sites/deployments",
-            "apiVersion": "2016-08-01",
-            "name": "[concat(parameters('sites_Browsecloud_TrainingService_name'), '/aa60d01cb9d745f8955de6bfb2431994')]",
-            "location": "Central US",
-            "dependsOn": [
-                "[resourceId('Microsoft.Web/sites', parameters('sites_Browsecloud_TrainingService_name'))]"
-            ],
-            "properties": {
-                "id": "aa60d01cb9d745f8955de6bfb2431994",
-                "status": 4,
-                "author_email": "N/A",
-                "author": "N/A",
-                "deployer": "Push-Deployer",
-                "message": "Created via a push deployment",
-                "start_time": "2018-12-06T21:37:29.8929969Z",
-                "end_time": "2018-12-06T21:37:36.4126413Z",
-                "active": false
-            }
-        },
-        {
-            "type": "Microsoft.Web/sites/deployments",
-            "apiVersion": "2016-08-01",
-            "name": "[concat(parameters('sites_Browsecloud_TrainingService_name'), '/b8d1222f56e441daaea76e3a50fb6b6d')]",
-            "location": "Central US",
-            "dependsOn": [
-                "[resourceId('Microsoft.Web/sites', parameters('sites_Browsecloud_TrainingService_name'))]"
-            ],
-            "properties": {
-                "id": "b8d1222f56e441daaea76e3a50fb6b6d",
-                "status": 4,
-                "author_email": "N/A",
-                "author": "N/A",
-                "deployer": "Push-Deployer",
-                "message": "Created via a push deployment",
-                "start_time": "2018-12-06T22:17:31.9596108Z",
-                "end_time": "2018-12-06T22:17:36.7303542Z",
-                "active": false
-            }
-        },
-        {
-            "type": "Microsoft.Web/sites/deployments",
-            "apiVersion": "2016-08-01",
-            "name": "[concat(parameters('sites_Browsecloud_TrainingService_name'), '/cd533b9f31614cb1b87229a9f190b127')]",
-            "location": "Central US",
-            "dependsOn": [
-                "[resourceId('Microsoft.Web/sites', parameters('sites_Browsecloud_TrainingService_name'))]"
-            ],
-            "properties": {
-                "id": "cd533b9f31614cb1b87229a9f190b127",
-                "status": 4,
-                "author_email": "N/A",
-                "author": "N/A",
-                "deployer": "Push-Deployer",
-                "message": "Created via a push deployment",
-                "start_time": "2018-12-06T22:55:24.5683074Z",
-                "end_time": "2018-12-06T22:55:35.646424Z",
-                "active": false
             }
         },
         {

@@ -78,7 +78,7 @@ visit the [azure docs](https://docs.microsoft.com/en-us/azure/active-directory/d
   you can populate the rest of the secrets.
   - On the newly created Cosmos Document DB account, create two new containers named "BatchJob" and "Document".
 - Download and install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) with the "ASP.NET and web development" workload.
-- In `/BrowseCloud.Service/BrowseCloud.Service/appsettings.json`, Configure your development environment using the information from the services you just created.
+- In `/BrowseCloud.Service/BrowseCloud.Service/appsettings.json`, configure your development environment using the information from the services you just created.
 - You can then build and run using Visual Studio's built in build and run feature.
 
 This can be built and deployed to the Azure App Service generated in the steps above for everyday use.
@@ -88,12 +88,34 @@ We have our Azure DevOps build pipelines checked in as yaml files which you are 
 There are currently no tests on the Service, but we welcome contribution on this front.
 
 ## Trainer Jobs
-Trainer Jobs is the machine learning backend that powers BrowseCloud. It that has many Azure dependencies. We will first get these dependencies set up.
+Trainer Jobs is the machine learning backend that powers BrowseCloud. It that has many Azure dependencies.
 
 - Visit the Azure Portal and choose to create a new resource of type "Template Deployment".
 On the next page, select "Build your own template in the editor", and upload the template file `/deployment/az-ml-backend-template.json`.
 On the next page, fill in the resource and resource group names. Purchase this resource group.
-- In `/Batch/Batch/src/metadata.json` and `/Batch/Batch/src/keys.json`, Configure your development environment using the information from the services you just created.
+
+Next, we will setup our VM The work to setup dependencies like this is automatable, but it hasn't been done. 
+- Visit the Azure Portal and choose to create a new resource of type "Windows Server 2016 Datacenter". In this initial setup, make sure you have RDP enabled to setup the VM. 
+- RDP into the non-production VM and [follow the setup instructions to get the CountingGridsPy library running on the VM](https://github.com/microsoft/browsecloud/wiki/Environment-Setup-&-Dependencies-to-run-CountingGridsPy-Locally). In your production instance of the VM, we recommend that you have RDP turned off. 
+- Save your VM as an image within the new virtual machine resource on the Azure Portal. This will destabilize the VM, so you should delete it.
+
+- Visit the Azure Portal and and Batch resource using the appropriate image of the Windows VM. The purpose of Batch is to manage and scale computational power with the machine learning work to do. 
+
+Create a 2 jobs and pools within this Batch resource, one for your dev and another for your production enviornment. In our design, jobs are permenant, and each training request is a task underneath each job.
+
+We recommend that you scale the number of VMs elastically with the number of jobs running on your queue. In this instance, we always have one VM running and ready to go.
+
+    An example scaling configuration could be "scaleSettings": {
+                    "autoScale": {
+                        "formula": "maxNumberofVMs = 5;sample =$PendingTasks.GetSample(10);pendingTaskSamplePercent = avg(sample);startingNumberOfVMs = 1; pendingTaskSamples = pendingTaskSamplePercent < 2 ? startingNumberOfVMs : avg($PendingTasks.GetSample(180 * TimeInterval_Second));$TargetDedicatedNodes=min(maxNumberofVMs, pendingTaskSamples);",
+                        "evaluationInterval": "PT5M"
+                    }
+                }
+
+    We also recommend that you use a more powerful VM in your production instance than in your development instance. We use "vmSize" of "STANDARD_D16_V3" on our production site for training new models. We use a "vmSize" of "STANDARD_A1" in our development instance.
+
+- In `/Batch/Batch/src/metadata.json` and `/Batch/Batch/src/keys.json` (which are not checked into this repo), configure your development environment using the information from the services you just created.
+
 
 # Contributing
 This project welcomes contributions and suggestions. Most contributions require you to

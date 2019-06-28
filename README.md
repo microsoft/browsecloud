@@ -101,8 +101,7 @@ Next, we will setup our VM. The work to setup dependencies on a machine in the c
 
 - Next, we'll take a look at the Batch resource you generated from the template. The purpose of Batch is to manage and scale computational power with the machine learning work to do. 
 
-Create two jobs and two pools within this Batch resource, one for your dev environment and another for your production environment. You can do this by using the Azure portal or by using `\Batch\Batch\s
-rc\deployBrowseCloudBatchPool.py`. In our design, jobs are permenant, and each training request is a task underneath each job.
+Create two jobs and two pools within this Batch resource, one for your dev environment and another for your production environment. You can do this by using the Azure portal or by using `\Batch\Batch\src\deployBrowseCloudBatchPool.py`. In our design, jobs are permenant, and each training request is a task underneath each job.
 
 We recommend that you scale the number of VMs elastically with the number of tasks running on your queue, so work can be done in parallel. You can even have multiple tasks running on the same machine using Batch. Lastly, recommend that you always have one Windows VM running and ready to go due to in the autoScale Formula.
 

@@ -94,18 +94,20 @@ This is the machine learning backend that powers BrowseCloud. It has many Azure 
 On the next page, select "Build your own template in the editor", and upload the template file `/deployment/az-ml-backend-template.json`.
 On the next page, fill in the resource and resource group names. Purchase this resource group.
 
-Next, we will setup our VM .The work to setup dependencies on a machine in the cloud like this is automatable, but it hasn't been done. 
+Next, we will setup our VM. The work to setup dependencies on a machine in the cloud like this is automatable, but it hasn't been done. 
 - Visit the Azure Portal and choose to create a new resource of type "Windows Server 2016 Datacenter". In this initial setup, make sure you have RDP enabled to setup the VM. 
 - RDP into the non-production VM and [follow the setup instructions to get the CountingGridsPy library running on the VM](https://github.com/microsoft/browsecloud/wiki/Environment-Setup-&-Dependencies-to-run-CountingGridsPy-Locally). In your production instance of the VM, we recommend that you have RDP turned off. 
-- Save your VM as an image within the new virtual machine resource on the Azure Portal. This will destabilize the VM, so you should delete it.
+- Save your VM as an image within the new virtual machine resource on the Azure Portal. This will destabilize the VM, so you should delete the VM.
 
 - Next, we'll take a look at the Batch resource you generated from the template. The purpose of Batch is to manage and scale computational power with the machine learning work to do. 
 
-Create two jobs and two pools within this Batch resource, one for your dev environment and another for your production environment. In our design, jobs are permenant, and each training request is a task underneath each job.
+Create two jobs and two pools within this Batch resource, one for your dev environment and another for your production environment. You can do this by using the Azure portal or by using `\Batch\Batch\s
+rc\deployBrowseCloudBatchPool.py`. In our design, jobs are permenant, and each training request is a task underneath each job.
 
-We recommend that you scale the number of VMs elastically with the number of tasks running on your queue, so work can be done in parallel. You can even have multiple tasks running on the same machine using Batch. Lastly, we always have one VM running and ready to go.
+We recommend that you scale the number of VMs elastically with the number of tasks running on your queue, so work can be done in parallel. You can even have multiple tasks running on the same machine using Batch. Lastly, recommend that you always have one Windows VM running and ready to go due to in the autoScale Formula.
 
-    An example scaling configuration could be "scaleSettings": {
+An example scaling configuration could be:
+    "scaleSettings": {
                     "autoScale": {
                         "formula": "maxNumberofVMs = 5;sample =$PendingTasks.GetSample(10);pendingTaskSamplePercent = avg(sample);startingNumberOfVMs = 1; pendingTaskSamples = pendingTaskSamplePercent < 2 ? startingNumberOfVMs : avg($PendingTasks.GetSample(180 * TimeInterval_Second));$TargetDedicatedNodes=min(maxNumberofVMs, pendingTaskSamples);",
                         "evaluationInterval": "PT5M"

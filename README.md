@@ -65,7 +65,7 @@ There are currently no tests, but we would love it if someone would contribute s
 
 The service is an ASP.NET Core application that has many Azure dependencies. We will first get these dependencies set up.
 
-- Visit the Azure Portal and choose to create a new resource of type "Template Deployment".
+- Visit the Azure Portal and create a new resource of type "Template Deployment".
 On the next page, select "Build your own template in the editor", and upload the template file `/deployment/az-service-template.json`.
 On the next page, fill in the resource and resource group names. Purchase this resource group.
 - Create an AAD app for the service. For more information on how to create an AAD app,
@@ -78,18 +78,48 @@ visit the [azure docs](https://docs.microsoft.com/en-us/azure/active-directory/d
   you can populate the rest of the secrets.
   - On the newly created Cosmos Document DB account, create two new containers named "BatchJob" and "Document".
 - Download and install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) with the "ASP.NET and web development" workload.
-- In `/BrowseCloud.Service/BrowseCloud.Service/appsettings.json`, Configure your development environment using the information from the services you just created.
+- In `/BrowseCloud.Service/BrowseCloud.Service/appsettings.json`, configure your development environment using the information from the services you just created.
 - You can then build and run using Visual Studio's built in build and run feature.
 
 This can be built and deployed to the Azure App Service generated in the steps above for everyday use.
 The easiest method is to right click on the BrowseCloud.Service project and "Publish", but we should recommend a CI/CD pipeline of some type.
 We have our Azure DevOps build pipelines checked in as yaml files which you are welcomed to use.
 
-There are currently no tests, but we would love it if someone would contribute some 😉
+There are currently no tests on the Service, but we welcome contribution on this front.
 
 ## Trainer Jobs
+This is the machine learning backend that powers BrowseCloud. It has many Azure dependencies.
 
-TODO
+- Visit the Azure Portal and create a new resource of type "Template Deployment".
+On the next page, select "Build your own template in the editor", and upload the template file `/deployment/az-ml-backend-template.json`.
+On the next page, fill in the resource and resource group names. Purchase this resource group.
+
+Next, we will setup our VM. The work to setup dependencies on a machine in the cloud like this is automatable, but it hasn't been done. 
+- Visit the Azure Portal and choose to create a new resource of type "Windows Server 2016 Datacenter". In this initial setup, make sure you have RDP enabled to setup the VM. 
+- RDP into the non-production VM and [follow the setup instructions to get the CountingGridsPy library running on the VM](https://github.com/microsoft/browsecloud/wiki/Environment-Setup-&-Dependencies-to-run-CountingGridsPy-Locally). In your production instance of the VM, we recommend that you have RDP turned off. 
+- Save your VM as an image within the new virtual machine resource on the Azure Portal. This will destabilize the VM, so you should delete the VM.
+
+- Next, we'll take a look at the Batch resource you generated from the template. The purpose of Batch is to manage and scale computational power with the machine learning work to do. 
+
+Create two jobs and two pools within this Batch resource, one for your dev environment and another for your production environment. You can do this by using the Azure portal or by using `\Batch\Batch\src\deployBrowseCloudBatchPool.py`. In our design, jobs are permenant, and each training request is a task underneath each job.
+
+We recommend that you scale the number of VMs elastically with the number of tasks running on your queue, so work can be done in parallel. You can even have multiple tasks running on the same machine using Batch. Lastly, recommend that you always have one Windows VM running and ready to go due to in the autoScale Formula.
+
+An example scaling configuration could be:
+
+```json
+"scaleSettings": {
+    "autoScale": {
+        "formula": "maxNumberofVMs = 5;sample =$PendingTasks.GetSample(10);pendingTaskSamplePercent = avg(sample);startingNumberOfVMs = 1; pendingTaskSamples = pendingTaskSamplePercent < 2 ? startingNumberOfVMs : avg($PendingTasks.GetSample(180 * TimeInterval_Second));$TargetDedicatedNodes=min(maxNumberofVMs, pendingTaskSamples);",
+        "evaluationInterval": "PT5M"
+    }
+}
+```
+
+We also recommend that you use a more powerful VM in your production instance than in your development instance. We use "vmSize" of "STANDARD_D16_V3" on our production site for training new models. We use a "vmSize" of "STANDARD_A1" in our development instance.
+
+- In `/Batch/Batch/src/metadata.json` and `/Batch/Batch/src/keys.json` (which are not checked into this repo), configure your development environment using the information from the services you just created.
+
 
 # Contributing
 This project welcomes contributions and suggestions. Most contributions require you to

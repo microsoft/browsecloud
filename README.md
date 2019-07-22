@@ -8,6 +8,8 @@
 
 It supports creating custom visualizations with your own data set and correlate metadata with topics. This site also has a Gallery of models and visualizations with data such as the Microsoft employee engagement survey, called MSPoll, and feedback on the Windows Engineering System.
 
+<a href="https://www.youtube.com/watch?v=pcsZPozC9uA"><img src="https://github.com/microsoft/LongitudinalDifferenceInDifferencesPy/blob/master/Images/IntroToBrowseCloudYouTube.PNG" /></a>
+
 # BrowseCloud [![Build Status](https://dev.azure.com/ms/browsecloud/_apis/build/status/microsoft.browsecloud?branchName=master)](https://dev.azure.com/ms/browsecloud/_build/latest?definitionId=161&branchName=master)
 ![alt text](https://github.com/microsoft/browsecloud/blob/master/Images/browsecloud-screenshot.png "A screenshot of the BrowseCloud visualization of feedback on the Windows & Devices Group Engineering Systems in 2018.")
 

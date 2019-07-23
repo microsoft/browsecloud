@@ -21,7 +21,7 @@ Text is scattered randomly on word clouds. In BrowseCloud, we have a word cloud 
 As the user scans along the visualization, themes smoothly transition between each other.
 
 
-<a href="https://www.youtube.com/watch?v=pcsZPozC9uA"><img src="https://github.com/microsoft/LongitudinalDifferenceInDifferencesPy/blob/master/Images/IntroToBrowseCloudYouTube.PNG" /></a>
+<a href="https://www.youtube.com/watch?v=pcsZPozC9uA"><img src="https://raw.githubusercontent.com/microsoft/browsecloud/master/Images/IntroToBrowseCloudYouTube.PNG" /></a>
 
 ## Features
 - Add your custom text data set to the site. &ast;

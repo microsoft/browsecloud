@@ -27,3 +27,6 @@ class TestCorrectnessOfNontrivialDesignMatrix(unittest.TestCase):
         self.model.fit(self.data, max_iter=1,
                        returnSumSquareDifferencesOfPi=False, pi=np.copy(self.pi_init))
         assert(np.all(np.isclose(self.model.q, .04)))
+
+
+

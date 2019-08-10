@@ -49,23 +49,14 @@ class TestGPUvsCPU(unittest.TestCase):
             pi=np.copy(self.pi_init),
             layers=1
         )
-
+        doDocumentMappingsMatchValue = np.isclose(self.cpuModel.q, self.gpuModel.q.cpu().numpy()).flatten()
         assert(
-            all(
-                np.isclose(
-                    self.cpuModel.q,
-                    self.gpuModel.q.cpu().numpy()
-                )
-            )
+            all(doDocumentMappingsMatchValue)
         )
-
+        
+        doWordMappingsMatchValue = np.isclose(self.cpuModel.pi, self.gpuModel.pi.cpu().numpy()).flatten()
         assert(
-            all(
-                np.isclose(
-                    self.cpuModel.pi,
-                    self.gpuModel.pi.cpu().numpy()
-                )
-            )
+            all(doWordMappingsMatchValue)
         )
 
         def test_fitted_model_with_layers(self):
@@ -92,7 +83,7 @@ class TestGPUvsCPU(unittest.TestCase):
                     np.isclose(
                         self.cpuModel.q,
                         self.gpuModel.q.cpu().numpy()
-                    )
+                    ).flatten()
                 )
             )
     
@@ -101,6 +92,6 @@ class TestGPUvsCPU(unittest.TestCase):
                     np.isclose(
                         self.cpuModel.pi,
                         self.gpuModel.pi.cpu().numpy()
-                    )
+                    ).flatten()
                 )
             )

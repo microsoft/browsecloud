@@ -3,22 +3,33 @@
 
 import unittest
 import numpy as np
-from CountingGridsPy.models import CountingGridModel, CountingGridsModelWithGPU
 import torch
+import os
+from CountingGridsPy.models import CountingGridModel, CountingGridModelWithGPU
 
 
 class TestGPUvsCPU(unittest.TestCase):
     def setUp(self):
         SEED = "03071994"
-        np.random.seed(SEED)
-        M, N = [10000, 500]
-        self.N = N
+        np.random.seed(int(SEED))
+        M, N = [1000, 500]
+        extentSize = 40
         self.data = np.round(np.random.random((M, N)) * 10)
-        self.extent = np.array([40, 40])
+        self.extent = np.array([extentSize, extentSize])
         self.window = np.array([5, 5])
-        self.pi_init = np.ones([5]*2 + [N]) / 1000
+        self.pi_init = np.ones([extentSize] * 2 + [N]) / N
         self.cpuModel = CountingGridModel(self.extent, self.window)
-        self.gpuModel = CountingGridsModelWithGPU(self.extent, self.window)
+        self.gpuModel = CountingGridModelWithGPU(self.extent, self.window)
+    
+    def tearDown(self):
+        potentialFilesGenerated = [
+            "CountingGridDataMatrices.mat",
+            "CGData.mat"
+        ]
+
+        for fileName in potentialFilesGenerated:
+            if os.path.exists(fileName):
+                os.remove(fileName)
 
     def test_fitted_model_no_layers(self):
         numIters = 50

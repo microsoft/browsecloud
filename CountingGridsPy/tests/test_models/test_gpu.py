@@ -30,22 +30,23 @@ class TestGPUvsCPU(unittest.TestCase):
         for fileName in potentialFilesGenerated:
             if os.path.exists(fileName):
                 os.remove(fileName)
-
+    
     def test_fitted_model_no_layers(self):
         numIters = 50
-        self.cpuModel.fit(
-            self.data,
-            max_iter=numIters,
-            returnSumSquareDifferencesOfPi=False,
-            pi=np.copy(self.pi_init),
-            layers=1
-        )
-
+        
         device = torch.device("cuda:0")
         self.gpuModel.fit(
             self.data,
             max_iter=numIters,
             pi=torch.tensor(self.pi_init, device=device, dtype=torch.double),
+            layers=1
+        )
+
+        self.cpuModel.fit(
+            self.data,
+            max_iter=numIters,
+            returnSumSquareDifferencesOfPi=False,
+            pi=np.copy(self.pi_init),
             layers=1
         )
 
@@ -75,7 +76,7 @@ class TestGPUvsCPU(unittest.TestCase):
                 max_iter=numIters,
                 returnSumSquareDifferencesOfPi=False,
                 pi=np.copy(self.pi_init),
-                layers= layers
+                layers=layers
             )
     
             device = torch.device("cuda:0")

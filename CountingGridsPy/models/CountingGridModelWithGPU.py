@@ -12,9 +12,14 @@ from torch.utils.data import DataLoader
 
 import numpy as np
 
+import os
+
 import time
 
 from tqdm import tqdm
+
+from CountingGridsPy.models import CountingGridModel
+
 
 class CountingGridModelWithGPU(CountingGridModel):
     def __init__(self,extent,window):
@@ -43,10 +48,12 @@ class CountingGridModelWithGPU(CountingGridModel):
         Compute the histogram.
         '''
         # optimization is to do this without moving any data back to the cpu to do the padding
-        PI = np.pad(pi.numpy(), [(0,W[0]),(0,W[1]),(0,0)], 'wrap')
+        PI = np.pad(pi.cpu().numpy(), [(0,W[0]),(0,W[1]),(0,0)], 'wrap')
         PI = torch.from_numpy(np.pad(PI,[(1,0),(1,0),(0,0)],'constant')).cumsum(0).cumsum(1).cuda()
         cumsum_output = self.compute_h_noLoopFull(PI,W[0],W[1])
-        return ( (cumsum_output[:-1,:-1,:]).permute((2,0,1)) / cumsum_output[:-1,:-1,:].sum(dim=2) ).permute((1,2,0))   
+        return (
+                    (cumsum_output[:-1,:-1,:]).permute((2,0,1)) / cumsum_output[:-1,:-1,:].sum(dim=2)
+               ).permute((1, 2, 0))   
 
     def q_update(self, data):
         '''

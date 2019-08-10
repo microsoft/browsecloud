@@ -350,7 +350,7 @@ class CountingGridModel():
     # How to initialize pi
     # Note that we don't want pi to be 0, since our update equations depend on a multiplication by pi
     def initializePi(self, data, technique="uniform"):
-        if technique is "uniform":
+        if technique == "uniform":
             size = [x for x in self.extent]
             size.append(data.shape[1])
             self.pi = np.random.random(size=tuple(size)).astype(np.float64)

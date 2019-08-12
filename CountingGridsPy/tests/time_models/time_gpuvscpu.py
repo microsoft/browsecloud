@@ -22,20 +22,19 @@ class TimeGPUvsCPU(object):
         self.cpuModel = CountingGridModel(self.extent, self.window)
         self.gpuModel = CountingGridModelWithGPU(self.extent, self.window)
 
-    def run(self):
+    def run_nolayers(self):
         numIters = 50
         
         device = torch.device("cuda:0")
-        if False:
-            outfileForGPU = "gpuProfile.txt"
-            gpuJob = '''self.gpuModel.fit(
-                self.data,
-                max_iter=numIters,
-                pi=torch.tensor(self.pi_init, device=device, dtype=torch.double),
-                layers=1
-            )
-            '''
-            cProfile.runctx(gpuJob, globals(), locals(), outfileForGPU)
+        outfileForGPU = "gpuProfile.txt"
+        gpuJob = '''self.gpuModel.fit(
+            self.data,
+            max_iter=numIters,
+            pi=torch.tensor(self.pi_init, device=device, dtype=torch.double),
+            layers=1
+        )
+        '''
+        cProfile.runctx(gpuJob, globals(), locals(), outfileForGPU)
 
 
         outfileForCPU = "cpuProfile.txt"
@@ -49,6 +48,33 @@ class TimeGPUvsCPU(object):
         '''
         cProfile.runctx(cpuJob, globals(), locals(), outfileForCPU)
 
+    def run_withlayers(self):
+        numIters = 50
+        
+        device = torch.device("cuda:0")
+        outfileForGPU = "gpu2LayersProfile.txt"
+        gpuJob = '''self.gpuModel.fit(
+            self.data,
+            max_iter=numIters,
+            pi=torch.tensor(self.pi_init, device=device, dtype=torch.double),
+            layers=2
+        )
+        '''
+        cProfile.runctx(gpuJob, globals(), locals(), outfileForGPU)
+
+
+        outfileForCPU = "cpu2LayersProfile.txt"
+        cpuJob = '''self.cpuModel.fit(
+            self.data,
+            max_iter=numIters,
+            returnSumSquareDifferencesOfPi=False,
+            pi=np.copy(self.pi_init),
+            layers=2
+        )
+        '''
+        cProfile.runctx(cpuJob, globals(), locals(), outfileForCPU)
+
+
 if __name__ == "__main__":
     o = TimeGPUvsCPU()
-    o.run()
+    o.run_withlayers()

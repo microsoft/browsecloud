@@ -12,7 +12,7 @@ from CountingGridsPy.models import CountingGridModel
 
 
 class CountingGridModelWithGPU(CountingGridModel):
-    def __init__(self,extent,window):
+    def __init__(self, extent, window):
         '''
         Assumes:
         extent is a 1-D numpy array of size D.
@@ -149,9 +149,10 @@ class CountingGridModelWithGPU(CountingGridModel):
         if layers > 1:
             self.pi = self.pi.cpu().numpy()
             self.q = self.q.cpu().numpy()
+            data = data.cpu().numpy()
             self.layercgdata = self.cg_layers(data, L=layers, noise=noise)
             self.pi = torch.tensor(self.pi, device=device, dtype=torch.double)
-            self.q = torch.tensor(self.pi, device=device, dtype=torch.double)
+            self.q = torch.tensor(self.q, device=device, dtype=torch.double)
 
         if writeOutput:
             if layers > 1:

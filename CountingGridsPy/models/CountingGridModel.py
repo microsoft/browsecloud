@@ -48,10 +48,20 @@ class CountingGridModel():
         T, Z = data.shape
         pi_la = np.zeros([self.extent[0], self.extent[1], Z, L])
         h_la = np.zeros([self.extent[0], self.extent[1], Z, L])
+        
+        # Uses self variable from cg_layers namespace
+        def compute_h(pi, W):
+            PI = np.pad(pi, [(0, W[0]), (0, W[1]), (0, 0)],
+                        'wrap').cumsum(axis=0).cumsum(axis=1)
+            PI = np.pad(PI, [(1, 0), (1, 0), (0, 0)], 'constant')
+            w0 = W[0]
+            w1 = W[1]
+            cumsum_output = self.compute_h_noLoopFull(PI, w0, w1)
+            return np.moveaxis(np.moveaxis(cumsum_output[:-1, :-1, :], 2, 0)/np.sum(cumsum_output[:-1, :-1, :], axis=2), 0, -1)
 
         # Modifies: h_la
         def layer_compute_h(pi_la, h_la):
-            h = self.compute_h(pi_la[:, :, :, l], self.window)
+            h = compute_h(pi_la[:, :, :, l], self.window)
             h_la[:, :, :, l] = np.transpose(
                 np.transpose(h) / np.transpose(np.sum(h, axis=2))
             )

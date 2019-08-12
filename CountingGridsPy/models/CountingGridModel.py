@@ -257,7 +257,8 @@ class CountingGridModel():
 
     def fit(
         self, data, max_iter=100, returnSumSquareDifferencesOfPi=False,
-        noise=.000001, learn_pi=True, pi=None, layers=1, output_directory="./", heartBeaters=None
+        noise=.000001, learn_pi=True, pi=None, layers=1, output_directory="./",
+        heartBeaters=None, writeOutput=True
     ):
         """
         Implements variational expectation maximization for the Counting Grid model
@@ -273,6 +274,7 @@ class CountingGridModel():
         def SSD(pi, piHat):
             A = np.abs(pi - piHat)
             return np.sum(A * A)
+
         alpha = 1e-10
         SSDPi = []
         data = data.astype(np.float64)
@@ -280,6 +282,7 @@ class CountingGridModel():
             self.initializePi(data)
         else:
             self.pi = pi
+            
         self.h = self.compute_h(self.pi, self.window)
         self.check_model()
         extentProduct = np.prod(self.extent)
@@ -310,14 +313,15 @@ class CountingGridModel():
             i = i + 1
             [(h.makeProgress(int(100*i/max_iter)) if h is not None else False)
              for h in heartBeaters] if heartBeaters is not None else False
-
+        
         if layers > 1:
             self.layercgdata = self.cg_layers(data, L=layers, noise=noise)
-            scipy.io.savemat(str(output_directory) +
-                             "/CountingGridDataMatrices.mat", self.layercgdata)
-        else:
-            scipy.io.savemat(str(output_directory) +
-                             "/CGData.mat", {"pi": self.pi, "q": self.q})
+
+        if writeOutput:
+            if layers > 1:
+                scipy.io.savemat(str(output_directory) + "/CountingGridDataMatrices.mat", self.layercgdata)
+            else:
+                scipy.io.savemat(str(output_directory) + "/CGData.mat", {"pi": self.pi, "q": self.q})
         return self.pi
 
     # assumptions that we need for the model to be valid

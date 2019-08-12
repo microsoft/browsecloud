@@ -29,5 +29,3 @@ class TestCorrectnessOfNontrivialDesignMatrix(unittest.TestCase):
                        returnSumSquareDifferencesOfPi=False, pi=np.copy(self.pi_init))
         assert(np.all(np.isclose(self.model.q, .04)))
 
-
-

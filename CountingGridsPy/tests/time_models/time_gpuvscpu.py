@@ -13,7 +13,7 @@ class TimeGPUvsCPU(object):
     def __init__(self):
         SEED = "03071994"
         np.random.seed(int(SEED))
-        M, N = [1000, 500]
+        M, N = [5000, 1000]
         extentSize = 40
         self.data = np.round(np.random.random((M, N)) * 10)
         self.extent = np.array([extentSize, extentSize])
@@ -22,22 +22,24 @@ class TimeGPUvsCPU(object):
         self.cpuModel = CountingGridModel(self.extent, self.window)
         self.gpuModel = CountingGridModelWithGPU(self.extent, self.window)
 
+    def run(self):
         numIters = 50
         
         device = torch.device("cuda:0")
-        
-        gpuJob = '''
-        self.gpuModel.fit(
-            self.data,
-            max_iter=numIters,
-            pi=torch.tensor(self.pi_init, device=device, dtype=torch.double),
-            layers=1
-        )
-        '''
-        cProfile.run(gpuJob)
+        if False:
+            outfileForGPU = "gpuProfile.txt"
+            gpuJob = '''self.gpuModel.fit(
+                self.data,
+                max_iter=numIters,
+                pi=torch.tensor(self.pi_init, device=device, dtype=torch.double),
+                layers=1
+            )
+            '''
+            cProfile.runctx(gpuJob, globals(), locals(), outfileForGPU)
 
-        cpuJob = '''
-        self.cpuModel.fit(
+
+        outfileForCPU = "cpuProfile.txt"
+        cpuJob = '''self.cpuModel.fit(
             self.data,
             max_iter=numIters,
             returnSumSquareDifferencesOfPi=False,
@@ -45,4 +47,8 @@ class TimeGPUvsCPU(object):
             layers=1
         )
         '''
-        cProfile.run(cpuJob)
+        cProfile.runctx(cpuJob, globals(), locals(), outfileForCPU)
+
+if __name__ == "__main__":
+    o = TimeGPUvsCPU()
+    o.run()

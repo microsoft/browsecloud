@@ -101,7 +101,7 @@ class CountingGridModelWithGPU(CountingGridModel):
             (1.0 / Z) * torch.transpose(torch.ones([Z, self.extent[1], self.extent[0]], device=device, dtype=torch.double) * torch.transpose(not_mask, 0, 1), 0, 2)
         return updated_pi
 
-    def fit(self, data_cpu, max_iter=100, noise=.000001, learn_pi=True, pi=None, layers=1, output_directory="./", heartBeaters=None):
+    def fit(self, data_cpu, max_iter=100, noise=.000001, learn_pi=True, pi=None, layers=1, output_directory="./", heartBeaters=None, writeOutput=True):
         '''
         Fits the model, using GPU.
 
@@ -119,7 +119,7 @@ class CountingGridModelWithGPU(CountingGridModel):
         data = torch.tensor(data_cpu, device=device, dtype=torch.double)
 
         if pi is None:
-            self.initializePi(data) # potentially optimize by just initializing it in GPU memory and moving the torch tensor code to the else
+            self.initializePi(data) # potentially optimize by initializing data in GPU 
             self.pi = torch.tensor(self.pi, device=device, dtype=torch.double)
         else:
             self.pi = pi
@@ -145,9 +145,17 @@ class CountingGridModelWithGPU(CountingGridModel):
                 self.h = self.compute_h(self.pi, self.window)
                 [(h.makeProgress(int(100*i/max_iter)) if h is not None else False)
                 for h in heartBeaters] if heartBeaters is not None else False
+
         if layers > 1:
-            self.layercgdata = self.cg_layers(data,L=layers,noise = noise)
-            scipy.io.savemat(str(output_directory) + "/CountingGridDataMatrices.mat",self.layercgdata)
-        else:
-            scipy.io.savemat(str(output_directory) + "/CGData.mat",{"pi":self.pi,"q":self.q})
+            self.pi = self.pi.cpu().numpy()
+            self.q = self.q.cpu().numpy()
+            self.layercgdata = self.cg_layers(data, L=layers, noise=noise)
+            self.pi = torch.tensor(self.pi, device=device, dtype=torch.double)
+            self.q = torch.tensor(self.pi, device=device, dtype=torch.double)
+
+        if writeOutput:
+            if layers > 1:
+                scipy.io.savemat(str(output_directory) + "/CountingGridDataMatrices.mat", self.layercgdata)
+            else:
+                scipy.io.savemat(str(output_directory) + "/CGData.mat", {"pi": self.pi, "q": self.q})
         return self.pi

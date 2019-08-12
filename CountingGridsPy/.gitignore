@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+CGData.mat
+*Profile.txt
+
 src/keys.json
 src/metadata.json
 src/metadata_other.json

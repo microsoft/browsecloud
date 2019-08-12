@@ -57,7 +57,8 @@ class TimeGPUvsCPU(object):
             self.data,
             max_iter=numIters,
             pi=torch.tensor(self.pi_init, device=device, dtype=torch.double),
-            layers=2
+            layers=2,
+            writeOutput=False
         )
         '''
         cProfile.runctx(gpuJob, globals(), locals(), outfileForGPU)
@@ -69,7 +70,8 @@ class TimeGPUvsCPU(object):
             max_iter=numIters,
             returnSumSquareDifferencesOfPi=False,
             pi=np.copy(self.pi_init),
-            layers=2
+            layers=2,
+            writeOutput=False
         )
         '''
         cProfile.runctx(cpuJob, globals(), locals(), outfileForCPU)

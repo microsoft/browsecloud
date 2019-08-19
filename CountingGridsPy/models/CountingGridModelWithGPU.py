@@ -22,14 +22,17 @@ class CountingGridModelWithGPU(CountingGridModel):
         '''
         self.extent = np.array(extent)
         self.window = np.array(window)
-
-    # Has same numpy API - no need to change.
-    # Potentially we can deleted this code, since we're inheriting this class from the numpy class
+   
     def compute_h_noLoopFull(self, PI, w0, w1):
         '''
         Critical method for computing the histogram using the pi parameters.
-
-        Potential optimization to remove this function to reduce an extra stack frame.
+        
+        Notes:
+        The code has the same syntax between CPU and GPU implementation  due to similar APIs for indexing PyTorch tensors and numpy ndarrays.
+        This function can be deleted because CountingGridModelWithGPU inherits from CountingGridModel
+        
+        Potential optimization:
+        * remove this function to reduce an extra stack frame.
         '''
         return PI[w0:,w1:,:] - PI[:-w0,w1:,:] - PI[w0:,:-w1,:] + PI[:-w0,:-w1,:]
 
@@ -71,7 +74,7 @@ class CountingGridModelWithGPU(CountingGridModel):
         device = torch.device("cuda:0")
         # QdotC is called nrm in matlab engine, but padding is done beforehand in matlab
        
-        # self.permute([1,2,0])
+        # permute([1,2,0])
         # [x,y,z] => [y,z,x]
         L = np.prod(self.extent)
         QdotC = torch.matmul(

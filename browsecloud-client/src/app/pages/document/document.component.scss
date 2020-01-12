@@ -91,6 +91,7 @@
 
             .cloud-view-container {
                 overflow: hidden;
+                height: 100%;
                 margin-bottom: 10px;
                 border-radius: 5px;
                 @include mat-elevation(8);

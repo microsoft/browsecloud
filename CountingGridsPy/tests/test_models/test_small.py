@@ -15,9 +15,10 @@ class TestCorrectnessOfNontrivialDesignMatrix(unittest.TestCase):
             [1]*7+[0, 1, 0, 1, 0, 1, 0]+list(range(1, 8))
         ).reshape((M, N))
         # note: after one iteration h distribution is the same regardless of position on matrix or window size
-        self.extent = np.array([5, 5])
+        extentSize = 5
+        self.extent = np.array([extentSize, extentSize])
         window = np.array([2, 3])
-        self.pi_init = np.ones([5]*2+[N])/1000
+        self.pi_init = np.ones([extentSize]*2+[N])/N
         self.model = CountingGridModel(self.extent, window)
 
     def test_correct_data(self):
@@ -27,3 +28,4 @@ class TestCorrectnessOfNontrivialDesignMatrix(unittest.TestCase):
         self.model.fit(self.data, max_iter=1,
                        returnSumSquareDifferencesOfPi=False, pi=np.copy(self.pi_init))
         assert(np.all(np.isclose(self.model.q, .04)))
+

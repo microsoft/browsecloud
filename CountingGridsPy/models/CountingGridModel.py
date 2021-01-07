@@ -48,10 +48,20 @@ class CountingGridModel():
         T, Z = data.shape
         pi_la = np.zeros([self.extent[0], self.extent[1], Z, L])
         h_la = np.zeros([self.extent[0], self.extent[1], Z, L])
+        
+        # Uses self variable from cg_layers namespace
+        def compute_h(pi, W):
+            PI = np.pad(pi, [(0, W[0]), (0, W[1]), (0, 0)],
+                        'wrap').cumsum(axis=0).cumsum(axis=1)
+            PI = np.pad(PI, [(1, 0), (1, 0), (0, 0)], 'constant')
+            w0 = W[0]
+            w1 = W[1]
+            cumsum_output = self.compute_h_noLoopFull(PI, w0, w1)
+            return np.moveaxis(np.moveaxis(cumsum_output[:-1, :-1, :], 2, 0)/np.sum(cumsum_output[:-1, :-1, :], axis=2), 0, -1)
 
         # Modifies: h_la
         def layer_compute_h(pi_la, h_la):
-            h = self.compute_h(pi_la[:, :, :, l], self.window)
+            h = compute_h(pi_la[:, :, :, l], self.window)
             h_la[:, :, :, l] = np.transpose(
                 np.transpose(h) / np.transpose(np.sum(h, axis=2))
             )
@@ -257,7 +267,8 @@ class CountingGridModel():
 
     def fit(
         self, data, max_iter=100, returnSumSquareDifferencesOfPi=False,
-        noise=.000001, learn_pi=True, pi=None, layers=1, output_directory="./", heartBeaters=None
+        noise=.000001, learn_pi=True, pi=None, layers=1, output_directory="./",
+        heartBeaters=None, writeOutput=True
     ):
         """
         Implements variational expectation maximization for the Counting Grid model
@@ -273,6 +284,7 @@ class CountingGridModel():
         def SSD(pi, piHat):
             A = np.abs(pi - piHat)
             return np.sum(A * A)
+
         alpha = 1e-10
         SSDPi = []
         data = data.astype(np.float64)
@@ -280,6 +292,7 @@ class CountingGridModel():
             self.initializePi(data)
         else:
             self.pi = pi
+            
         self.h = self.compute_h(self.pi, self.window)
         self.check_model()
         extentProduct = np.prod(self.extent)
@@ -310,14 +323,15 @@ class CountingGridModel():
             i = i + 1
             [(h.makeProgress(int(100*i/max_iter)) if h is not None else False)
              for h in heartBeaters] if heartBeaters is not None else False
-
+        
         if layers > 1:
             self.layercgdata = self.cg_layers(data, L=layers, noise=noise)
-            scipy.io.savemat(str(output_directory) +
-                             "/CountingGridDataMatrices.mat", self.layercgdata)
-        else:
-            scipy.io.savemat(str(output_directory) +
-                             "/CGData.mat", {"pi": self.pi, "q": self.q})
+
+        if writeOutput:
+            if layers > 1:
+                scipy.io.savemat(str(output_directory) + "/CountingGridDataMatrices.mat", self.layercgdata)
+            else:
+                scipy.io.savemat(str(output_directory) + "/CGData.mat", {"pi": self.pi, "q": self.q})
         return self.pi
 
     # assumptions that we need for the model to be valid
@@ -350,7 +364,7 @@ class CountingGridModel():
     # How to initialize pi
     # Note that we don't want pi to be 0, since our update equations depend on a multiplication by pi
     def initializePi(self, data, technique="uniform"):
-        if technique is "uniform":
+        if technique == "uniform":
             size = [x for x in self.extent]
             size.append(data.shape[1])
             self.pi = np.random.random(size=tuple(size)).astype(np.float64)
